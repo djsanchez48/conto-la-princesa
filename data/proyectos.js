@@ -742,6 +742,99 @@ window.PROYECTOS = {
       ]
     },
     {
+      "id": "cuarto-superheroes",
+      "titulo": "Cuarto de superhéroes",
+      "categoria": "INI",
+      "descripcion": "Flash, Batman, Superman y el resto del equipo vuelan por las paredes del cuarto.",
+      "portada": "img/proyectos/cuarto-superheroes/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/1-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/1.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/2-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/3-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/4-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/4.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/5-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/6-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/7-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/8-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/8.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/9-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/9.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/10-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/10.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/11-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/11.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/12-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/12.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/13-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/13.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cuarto-superheroes/14-thumb.jpg",
+          "full": "img/proyectos/cuarto-superheroes/14.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ]
+    },
+    {
       "id": "dinos",
       "titulo": "Dinos",
       "categoria": "INI",
@@ -2285,6 +2378,63 @@ window.PROYECTOS = {
           "thumb": "img/proyectos/granja/8-thumb.jpg",
           "full": "img/proyectos/granja/8.jpg",
           "w": 1400,
+          "h": 1400
+        }
+      ]
+    },
+    {
+      "id": "superheroes-aplique",
+      "titulo": "Superhéroes en aplique",
+      "categoria": "APL",
+      "descripcion": "Flash, Thor, Iron Man, Superman, Batman y Spider-Man, recortados en madera y listos para la acción.",
+      "portada": "img/proyectos/superheroes-aplique/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/superheroes-aplique/1-thumb.jpg",
+          "full": "img/proyectos/superheroes-aplique/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/superheroes-aplique/2-thumb.jpg",
+          "full": "img/proyectos/superheroes-aplique/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/superheroes-aplique/3-thumb.jpg",
+          "full": "img/proyectos/superheroes-aplique/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/superheroes-aplique/4-thumb.jpg",
+          "full": "img/proyectos/superheroes-aplique/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/superheroes-aplique/5-thumb.jpg",
+          "full": "img/proyectos/superheroes-aplique/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/superheroes-aplique/6-thumb.jpg",
+          "full": "img/proyectos/superheroes-aplique/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/superheroes-aplique/7-thumb.jpg",
+          "full": "img/proyectos/superheroes-aplique/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/superheroes-aplique/8-thumb.jpg",
+          "full": "img/proyectos/superheroes-aplique/8.jpg",
+          "w": 1050,
           "h": 1400
         }
       ]

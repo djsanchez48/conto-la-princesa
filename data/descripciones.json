@@ -194,5 +194,13 @@
   "granja": {
     "titulo": "Granja",
     "descripcion": "Animales de granja y tractores, en aplique."
+  },
+  "superheroes-aplique": {
+    "titulo": "Superhéroes en aplique",
+    "descripcion": "Flash, Thor, Iron Man, Superman, Batman y Spider-Man, recortados en madera y listos para la acción."
+  },
+  "cuarto-superheroes": {
+    "titulo": "Cuarto de superhéroes",
+    "descripcion": "Flash, Batman, Superman y el resto del equipo vuelan por las paredes del cuarto."
   }
 }
