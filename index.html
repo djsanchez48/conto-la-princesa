@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTRJ6C20XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PTRJ6C20XE');
+  </script>
+  <!-- Medición de intención: clic a WhatsApp como evento de conversión -->
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href*="wa.me"]');
+      if (!a) return;
+      gtag('event', 'contacto_whatsapp', {
+        origen: location.pathname,
+        destino: a.getAttribute('href')
+      });
+    });
+  </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contó la princesa — Murales infantiles pintados a mano | Bogotá, Medellín y Manizales</title>

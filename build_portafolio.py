@@ -85,6 +85,30 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+# ---------- Analítica (GA4 + medición de clics a WhatsApp) ----------
+# Bloque plano (sin f-string) para no tener que escapar llaves del JS.
+ANALYTICS = """  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTRJ6C20XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PTRJ6C20XE');
+  </script>
+  <!-- Medición de intención: clic a WhatsApp como evento de conversion -->
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href*="wa.me"]');
+      if (!a) return;
+      gtag('event', 'contacto_whatsapp', {
+        origen: location.pathname,
+        destino: a.getAttribute('href')
+      });
+    });
+  </script>
+"""
+
+
 # ---------- Plantillas HTML ----------
 def head(title, description, canonical, og_image, base="", extra=""):
     return f"""<!DOCTYPE html>
@@ -114,7 +138,7 @@ def head(title, description, canonical, og_image, base="", extra=""):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{base}css/styles.css" />
-{extra}</head>
+{ANALYTICS}{extra}</head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido</a>
 """
