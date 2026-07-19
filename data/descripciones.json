@@ -1,0 +1,198 @@
+{
+  "espacio-exterior": {
+    "titulo": "Espacio exterior",
+    "descripcion": "Una habitación que se vuelve galaxia."
+  },
+  "animales-safari": {
+    "titulo": "Leopardo en el árbol",
+    "descripcion": "Un leopardo descansa en lo alto de su rama.",
+    "portada": 2
+  },
+  "astronauta": {
+    "titulo": "Astronauta y su perrito",
+    "descripcion": "Un astronauta y su perrito flotando entre estrellas."
+  },
+  "astronauta00": {
+    "titulo": "Astronauta",
+    "descripcion": "Un astronauta sentado en su planeta favorito."
+  },
+  "benja-0": {
+    "titulo": "Zorrito en globos",
+    "descripcion": "Un zorrito que se eleva con globos."
+  },
+  "carritos-astro": {
+    "titulo": "Ciudad de carros",
+    "descripcion": "Una ciudad de carros, puentes y caminos."
+  },
+  "color-y-linea": {
+    "titulo": "Color y línea",
+    "descripcion": "Animales músicos en una explosión de color."
+  },
+  "dinos": {
+    "titulo": "Dinos",
+    "descripcion": "Dinosaurios amigables entre volcanes y cactus."
+  },
+  "futbol": {
+    "titulo": "Fútbol",
+    "descripcion": "Un balón pintado con todos los colores."
+  },
+  "mapamundi-benja": {
+    "titulo": "Mapamundi",
+    "descripcion": "Un mapa del mundo con animales de cada continente.",
+    "portada": 1
+  },
+  "mar-tiburon": {
+    "titulo": "Fondo del mar",
+    "descripcion": "Ballenas y corales en el fondo del mar.",
+    "portada": 2
+  },
+  "mediooso": {
+    "titulo": "Aventura en globo",
+    "descripcion": "Un conejito que viaja en globo entre las nubes."
+  },
+  "orca": {
+    "titulo": "Mundo marino",
+    "descripcion": "Peces y corales en un mar tranquilo.",
+    "portada": 3
+  },
+  "pop": {
+    "titulo": "Espacio pop",
+    "descripcion": "Un viaje espacial de líneas y colores."
+  },
+  "safari-04": {
+    "titulo": "Safari en la sabana",
+    "descripcion": "Una cebra y sus amigos junto al río."
+  },
+  "amaga": {
+    "titulo": "Amagá",
+    "descripcion": "Una ballena voladora y un rincón para leer.",
+    "portada": 3
+  },
+  "arcoiris": {
+    "titulo": "Arcoíris",
+    "descripcion": "Nubes sonrientes y un arcoíris pastel.",
+    "portada": 3
+  },
+  "arcoiris-2": {
+    "titulo": "Unicornio",
+    "descripcion": "Un unicornio pastel y su hada princesa."
+  },
+  "bosque03": {
+    "titulo": "Bosque de animalitos",
+    "descripcion": "Un bosque con un osito, un zorrito dormido y un erizo.",
+    "portada": 4
+  },
+  "bosquelucia": {
+    "titulo": "Bosque de Lucía",
+    "descripcion": "Ardillas y un pajarito en la rama."
+  },
+  "flores-1": {
+    "titulo": "Flores",
+    "descripcion": "Flores silvestres que trepan por la pared.",
+    "portada": 2
+  },
+  "flores-pop": {
+    "titulo": "Corazón pop",
+    "descripcion": "Un corazón coronado entre flores.",
+    "portada": 2
+  },
+  "globos02": {
+    "titulo": "Globo de animalitos",
+    "descripcion": "Animalitos que pasean en globo."
+  },
+  "la-mar-sirena": {
+    "titulo": "La mar",
+    "descripcion": "Un mar suave con peces y una foca."
+  },
+  "lamar00": {
+    "titulo": "Océano",
+    "descripcion": "El océano con ballenas y delfines.",
+    "portada": 3
+  },
+  "luci": {
+    "titulo": "El lago",
+    "descripcion": "Un lago con un cisne, su patito y un bosque alrededor.",
+    "portada": 3
+  },
+  "montana-conejos": {
+    "titulo": "Montaña de conejos",
+    "descripcion": "Conejitos que vuelan en globo sobre las montañas.",
+    "portada": 3
+  },
+  "ososaplique": {
+    "titulo": "Bosque encantado",
+    "descripcion": "Un bosque con un conejo, una tortuga, un osito y hasta un hada.",
+    "portada": 3
+  },
+  "safari06": {
+    "titulo": "Selva",
+    "descripcion": "Una selva con elefantes, una jirafa y un monito juguetón.",
+    "portada": 2
+  },
+  "alessandro": {
+    "titulo": "Alessandro",
+    "descripcion": "Un mapache y un osito viajan en globo."
+  },
+  "amazonas": {
+    "titulo": "Amazonas",
+    "descripcion": "Una boa colorida entre hojas de selva."
+  },
+  "bosque00": {
+    "titulo": "Bosque",
+    "descripcion": "Dos zarigüeyas colgadas de la rama."
+  },
+  "bosqueana": {
+    "titulo": "Bosque de Ana",
+    "descripcion": "Zorritos, ardillas y mapaches en el bosque."
+  },
+  "cuantoteamo": {
+    "titulo": "Cuánto te amo",
+    "descripcion": "Una liebre grande y una chiquita bajo las nubes."
+  },
+  "globitos02": {
+    "titulo": "Globitos",
+    "descripcion": "Un globo de feria entre nubes suaves."
+  },
+  "leon-en-linea": {
+    "titulo": "León en línea",
+    "descripcion": "Un león dulce que cuida el cuarto."
+  },
+  "pop-dino-y-princesa": {
+    "titulo": "Dino y princesa",
+    "descripcion": "Un superhéroe y una princesa en su cuento."
+  },
+  "pop-dos-almitas": {
+    "titulo": "Dos almitas",
+    "descripcion": "Un mundo pop de dinos, unicornios y libros."
+  },
+  "safari-caro": {
+    "titulo": "Sabana africana",
+    "descripcion": "La sabana con jirafas, cebras e hipopótamos."
+  },
+  "safari-01": {
+    "titulo": "Safari tropical",
+    "descripcion": "Una jirafa que asoma entre hojas tropicales.",
+    "portada": 4
+  },
+  "safari01": {
+    "titulo": "Safari en la selva",
+    "descripcion": "Un elefante, un perezoso y jirafas."
+  },
+  "safari05": {
+    "titulo": "Jirafa",
+    "descripcion": "Una jirafa y un metro para medir cómo creces."
+  },
+  "la-finca": {
+    "titulo": "La finca",
+    "descripcion": "La finca de Pedro."
+  },
+  "carros": {
+    "titulo": "Carritos de madera",
+    "descripcion": "Carritos de madera sobre la carretera.",
+    "portada": 2
+  },
+  "granja": {
+    "titulo": "Granja",
+    "descripcion": "Animales de granja y tractores, en aplique."
+  }
+}
