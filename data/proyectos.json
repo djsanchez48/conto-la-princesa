@@ -2208,6 +2208,81 @@
       ]
     },
     {
+      "id": "safari-gael",
+      "titulo": "Safari de Gael",
+      "categoria": "INF",
+      "descripcion": "Un elefante, una jirafa y sus amigos de la sabana, en acuarela.",
+      "portada": "img/proyectos/safari-gael/8-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/safari-gael/1-thumb.jpg",
+          "full": "img/proyectos/safari-gael/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/2-thumb.jpg",
+          "full": "img/proyectos/safari-gael/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/3-thumb.jpg",
+          "full": "img/proyectos/safari-gael/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/4-thumb.jpg",
+          "full": "img/proyectos/safari-gael/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/5-thumb.jpg",
+          "full": "img/proyectos/safari-gael/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/6-thumb.jpg",
+          "full": "img/proyectos/safari-gael/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/7-thumb.jpg",
+          "full": "img/proyectos/safari-gael/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/8-thumb.jpg",
+          "full": "img/proyectos/safari-gael/8.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/9-thumb.jpg",
+          "full": "img/proyectos/safari-gael/9.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/10-thumb.jpg",
+          "full": "img/proyectos/safari-gael/10.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari-gael/11-thumb.jpg",
+          "full": "img/proyectos/safari-gael/11.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ]
+    },
+    {
       "id": "safari-01",
       "titulo": "Safari tropical",
       "categoria": "INF",
