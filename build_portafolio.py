@@ -43,7 +43,6 @@ DESTACADOS = [
     "la-finca",         # La finca
     "bosqueana",        # Bosque de Ana
     "safari-caro",      # Sabana africana
-    "carros",           # Carritos
     "luci",             # El lago
     "lamar00",          # Océano
 ]

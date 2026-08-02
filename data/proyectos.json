@@ -357,39 +357,6 @@
       ]
     },
     {
-      "id": "carros",
-      "titulo": "Carritos de madera",
-      "categoria": "APL",
-      "descripcion": "Carritos de madera sobre la carretera.",
-      "portada": "img/proyectos/carros/2-thumb.jpg",
-      "imagenes": [
-        {
-          "thumb": "img/proyectos/carros/1-thumb.jpg",
-          "full": "img/proyectos/carros/1.jpg",
-          "w": 1400,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/carros/2-thumb.jpg",
-          "full": "img/proyectos/carros/2.jpg",
-          "w": 1400,
-          "h": 876
-        },
-        {
-          "thumb": "img/proyectos/carros/3-thumb.jpg",
-          "full": "img/proyectos/carros/3.jpg",
-          "w": 1400,
-          "h": 1050
-        },
-        {
-          "thumb": "img/proyectos/carros/4-thumb.jpg",
-          "full": "img/proyectos/carros/4.jpg",
-          "w": 1400,
-          "h": 1400
-        }
-      ]
-    },
-    {
       "id": "luci",
       "titulo": "El lago",
       "categoria": "INA",
@@ -2394,6 +2361,39 @@
         {
           "thumb": "img/proyectos/safari05/6-thumb.jpg",
           "full": "img/proyectos/safari05/6.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ]
+    },
+    {
+      "id": "carros",
+      "titulo": "Carritos de madera",
+      "categoria": "APL",
+      "descripcion": "Carritos de madera sobre la carretera.",
+      "portada": "img/proyectos/carros/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/carros/1-thumb.jpg",
+          "full": "img/proyectos/carros/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/carros/2-thumb.jpg",
+          "full": "img/proyectos/carros/2.jpg",
+          "w": 1400,
+          "h": 876
+        },
+        {
+          "thumb": "img/proyectos/carros/3-thumb.jpg",
+          "full": "img/proyectos/carros/3.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/carros/4-thumb.jpg",
+          "full": "img/proyectos/carros/4.jpg",
           "w": 1400,
           "h": 1400
         }
