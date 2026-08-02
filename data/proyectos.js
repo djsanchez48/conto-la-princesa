@@ -2386,8 +2386,8 @@ window.PROYECTOS = {
       "id": "superheroes-aplique",
       "titulo": "Superhéroes en aplique",
       "categoria": "APL",
-      "descripcion": "Flash, Thor, Iron Man, Superman, Batman y Spider-Man, recortados en madera y listos para la acción.",
-      "portada": "img/proyectos/superheroes-aplique/1-thumb.jpg",
+      "descripcion": "Flash, Thor, Iron Man, Superman, Batman, Capitán América, Spider-Man y Hulk, recortados en madera y listos para la acción.",
+      "portada": "img/proyectos/superheroes-aplique/8-thumb.jpg",
       "imagenes": [
         {
           "thumb": "img/proyectos/superheroes-aplique/1-thumb.jpg",
