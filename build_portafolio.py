@@ -94,6 +94,7 @@ ANALYTICS = """  <!-- Google tag (gtag.js) -->
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-PTRJ6C20XE');
+    gtag('config', 'AW-18335977553');
   </script>
   <!-- Medición de intención: clic a WhatsApp como evento de conversion -->
   <script>
