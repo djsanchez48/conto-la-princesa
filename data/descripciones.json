@@ -1,212 +1,404 @@
 {
   "espacio-exterior": {
     "titulo": "Espacio exterior",
-    "descripcion": "Una habitación que se vuelve galaxia."
+    "descripcion": "Una habitación que se vuelve galaxia.",
+    "en": {
+      "titulo": "Outer Space",
+      "descripcion": "A bedroom that turns into a galaxy."
+    }
   },
   "animales-safari": {
     "titulo": "Leopardo en el árbol",
     "descripcion": "Un leopardo descansa en lo alto de su rama.",
-    "portada": 2
+    "portada": 2,
+    "en": {
+      "titulo": "Leopard in the Tree",
+      "descripcion": "A leopard rests high up on its branch."
+    }
   },
   "astronauta": {
     "titulo": "Astronauta y su perrito",
-    "descripcion": "Un astronauta y su perrito flotando entre estrellas."
+    "descripcion": "Un astronauta y su perrito flotando entre estrellas.",
+    "en": {
+      "titulo": "Astronaut and His Puppy",
+      "descripcion": "An astronaut and his puppy floating among the stars."
+    }
   },
   "astronauta00": {
     "titulo": "Astronauta",
-    "descripcion": "Un astronauta sentado en su planeta favorito."
+    "descripcion": "Un astronauta sentado en su planeta favorito.",
+    "en": {
+      "titulo": "Astronaut",
+      "descripcion": "An astronaut sitting on his favorite planet."
+    }
   },
   "benja-0": {
     "titulo": "Zorrito en globos",
-    "descripcion": "Un zorrito que se eleva con globos."
+    "descripcion": "Un zorrito que se eleva con globos.",
+    "en": {
+      "titulo": "Little Fox in Balloons",
+      "descripcion": "A little fox rising up with balloons."
+    }
   },
   "carritos-astro": {
     "titulo": "Ciudad de carros",
-    "descripcion": "Una ciudad de carros, puentes y caminos."
+    "descripcion": "Una ciudad de carros, puentes y caminos.",
+    "en": {
+      "titulo": "City of Cars",
+      "descripcion": "A city of cars, bridges, and roads."
+    }
   },
   "color-y-linea": {
     "titulo": "Color y línea",
-    "descripcion": "Animales músicos en una explosión de color."
+    "descripcion": "Animales músicos en una explosión de color.",
+    "en": {
+      "titulo": "Color and Line",
+      "descripcion": "Musician animals in a burst of color."
+    }
   },
   "dinos": {
     "titulo": "Dinos",
-    "descripcion": "Dinosaurios amigables entre volcanes y cactus."
+    "descripcion": "Dinosaurios amigables entre volcanes y cactus.",
+    "en": {
+      "titulo": "Dinos",
+      "descripcion": "Friendly dinosaurs among volcanoes and cacti."
+    }
   },
   "futbol": {
     "titulo": "Fútbol",
-    "descripcion": "Un balón pintado con todos los colores."
+    "descripcion": "Un balón pintado con todos los colores.",
+    "en": {
+      "titulo": "Soccer",
+      "descripcion": "A ball painted in every color."
+    }
   },
   "mapamundi-benja": {
     "titulo": "Mapamundi",
     "descripcion": "Un mapa del mundo con animales de cada continente.",
-    "portada": 1
+    "portada": 1,
+    "en": {
+      "titulo": "World Map",
+      "descripcion": "A map of the world with animals from every continent."
+    }
   },
   "mar-tiburon": {
     "titulo": "Fondo del mar",
     "descripcion": "Ballenas y corales en el fondo del mar.",
-    "portada": 2
+    "portada": 2,
+    "en": {
+      "titulo": "Ocean Floor",
+      "descripcion": "Whales and coral on the ocean floor."
+    }
   },
   "mediooso": {
     "titulo": "Aventura en globo",
-    "descripcion": "Un conejito que viaja en globo entre las nubes."
+    "descripcion": "Un conejito que viaja en globo entre las nubes.",
+    "en": {
+      "titulo": "Balloon Adventure",
+      "descripcion": "A little rabbit traveling by balloon through the clouds."
+    }
   },
   "orca": {
     "titulo": "Mundo marino",
     "descripcion": "Peces y corales en un mar tranquilo.",
-    "portada": 3
+    "portada": 3,
+    "en": {
+      "titulo": "Marine World",
+      "descripcion": "Fish and coral in a calm sea."
+    }
   },
   "pop": {
     "titulo": "Espacio pop",
-    "descripcion": "Un viaje espacial de líneas y colores."
+    "descripcion": "Un viaje espacial de líneas y colores.",
+    "en": {
+      "titulo": "Pop Space",
+      "descripcion": "A space journey of lines and color."
+    }
   },
   "safari-04": {
     "titulo": "Safari en la sabana",
-    "descripcion": "Una cebra y sus amigos junto al río."
+    "descripcion": "Una cebra y sus amigos junto al río.",
+    "en": {
+      "titulo": "Savanna Safari",
+      "descripcion": "A zebra and friends by the river."
+    }
   },
   "amaga": {
     "titulo": "Amagá",
     "descripcion": "Una ballena voladora y un rincón para leer.",
-    "portada": 3
+    "portada": 3,
+    "en": {
+      "titulo": "Amagá",
+      "descripcion": "A flying whale and a cozy reading nook."
+    }
   },
   "arcoiris": {
     "titulo": "Arcoíris",
     "descripcion": "Nubes sonrientes y un arcoíris pastel.",
-    "portada": 3
+    "portada": 3,
+    "en": {
+      "titulo": "Rainbow",
+      "descripcion": "Smiling clouds and a pastel rainbow."
+    }
   },
   "arcoiris-2": {
     "titulo": "Unicornio",
-    "descripcion": "Un unicornio pastel y su hada princesa."
+    "descripcion": "Un unicornio pastel y su hada princesa.",
+    "en": {
+      "titulo": "Unicorn",
+      "descripcion": "A pastel unicorn and her fairy princess."
+    }
   },
   "bosque03": {
     "titulo": "Bosque de animalitos",
     "descripcion": "Un bosque con un osito, un zorrito dormido y un erizo.",
-    "portada": 4
+    "portada": 4,
+    "en": {
+      "titulo": "Forest of Little Animals",
+      "descripcion": "A forest with a bear cub, a sleeping fox, and a hedgehog."
+    }
   },
   "bosquelucia": {
     "titulo": "Bosque de Lucía",
-    "descripcion": "Ardillas y un pajarito en la rama."
+    "descripcion": "Ardillas y un pajarito en la rama.",
+    "en": {
+      "titulo": "Lucía's Forest",
+      "descripcion": "Squirrels and a little bird on the branch."
+    }
   },
   "flores-1": {
     "titulo": "Flores",
     "descripcion": "Flores silvestres que trepan por la pared.",
-    "portada": 2
+    "portada": 2,
+    "en": {
+      "titulo": "Flowers",
+      "descripcion": "Wildflowers climbing up the wall."
+    }
   },
   "flores-pop": {
     "titulo": "Corazón pop",
     "descripcion": "Un corazón coronado entre flores.",
-    "portada": 2
+    "portada": 2,
+    "en": {
+      "titulo": "Pop Heart",
+      "descripcion": "A crowned heart among flowers."
+    }
   },
   "globos02": {
     "titulo": "Globo de animalitos",
-    "descripcion": "Animalitos que pasean en globo."
+    "descripcion": "Animalitos que pasean en globo.",
+    "en": {
+      "titulo": "Balloon of Little Animals",
+      "descripcion": "Little animals taking a balloon ride."
+    }
   },
   "la-mar-sirena": {
     "titulo": "La mar",
-    "descripcion": "Un mar suave con peces y una foca."
+    "descripcion": "Un mar suave con peces y una foca.",
+    "en": {
+      "titulo": "The Sea",
+      "descripcion": "A gentle sea with fish and a seal."
+    }
   },
   "lamar00": {
     "titulo": "Océano",
     "descripcion": "El océano con ballenas y delfines.",
-    "portada": 3
+    "portada": 3,
+    "en": {
+      "titulo": "Ocean",
+      "descripcion": "The ocean with whales and dolphins."
+    }
   },
   "luci": {
     "titulo": "El lago",
     "descripcion": "Un lago con un cisne, su patito y un bosque alrededor.",
-    "portada": 3
+    "portada": 3,
+    "en": {
+      "titulo": "The Lake",
+      "descripcion": "A lake with a swan, her cygnet, and a forest all around."
+    }
   },
   "montana-conejos": {
     "titulo": "Montaña de conejos",
     "descripcion": "Conejitos que vuelan en globo sobre las montañas.",
-    "portada": 3
+    "portada": 3,
+    "en": {
+      "titulo": "Mountain of Rabbits",
+      "descripcion": "Little rabbits flying by balloon over the mountains."
+    }
   },
   "ososaplique": {
     "titulo": "Bosque encantado",
     "descripcion": "Un bosque con un conejo, una tortuga, un osito y hasta un hada.",
-    "portada": 3
+    "portada": 3,
+    "en": {
+      "titulo": "Enchanted Forest",
+      "descripcion": "A forest with a rabbit, a turtle, a bear cub, and even a fairy."
+    }
   },
   "safari06": {
     "titulo": "Selva",
     "descripcion": "Una selva con elefantes, una jirafa y un monito juguetón.",
-    "portada": 2
+    "portada": 2,
+    "en": {
+      "titulo": "Jungle",
+      "descripcion": "A jungle with elephants, a giraffe, and a playful little monkey."
+    }
   },
   "alessandro": {
     "titulo": "Alessandro",
-    "descripcion": "Un mapache y un osito viajan en globo."
+    "descripcion": "Un mapache y un osito viajan en globo.",
+    "en": {
+      "titulo": "Alessandro",
+      "descripcion": "A raccoon and a bear cub travel by balloon."
+    }
   },
   "amazonas": {
     "titulo": "Amazonas",
-    "descripcion": "Una boa colorida entre hojas de selva."
+    "descripcion": "Una boa colorida entre hojas de selva.",
+    "en": {
+      "titulo": "Amazon",
+      "descripcion": "A colorful boa among jungle leaves."
+    }
   },
   "bosque00": {
     "titulo": "Bosque",
-    "descripcion": "Dos zarigüeyas colgadas de la rama."
+    "descripcion": "Dos zarigüeyas colgadas de la rama.",
+    "en": {
+      "titulo": "Forest",
+      "descripcion": "Two opossums hanging from the branch."
+    }
   },
   "bosqueana": {
     "titulo": "Bosque de Ana",
-    "descripcion": "Zorritos, ardillas y mapaches en el bosque."
+    "descripcion": "Zorritos, ardillas y mapaches en el bosque.",
+    "en": {
+      "titulo": "Ana's Forest",
+      "descripcion": "Little foxes, squirrels, and raccoons in the forest."
+    }
   },
   "cuantoteamo": {
     "titulo": "Cuánto te amo",
-    "descripcion": "Una liebre grande y una chiquita bajo las nubes."
+    "descripcion": "Una liebre grande y una chiquita bajo las nubes.",
+    "en": {
+      "titulo": "How Much I Love You",
+      "descripcion": "A big hare and a little one under the clouds."
+    }
   },
   "globitos02": {
     "titulo": "Globitos",
-    "descripcion": "Un globo de feria entre nubes suaves."
+    "descripcion": "Un globo de feria entre nubes suaves.",
+    "en": {
+      "titulo": "Little Balloons",
+      "descripcion": "A fairground balloon among soft clouds."
+    }
   },
   "leon-en-linea": {
     "titulo": "León en línea",
-    "descripcion": "Un león dulce que cuida el cuarto."
+    "descripcion": "Un león dulce que cuida el cuarto.",
+    "en": {
+      "titulo": "Line-Art Lion",
+      "descripcion": "A sweet lion watching over the room."
+    }
   },
   "pop-dino-y-princesa": {
     "titulo": "Dino y princesa",
-    "descripcion": "Un superhéroe y una princesa en su cuento."
+    "descripcion": "Un superhéroe y una princesa en su cuento.",
+    "en": {
+      "titulo": "Dino and Princess",
+      "descripcion": "A superhero and a princess in their own story."
+    }
   },
   "pop-dos-almitas": {
     "titulo": "Dos almitas",
-    "descripcion": "Un mundo pop de dinos, unicornios y libros."
+    "descripcion": "Un mundo pop de dinos, unicornios y libros.",
+    "en": {
+      "titulo": "Two Little Souls",
+      "descripcion": "A pop-art world of dinos, unicorns, and books."
+    }
   },
   "safari-caro": {
     "titulo": "Sabana africana",
-    "descripcion": "La sabana con jirafas, cebras e hipopótamos."
+    "descripcion": "La sabana con jirafas, cebras e hipopótamos.",
+    "en": {
+      "titulo": "African Savanna",
+      "descripcion": "The savanna with giraffes, zebras, and hippos."
+    }
   },
   "safari-01": {
     "titulo": "Safari tropical",
     "descripcion": "Una jirafa que asoma entre hojas tropicales.",
-    "portada": 4
+    "portada": 4,
+    "en": {
+      "titulo": "Tropical Safari",
+      "descripcion": "A giraffe peeking through tropical leaves."
+    }
   },
   "safari01": {
     "titulo": "Safari en la selva",
-    "descripcion": "Un elefante, un perezoso y jirafas."
+    "descripcion": "Un elefante, un perezoso y jirafas.",
+    "en": {
+      "titulo": "Jungle Safari",
+      "descripcion": "An elephant, a sloth, and giraffes."
+    }
   },
   "safari05": {
     "titulo": "Jirafa",
-    "descripcion": "Una jirafa y un metro para medir cómo creces."
+    "descripcion": "Una jirafa y un metro para medir cómo creces.",
+    "en": {
+      "titulo": "Giraffe",
+      "descripcion": "A giraffe and a growth chart to measure how you grow."
+    }
   },
   "la-finca": {
     "titulo": "La finca",
-    "descripcion": "La finca de Pedro."
+    "descripcion": "La finca de Pedro.",
+    "en": {
+      "titulo": "The Farm",
+      "descripcion": "Pedro's farm."
+    }
   },
   "carros": {
     "titulo": "Carritos de madera",
     "descripcion": "Carritos de madera sobre la carretera.",
-    "portada": 2
+    "portada": 2,
+    "en": {
+      "titulo": "Wooden Cars",
+      "descripcion": "Wooden cars on the road."
+    }
   },
   "granja": {
     "titulo": "Granja",
-    "descripcion": "Animales de granja y tractores, en aplique."
+    "descripcion": "Animales de granja y tractores, en aplique.",
+    "en": {
+      "titulo": "Farm",
+      "descripcion": "Farm animals and tractors, in appliqué."
+    }
   },
   "superheroes-aplique": {
     "titulo": "Superhéroes en aplique",
     "descripcion": "Flash, Thor, Iron Man, Superman, Batman, Capitán América, Spider-Man y Hulk, recortados en madera y listos para la acción.",
-    "portada": 8
+    "portada": 8,
+    "en": {
+      "titulo": "Superheroes in Appliqué",
+      "descripcion": "Flash, Thor, Iron Man, Superman, Batman, Captain America, Spider-Man, and Hulk, cut from wood and ready for action."
+    }
   },
   "cuarto-superheroes": {
     "titulo": "Cuarto de superhéroes",
-    "descripcion": "Flash, Batman, Superman y el resto del equipo vuelan por las paredes del cuarto."
+    "descripcion": "Flash, Batman, Superman y el resto del equipo vuelan por las paredes del cuarto.",
+    "en": {
+      "titulo": "Superhero Room",
+      "descripcion": "Flash, Batman, Superman, and the rest of the team fly across the walls of the room."
+    }
   },
   "safari-gael": {
     "titulo": "Safari de Gael",
     "descripcion": "Un elefante, una jirafa y sus amigos de la sabana, en acuarela.",
-    "portada": 8
+    "portada": 8,
+    "en": {
+      "titulo": "Gael's Safari",
+      "descripcion": "An elephant, a giraffe, and their savanna friends, in watercolor."
+    }
   }
 }

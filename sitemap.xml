@@ -1,53 +1,703 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://contolaprincesa.com/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/portafolio.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/astronauta.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/mapamundi-benja.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/la-finca.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/bosqueana.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/safari-caro.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/luci.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/lamar00.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/animales-safari.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/astronauta00.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/benja-0.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/carritos-astro.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/color-y-linea.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/cuarto-superheroes.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/dinos.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/espacio-exterior.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/futbol.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/mar-tiburon.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/mediooso.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/orca.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/pop.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/safari-04.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/amaga.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/arcoiris.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/arcoiris-2.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/bosque03.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/bosquelucia.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/flores-1.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/flores-pop.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/globos02.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/la-mar-sirena.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/montana-conejos.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/ososaplique.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/safari06.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/alessandro.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/amazonas.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/bosque00.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/cuantoteamo.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/globitos02.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/leon-en-linea.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/pop-dino-y-princesa.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/pop-dos-almitas.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/safari-gael.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/safari-01.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/safari01.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/safari05.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/carros.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/granja.html</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://contolaprincesa.com/proyecto/superheroes-aplique.html</loc><changefreq>monthly</changefreq></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://contolaprincesa.com/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/portafolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/portafolio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/portafolio.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/portafolio.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/portafolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/portafolio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/portafolio.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/portafolio.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/astronauta.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/astronauta.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/astronauta.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/astronauta.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/astronauta.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/astronauta.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/astronauta.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/astronauta.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/mapamundi-benja.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/mapamundi-benja.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/mapamundi-benja.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/mapamundi-benja.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/mapamundi-benja.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/mapamundi-benja.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/mapamundi-benja.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/mapamundi-benja.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/la-finca.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/la-finca.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/la-finca.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/la-finca.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/la-finca.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/la-finca.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/la-finca.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/la-finca.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/bosqueana.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/bosqueana.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/bosqueana.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/bosqueana.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/bosqueana.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/bosqueana.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/bosqueana.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/bosqueana.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/safari-caro.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-caro.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-caro.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-caro.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/safari-caro.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-caro.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-caro.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-caro.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/luci.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/luci.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/luci.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/luci.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/luci.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/luci.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/luci.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/luci.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/lamar00.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/lamar00.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/lamar00.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/lamar00.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/lamar00.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/lamar00.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/lamar00.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/lamar00.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/animales-safari.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/animales-safari.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/animales-safari.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/animales-safari.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/animales-safari.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/animales-safari.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/animales-safari.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/animales-safari.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/astronauta00.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/astronauta00.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/astronauta00.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/astronauta00.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/astronauta00.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/astronauta00.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/astronauta00.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/astronauta00.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/benja-0.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/benja-0.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/benja-0.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/benja-0.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/benja-0.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/benja-0.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/benja-0.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/benja-0.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/carritos-astro.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/carritos-astro.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/carritos-astro.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/carritos-astro.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/carritos-astro.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/carritos-astro.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/carritos-astro.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/carritos-astro.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/color-y-linea.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/color-y-linea.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/color-y-linea.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/color-y-linea.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/color-y-linea.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/color-y-linea.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/color-y-linea.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/color-y-linea.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/cuarto-superheroes.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/cuarto-superheroes.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/cuarto-superheroes.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/cuarto-superheroes.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/cuarto-superheroes.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/cuarto-superheroes.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/cuarto-superheroes.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/cuarto-superheroes.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/dinos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/dinos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/dinos.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/dinos.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/dinos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/dinos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/dinos.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/dinos.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/espacio-exterior.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/espacio-exterior.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/espacio-exterior.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/espacio-exterior.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/espacio-exterior.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/espacio-exterior.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/espacio-exterior.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/espacio-exterior.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/futbol.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/futbol.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/futbol.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/futbol.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/futbol.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/futbol.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/futbol.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/futbol.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/mar-tiburon.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/mar-tiburon.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/mar-tiburon.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/mar-tiburon.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/mar-tiburon.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/mar-tiburon.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/mar-tiburon.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/mar-tiburon.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/mediooso.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/mediooso.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/mediooso.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/mediooso.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/mediooso.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/mediooso.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/mediooso.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/mediooso.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/orca.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/orca.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/orca.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/orca.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/orca.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/orca.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/orca.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/orca.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/pop.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/pop.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/pop.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/pop.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/pop.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/pop.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/pop.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/pop.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/safari-04.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-04.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-04.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-04.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/safari-04.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-04.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-04.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-04.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/amaga.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/amaga.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/amaga.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/amaga.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/amaga.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/amaga.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/amaga.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/amaga.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/arcoiris.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/arcoiris.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/arcoiris.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/arcoiris.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/arcoiris.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/arcoiris.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/arcoiris.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/arcoiris.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/arcoiris-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/arcoiris-2.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/arcoiris-2.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/arcoiris-2.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/arcoiris-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/arcoiris-2.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/arcoiris-2.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/arcoiris-2.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/bosque03.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/bosque03.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/bosque03.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/bosque03.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/bosque03.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/bosque03.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/bosque03.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/bosque03.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/bosquelucia.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/bosquelucia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/bosquelucia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/bosquelucia.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/bosquelucia.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/bosquelucia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/bosquelucia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/bosquelucia.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/flores-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/flores-1.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/flores-1.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/flores-1.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/flores-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/flores-1.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/flores-1.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/flores-1.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/flores-pop.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/flores-pop.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/flores-pop.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/flores-pop.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/flores-pop.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/flores-pop.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/flores-pop.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/flores-pop.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/globos02.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/globos02.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/globos02.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/globos02.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/globos02.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/globos02.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/globos02.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/globos02.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/la-mar-sirena.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/la-mar-sirena.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/la-mar-sirena.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/la-mar-sirena.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/la-mar-sirena.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/la-mar-sirena.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/la-mar-sirena.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/la-mar-sirena.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/montana-conejos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/montana-conejos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/montana-conejos.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/montana-conejos.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/montana-conejos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/montana-conejos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/montana-conejos.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/montana-conejos.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/ososaplique.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/ososaplique.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/ososaplique.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/ososaplique.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/ososaplique.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/ososaplique.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/ososaplique.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/ososaplique.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/safari06.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari06.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari06.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari06.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/safari06.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari06.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari06.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari06.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/alessandro.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/alessandro.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/alessandro.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/alessandro.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/alessandro.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/alessandro.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/alessandro.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/alessandro.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/amazonas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/amazonas.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/amazonas.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/amazonas.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/amazonas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/amazonas.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/amazonas.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/amazonas.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/bosque00.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/bosque00.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/bosque00.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/bosque00.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/bosque00.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/bosque00.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/bosque00.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/bosque00.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/cuantoteamo.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/cuantoteamo.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/cuantoteamo.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/cuantoteamo.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/cuantoteamo.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/cuantoteamo.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/cuantoteamo.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/cuantoteamo.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/globitos02.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/globitos02.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/globitos02.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/globitos02.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/globitos02.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/globitos02.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/globitos02.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/globitos02.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/leon-en-linea.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/leon-en-linea.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/leon-en-linea.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/leon-en-linea.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/leon-en-linea.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/leon-en-linea.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/leon-en-linea.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/leon-en-linea.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/pop-dino-y-princesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/pop-dino-y-princesa.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/pop-dino-y-princesa.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/pop-dino-y-princesa.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/pop-dino-y-princesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/pop-dino-y-princesa.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/pop-dino-y-princesa.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/pop-dino-y-princesa.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/pop-dos-almitas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/pop-dos-almitas.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/pop-dos-almitas.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/pop-dos-almitas.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/pop-dos-almitas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/pop-dos-almitas.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/pop-dos-almitas.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/pop-dos-almitas.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/safari-gael.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-gael.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-gael.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-gael.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/safari-gael.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-gael.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-gael.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-gael.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/safari-01.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-01.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-01.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-01.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/safari-01.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-01.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-01.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-01.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/safari01.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari01.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari01.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari01.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/safari01.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari01.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari01.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari01.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/safari05.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari05.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari05.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari05.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/safari05.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari05.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari05.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari05.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/carros.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/carros.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/carros.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/carros.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/carros.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/carros.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/carros.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/carros.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/granja.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/granja.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/granja.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/granja.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/granja.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/granja.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/granja.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/granja.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/superheroes-aplique.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/superheroes-aplique.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/superheroes-aplique.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/superheroes-aplique.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/superheroes-aplique.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/superheroes-aplique.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/superheroes-aplique.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/superheroes-aplique.html" />
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>

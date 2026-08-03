@@ -11,6 +11,17 @@ window.PROYECTOS = {
     "HOG": "Alternativos hogar",
     "APL": "Apliques"
   },
+  "categorias_en": {
+    "INI": "Boy's Room",
+    "INA": "Girl's Room",
+    "INF": "Kids' Room",
+    "COM": "Commercial Space",
+    "ESP": "Special Projects",
+    "CUA": "Canvas Art",
+    "DIG": "Digital",
+    "HOG": "Home Decor",
+    "APL": "Wood Appliqués"
+  },
   "proyectos": [
     {
       "id": "astronauta",
@@ -55,7 +66,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Astronaut and His Puppy",
+        "descripcion": "An astronaut and his puppy floating among the stars."
+      }
     },
     {
       "id": "mapamundi-benja",
@@ -118,7 +133,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1050
         }
-      ]
+      ],
+      "en": {
+        "titulo": "World Map",
+        "descripcion": "A map of the world with animals from every continent."
+      }
     },
     {
       "id": "la-finca",
@@ -199,7 +218,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "The Farm",
+        "descripcion": "Pedro's farm."
+      }
     },
     {
       "id": "bosqueana",
@@ -298,7 +321,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Ana's Forest",
+        "descripcion": "Little foxes, squirrels, and raccoons in the forest."
+      }
     },
     {
       "id": "safari-caro",
@@ -355,7 +382,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "African Savanna",
+        "descripcion": "The savanna with giraffes, zebras, and hippos."
+      }
     },
     {
       "id": "luci",
@@ -400,7 +431,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "The Lake",
+        "descripcion": "A lake with a swan, her cygnet, and a forest all around."
+      }
     },
     {
       "id": "lamar00",
@@ -445,7 +480,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Ocean",
+        "descripcion": "The ocean with whales and dolphins."
+      }
     },
     {
       "id": "animales-safari",
@@ -478,7 +517,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Leopard in the Tree",
+        "descripcion": "A leopard rests high up on its branch."
+      }
     },
     {
       "id": "astronauta00",
@@ -511,7 +554,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Astronaut",
+        "descripcion": "An astronaut sitting on his favorite planet."
+      }
     },
     {
       "id": "benja-0",
@@ -562,7 +609,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Little Fox in Balloons",
+        "descripcion": "A little fox rising up with balloons."
+      }
     },
     {
       "id": "carritos-astro",
@@ -619,7 +670,11 @@ window.PROYECTOS = {
           "w": 1200,
           "h": 1200
         }
-      ]
+      ],
+      "en": {
+        "titulo": "City of Cars",
+        "descripcion": "A city of cars, bridges, and roads."
+      }
     },
     {
       "id": "color-y-linea",
@@ -706,7 +761,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Color and Line",
+        "descripcion": "Musician animals in a burst of color."
+      }
     },
     {
       "id": "cuarto-superheroes",
@@ -799,7 +858,11 @@ window.PROYECTOS = {
           "w": 1050,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Superhero Room",
+        "descripcion": "Flash, Batman, Superman, and the rest of the team fly across the walls of the room."
+      }
     },
     {
       "id": "dinos",
@@ -838,7 +901,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Dinos",
+        "descripcion": "Friendly dinosaurs among volcanoes and cacti."
+      }
     },
     {
       "id": "espacio-exterior",
@@ -859,7 +926,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Outer Space",
+        "descripcion": "A bedroom that turns into a galaxy."
+      }
     },
     {
       "id": "futbol",
@@ -892,7 +963,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Soccer",
+        "descripcion": "A ball painted in every color."
+      }
     },
     {
       "id": "mar-tiburon",
@@ -967,7 +1042,11 @@ window.PROYECTOS = {
           "w": 1120,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Ocean Floor",
+        "descripcion": "Whales and coral on the ocean floor."
+      }
     },
     {
       "id": "mediooso",
@@ -1030,7 +1109,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Balloon Adventure",
+        "descripcion": "A little rabbit traveling by balloon through the clouds."
+      }
     },
     {
       "id": "orca",
@@ -1087,7 +1170,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Marine World",
+        "descripcion": "Fish and coral in a calm sea."
+      }
     },
     {
       "id": "pop",
@@ -1132,7 +1219,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Pop Space",
+        "descripcion": "A space journey of lines and color."
+      }
     },
     {
       "id": "safari-04",
@@ -1189,7 +1280,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Savanna Safari",
+        "descripcion": "A zebra and friends by the river."
+      }
     },
     {
       "id": "amaga",
@@ -1216,7 +1311,11 @@ window.PROYECTOS = {
           "w": 1120,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Amagá",
+        "descripcion": "A flying whale and a cozy reading nook."
+      }
     },
     {
       "id": "arcoiris",
@@ -1243,7 +1342,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Rainbow",
+        "descripcion": "Smiling clouds and a pastel rainbow."
+      }
     },
     {
       "id": "arcoiris-2",
@@ -1300,7 +1403,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Unicorn",
+        "descripcion": "A pastel unicorn and her fairy princess."
+      }
     },
     {
       "id": "bosque03",
@@ -1351,7 +1458,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Forest of Little Animals",
+        "descripcion": "A forest with a bear cub, a sleeping fox, and a hedgehog."
+      }
     },
     {
       "id": "bosquelucia",
@@ -1396,7 +1507,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Lucía's Forest",
+        "descripcion": "Squirrels and a little bird on the branch."
+      }
     },
     {
       "id": "flores-1",
@@ -1423,7 +1538,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Flowers",
+        "descripcion": "Wildflowers climbing up the wall."
+      }
     },
     {
       "id": "flores-pop",
@@ -1450,7 +1569,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Pop Heart",
+        "descripcion": "A crowned heart among flowers."
+      }
     },
     {
       "id": "globos02",
@@ -1507,7 +1630,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Balloon of Little Animals",
+        "descripcion": "Little animals taking a balloon ride."
+      }
     },
     {
       "id": "la-mar-sirena",
@@ -1540,7 +1667,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "The Sea",
+        "descripcion": "A gentle sea with fish and a seal."
+      }
     },
     {
       "id": "montana-conejos",
@@ -1597,7 +1728,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Mountain of Rabbits",
+        "descripcion": "Little rabbits flying by balloon over the mountains."
+      }
     },
     {
       "id": "ososaplique",
@@ -1720,7 +1855,11 @@ window.PROYECTOS = {
           "w": 1050,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Enchanted Forest",
+        "descripcion": "A forest with a rabbit, a turtle, a bear cub, and even a fairy."
+      }
     },
     {
       "id": "safari06",
@@ -1771,7 +1910,11 @@ window.PROYECTOS = {
           "w": 1050,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Jungle",
+        "descripcion": "A jungle with elephants, a giraffe, and a playful little monkey."
+      }
     },
     {
       "id": "alessandro",
@@ -1846,7 +1989,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Alessandro",
+        "descripcion": "A raccoon and a bear cub travel by balloon."
+      }
     },
     {
       "id": "amazonas",
@@ -1891,7 +2038,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Amazon",
+        "descripcion": "A colorful boa among jungle leaves."
+      }
     },
     {
       "id": "bosque00",
@@ -1942,7 +2093,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Forest",
+        "descripcion": "Two opossums hanging from the branch."
+      }
     },
     {
       "id": "cuantoteamo",
@@ -1969,7 +2124,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "How Much I Love You",
+        "descripcion": "A big hare and a little one under the clouds."
+      }
     },
     {
       "id": "globitos02",
@@ -2038,7 +2197,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Little Balloons",
+        "descripcion": "A fairground balloon among soft clouds."
+      }
     },
     {
       "id": "leon-en-linea",
@@ -2059,7 +2222,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1050
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Line-Art Lion",
+        "descripcion": "A sweet lion watching over the room."
+      }
     },
     {
       "id": "pop-dino-y-princesa",
@@ -2098,7 +2265,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Dino and Princess",
+        "descripcion": "A superhero and a princess in their own story."
+      }
     },
     {
       "id": "pop-dos-almitas",
@@ -2173,7 +2344,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Two Little Souls",
+        "descripcion": "A pop-art world of dinos, unicorns, and books."
+      }
     },
     {
       "id": "safari-gael",
@@ -2248,7 +2423,11 @@ window.PROYECTOS = {
           "w": 1050,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Gael's Safari",
+        "descripcion": "An elephant, a giraffe, and their savanna friends, in watercolor."
+      }
     },
     {
       "id": "safari-01",
@@ -2287,7 +2466,11 @@ window.PROYECTOS = {
           "w": 1120,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Tropical Safari",
+        "descripcion": "A giraffe peeking through tropical leaves."
+      }
     },
     {
       "id": "safari01",
@@ -2320,7 +2503,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Jungle Safari",
+        "descripcion": "An elephant, a sloth, and giraffes."
+      }
     },
     {
       "id": "safari05",
@@ -2365,7 +2552,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Giraffe",
+        "descripcion": "A giraffe and a growth chart to measure how you grow."
+      }
     },
     {
       "id": "carros",
@@ -2398,7 +2589,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Wooden Cars",
+        "descripcion": "Wooden cars on the road."
+      }
     },
     {
       "id": "granja",
@@ -2455,7 +2650,11 @@ window.PROYECTOS = {
           "w": 1400,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Farm",
+        "descripcion": "Farm animals and tractors, in appliqué."
+      }
     },
     {
       "id": "superheroes-aplique",
@@ -2512,7 +2711,11 @@ window.PROYECTOS = {
           "w": 1050,
           "h": 1400
         }
-      ]
+      ],
+      "en": {
+        "titulo": "Superheroes in Appliqué",
+        "descripcion": "Flash, Thor, Iron Man, Superman, Batman, Captain America, Spider-Man, and Hulk, cut from wood and ready for action."
+      }
     }
   ]
 };

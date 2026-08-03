@@ -145,6 +145,15 @@ p  { margin: 0 0 1rem; max-width: 62ch; }
 }
 .nav a:hover::after, .nav a[aria-current="page"]::after { width: 100%; }
 
+.nav a.lang-switch {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.82rem;
+}
+.nav a.lang-switch:hover { border-color: var(--ink); }
+.nav a.lang-switch::after { display: none; }
+
 /* Botón menú móvil */
 .nav-toggle {
   display: none;

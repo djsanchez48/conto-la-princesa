@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+  (function () {
+    var path = location.pathname;
+    var onEn = path === "/en" || path.indexOf("/en/") === 0;
+    var currentLang = onEn ? "en" : "es";
+    var stored = null;
+    try { stored = localStorage.getItem("lang"); } catch (e) {}
+    var target;
+    if (stored === "es" || stored === "en") {
+      target = stored;
+    } else {
+      var nav = (navigator.language || navigator.userLanguage || "").toLowerCase();
+      target = nav.indexOf("en") === 0 ? "en" : "es";
+      try { localStorage.setItem("lang", target); } catch (e) {}
+    }
+    if (target !== currentLang) {
+      var newPath;
+      if (target === "en") {
+        newPath = "/en" + path;
+      } else if (path === "/en") {
+        newPath = "/";
+      } else {
+        newPath = path.slice(3); // quita el "/en" inicial
+      }
+      if (newPath !== path) location.replace(newPath + location.search + location.hash);
+    }
+  })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gael&#x27;s Safari — Kids&#x27; Room Mural | Contó la princesa</title>
+  <meta name="description" content="An elephant, a giraffe, and their savanna friends, in watercolor. A mural I hand-painted. Contó la princesa." />
+  <link rel="canonical" href="https://contolaprincesa.com/en/proyecto/safari-gael.html" />
+  <meta name="robots" content="index, follow" />
+  <link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/safari-gael.html" />
+  <link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/safari-gael.html" />
+  <link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/safari-gael.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Contó la princesa" />
+  <meta property="og:title" content="Gael&#x27;s Safari — Kids&#x27; Room Mural | Contó la princesa" />
+  <meta property="og:description" content="An elephant, a giraffe, and their savanna friends, in watercolor. A mural I hand-painted. Contó la princesa." />
+  <meta property="og:url" content="https://contolaprincesa.com/en/proyecto/safari-gael.html" />
+  <meta property="og:image" content="https://contolaprincesa.com/img/proyectos/safari-gael/1.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gael&#x27;s Safari — Kids&#x27; Room Mural | Contó la princesa" />
+  <meta name="twitter:description" content="An elephant, a giraffe, and their savanna friends, in watercolor. A mural I hand-painted. Contó la princesa." />
+  <meta name="twitter:image" content="https://contolaprincesa.com/img/proyectos/safari-gael/1.jpg" />
+
+  <link rel="icon" type="image/png" href="../../assets/logo-corona.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTRJ6C20XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PTRJ6C20XE');
+    gtag('config', 'AW-18335977553');
+  </script>
+  <!-- Medición de intención: clic a WhatsApp como evento de conversion -->
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href*="wa.me"]');
+      if (!a) return;
+      gtag('event', 'contacto_whatsapp', {
+        origen: location.pathname,
+        destino: a.getAttribute('href')
+      });
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18335977553/z-r5COWI7dMcENGgo6dE'
+      });
+    });
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VisualArtwork",
+  "name": "Gael's Safari",
+  "description": "An elephant, a giraffe, and their savanna friends, in watercolor.",
+  "image": [
+    "https://contolaprincesa.com/img/proyectos/safari-gael/1.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/2.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/3.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/4.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/5.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/6.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/7.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/8.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/9.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/10.jpg",
+    "https://contolaprincesa.com/img/proyectos/safari-gael/11.jpg"
+  ],
+  "artform": "Mural",
+  "artMedium": "Pintura a mano sobre muro",
+  "creator": {
+    "@type": "Person",
+    "name": "Juliana Betancur"
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "Contó la princesa"
+  },
+  "url": "https://contolaprincesa.com/en/proyecto/safari-gael.html"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://contolaprincesa.com/en/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Portfolio",
+      "item": "https://contolaprincesa.com/en/portafolio.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Gael's Safari",
+      "item": "https://contolaprincesa.com/en/proyecto/safari-gael.html"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="../index.html" aria-label="Contó la princesa — home">
+        <img class="brand__crown" src="../../assets/logo-corona.png" alt="" aria-hidden="true" />
+        <img class="brand__text" src="../../assets/logo-texto.png" alt="Contó la princesa, por Juliana Betancur" />
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="nav" aria-expanded="false"><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="../portafolio.html">Portfolio</a>
+        <a href="../index.html#contacto">Contact</a>
+        <a class="lang-switch" href="/proyecto/safari-gael.html">ES</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow"><a href="../portafolio.html" style="color:inherit;">← Portfolio</a></p>
+        <div class="proyecto-head">
+          <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+          <h1>Gael&#x27;s Safari</h1>
+          <p class="lead">An elephant, a giraffe, and their savanna friends, in watercolor.</p>
+        </div>
+        <div class="gallery">
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/1.jpg" aria-label="Enlarge photo 1">
+            <img src="../../img/proyectos/safari-gael/1-thumb.jpg" alt="Gael&#x27;s Safari — photo 1" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/2.jpg" aria-label="Enlarge photo 2">
+            <img src="../../img/proyectos/safari-gael/2-thumb.jpg" alt="Gael&#x27;s Safari — photo 2" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/3.jpg" aria-label="Enlarge photo 3">
+            <img src="../../img/proyectos/safari-gael/3-thumb.jpg" alt="Gael&#x27;s Safari — photo 3" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/4.jpg" aria-label="Enlarge photo 4">
+            <img src="../../img/proyectos/safari-gael/4-thumb.jpg" alt="Gael&#x27;s Safari — photo 4" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/5.jpg" aria-label="Enlarge photo 5">
+            <img src="../../img/proyectos/safari-gael/5-thumb.jpg" alt="Gael&#x27;s Safari — photo 5" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/6.jpg" aria-label="Enlarge photo 6">
+            <img src="../../img/proyectos/safari-gael/6-thumb.jpg" alt="Gael&#x27;s Safari — photo 6" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/7.jpg" aria-label="Enlarge photo 7">
+            <img src="../../img/proyectos/safari-gael/7-thumb.jpg" alt="Gael&#x27;s Safari — photo 7" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/8.jpg" aria-label="Enlarge photo 8">
+            <img src="../../img/proyectos/safari-gael/8-thumb.jpg" alt="Gael&#x27;s Safari — photo 8" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/9.jpg" aria-label="Enlarge photo 9">
+            <img src="../../img/proyectos/safari-gael/9-thumb.jpg" alt="Gael&#x27;s Safari — photo 9" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/10.jpg" aria-label="Enlarge photo 10">
+            <img src="../../img/proyectos/safari-gael/10-thumb.jpg" alt="Gael&#x27;s Safari — photo 10" loading="lazy" width="1050" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/safari-gael/11.jpg" aria-label="Enlarge photo 11">
+            <img src="../../img/proyectos/safari-gael/11-thumb.jpg" alt="Gael&#x27;s Safari — photo 11" loading="lazy" width="1050" height="1400" />
+          </button>
+        </div>
+        <div class="center" style="margin-top:2.5rem;">
+          <a class="btn btn--primary" href="https://wa.me/573194712472?text=Hi%20Juliana%2C%20I%20love%20the%20%22Gael%27s%20Safari%22%20mural.%20I%27d%20like%20one%20like%20that." target="_blank" rel="noopener">I want a mural like this</a>
+        </div>
+      </div>
+    </section>
+    <section class="section section--alt">
+      <div class="container">
+        <h2 class="center" style="margin-bottom:2rem;">Other Kids&#x27; Room murals</h2>
+        <div class="grid-projects">
+        <a class="project-card" href="la-finca.html" aria-label="View the The Farm mural">
+          <div class="project-card__media">
+            <img src="../../img/proyectos/la-finca/1-thumb.jpg" alt="Mural The Farm" loading="lazy" width="800" height="800" />
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">The Farm</h3>
+            <p>Pedro&#x27;s farm.</p>
+          </div>
+        </a>
+        <a class="project-card" href="bosqueana.html" aria-label="View the Ana&#x27;s Forest mural">
+          <div class="project-card__media">
+            <img src="../../img/proyectos/bosqueana/1-thumb.jpg" alt="Mural Ana&#x27;s Forest" loading="lazy" width="800" height="800" />
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Ana&#x27;s Forest</h3>
+            <p>Little foxes, squirrels, and raccoons in the forest.</p>
+          </div>
+        </a>
+        <a class="project-card" href="safari-caro.html" aria-label="View the African Savanna mural">
+          <div class="project-card__media">
+            <img src="../../img/proyectos/safari-caro/1-thumb.jpg" alt="Mural African Savanna" loading="lazy" width="800" height="800" />
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">African Savanna</h3>
+            <p>The savanna with giraffes, zebras, and hippos.</p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <img src="../../assets/logo-texto.png" alt="Contó la princesa, por Juliana Betancur" />
+      <small>© <span id="year"></span> Contó la princesa · Hand-painted murals</small>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="../../js/main.js"></script>
+  <div class="lightbox" id="lightbox" data-open="false" role="dialog" aria-modal="true" aria-label="Mural gallery">
+    <button class="lightbox__btn lightbox__close" aria-label="Close">&times;</button>
+    <button class="lightbox__btn lightbox__prev" aria-label="Previous">&#8249;</button>
+    <img class="lightbox__img" src="" alt="" />
+    <button class="lightbox__btn lightbox__next" aria-label="Next">&#8250;</button>
+    <span class="lightbox__counter"></span>
+  </div>
+  <script src="../../js/proyecto.js"></script>
+</body>
+</html>

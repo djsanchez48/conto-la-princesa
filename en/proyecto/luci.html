@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+  (function () {
+    var path = location.pathname;
+    var onEn = path === "/en" || path.indexOf("/en/") === 0;
+    var currentLang = onEn ? "en" : "es";
+    var stored = null;
+    try { stored = localStorage.getItem("lang"); } catch (e) {}
+    var target;
+    if (stored === "es" || stored === "en") {
+      target = stored;
+    } else {
+      var nav = (navigator.language || navigator.userLanguage || "").toLowerCase();
+      target = nav.indexOf("en") === 0 ? "en" : "es";
+      try { localStorage.setItem("lang", target); } catch (e) {}
+    }
+    if (target !== currentLang) {
+      var newPath;
+      if (target === "en") {
+        newPath = "/en" + path;
+      } else if (path === "/en") {
+        newPath = "/";
+      } else {
+        newPath = path.slice(3); // quita el "/en" inicial
+      }
+      if (newPath !== path) location.replace(newPath + location.search + location.hash);
+    }
+  })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Lake — Girl&#x27;s Room Mural | Contó la princesa</title>
+  <meta name="description" content="A lake with a swan, her cygnet, and a forest all around. A mural I hand-painted. Contó la princesa." />
+  <link rel="canonical" href="https://contolaprincesa.com/en/proyecto/luci.html" />
+  <meta name="robots" content="index, follow" />
+  <link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/luci.html" />
+  <link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/luci.html" />
+  <link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/luci.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Contó la princesa" />
+  <meta property="og:title" content="The Lake — Girl&#x27;s Room Mural | Contó la princesa" />
+  <meta property="og:description" content="A lake with a swan, her cygnet, and a forest all around. A mural I hand-painted. Contó la princesa." />
+  <meta property="og:url" content="https://contolaprincesa.com/en/proyecto/luci.html" />
+  <meta property="og:image" content="https://contolaprincesa.com/img/proyectos/luci/1.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Lake — Girl&#x27;s Room Mural | Contó la princesa" />
+  <meta name="twitter:description" content="A lake with a swan, her cygnet, and a forest all around. A mural I hand-painted. Contó la princesa." />
+  <meta name="twitter:image" content="https://contolaprincesa.com/img/proyectos/luci/1.jpg" />
+
+  <link rel="icon" type="image/png" href="../../assets/logo-corona.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTRJ6C20XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PTRJ6C20XE');
+    gtag('config', 'AW-18335977553');
+  </script>
+  <!-- Medición de intención: clic a WhatsApp como evento de conversion -->
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href*="wa.me"]');
+      if (!a) return;
+      gtag('event', 'contacto_whatsapp', {
+        origen: location.pathname,
+        destino: a.getAttribute('href')
+      });
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18335977553/z-r5COWI7dMcENGgo6dE'
+      });
+    });
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VisualArtwork",
+  "name": "The Lake",
+  "description": "A lake with a swan, her cygnet, and a forest all around.",
+  "image": [
+    "https://contolaprincesa.com/img/proyectos/luci/1.jpg",
+    "https://contolaprincesa.com/img/proyectos/luci/2.jpg",
+    "https://contolaprincesa.com/img/proyectos/luci/3.jpg",
+    "https://contolaprincesa.com/img/proyectos/luci/4.jpg",
+    "https://contolaprincesa.com/img/proyectos/luci/5.jpg",
+    "https://contolaprincesa.com/img/proyectos/luci/6.jpg"
+  ],
+  "artform": "Mural",
+  "artMedium": "Pintura a mano sobre muro",
+  "creator": {
+    "@type": "Person",
+    "name": "Juliana Betancur"
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "Contó la princesa"
+  },
+  "url": "https://contolaprincesa.com/en/proyecto/luci.html"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://contolaprincesa.com/en/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Portfolio",
+      "item": "https://contolaprincesa.com/en/portafolio.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "The Lake",
+      "item": "https://contolaprincesa.com/en/proyecto/luci.html"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="../index.html" aria-label="Contó la princesa — home">
+        <img class="brand__crown" src="../../assets/logo-corona.png" alt="" aria-hidden="true" />
+        <img class="brand__text" src="../../assets/logo-texto.png" alt="Contó la princesa, por Juliana Betancur" />
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="nav" aria-expanded="false"><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="../portafolio.html">Portfolio</a>
+        <a href="../index.html#contacto">Contact</a>
+        <a class="lang-switch" href="/proyecto/luci.html">ES</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow"><a href="../portafolio.html" style="color:inherit;">← Portfolio</a></p>
+        <div class="proyecto-head">
+          <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+          <h1>The Lake</h1>
+          <p class="lead">A lake with a swan, her cygnet, and a forest all around.</p>
+        </div>
+        <div class="gallery">
+          <button class="gal-item" data-full="../../img/proyectos/luci/1.jpg" aria-label="Enlarge photo 1">
+            <img src="../../img/proyectos/luci/1-thumb.jpg" alt="The Lake — photo 1" loading="lazy" width="787" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/luci/2.jpg" aria-label="Enlarge photo 2">
+            <img src="../../img/proyectos/luci/2-thumb.jpg" alt="The Lake — photo 2" loading="lazy" width="1400" height="788" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/luci/3.jpg" aria-label="Enlarge photo 3">
+            <img src="../../img/proyectos/luci/3-thumb.jpg" alt="The Lake — photo 3" loading="lazy" width="1400" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/luci/4.jpg" aria-label="Enlarge photo 4">
+            <img src="../../img/proyectos/luci/4-thumb.jpg" alt="The Lake — photo 4" loading="lazy" width="1400" height="1050" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/luci/5.jpg" aria-label="Enlarge photo 5">
+            <img src="../../img/proyectos/luci/5-thumb.jpg" alt="The Lake — photo 5" loading="lazy" width="1400" height="1400" />
+          </button>
+          <button class="gal-item" data-full="../../img/proyectos/luci/6.jpg" aria-label="Enlarge photo 6">
+            <img src="../../img/proyectos/luci/6-thumb.jpg" alt="The Lake — photo 6" loading="lazy" width="1400" height="1400" />
+          </button>
+        </div>
+        <div class="center" style="margin-top:2.5rem;">
+          <a class="btn btn--primary" href="https://wa.me/573194712472?text=Hi%20Juliana%2C%20I%20love%20the%20%22The%20Lake%22%20mural.%20I%27d%20like%20one%20like%20that." target="_blank" rel="noopener">I want a mural like this</a>
+        </div>
+      </div>
+    </section>
+    <section class="section section--alt">
+      <div class="container">
+        <h2 class="center" style="margin-bottom:2rem;">Other Girl&#x27;s Room murals</h2>
+        <div class="grid-projects">
+        <a class="project-card" href="lamar00.html" aria-label="View the Ocean mural">
+          <div class="project-card__media">
+            <img src="../../img/proyectos/lamar00/3-thumb.jpg" alt="Mural Ocean" loading="lazy" width="800" height="800" />
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Ocean</h3>
+            <p>The ocean with whales and dolphins.</p>
+          </div>
+        </a>
+        <a class="project-card" href="amaga.html" aria-label="View the Amagá mural">
+          <div class="project-card__media">
+            <img src="../../img/proyectos/amaga/3-thumb.jpg" alt="Mural Amagá" loading="lazy" width="800" height="800" />
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Amagá</h3>
+            <p>A flying whale and a cozy reading nook.</p>
+          </div>
+        </a>
+        <a class="project-card" href="arcoiris.html" aria-label="View the Rainbow mural">
+          <div class="project-card__media">
+            <img src="../../img/proyectos/arcoiris/3-thumb.jpg" alt="Mural Rainbow" loading="lazy" width="800" height="800" />
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Rainbow</h3>
+            <p>Smiling clouds and a pastel rainbow.</p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <img src="../../assets/logo-texto.png" alt="Contó la princesa, por Juliana Betancur" />
+      <small>© <span id="year"></span> Contó la princesa · Hand-painted murals</small>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="../../js/main.js"></script>
+  <div class="lightbox" id="lightbox" data-open="false" role="dialog" aria-modal="true" aria-label="Mural gallery">
+    <button class="lightbox__btn lightbox__close" aria-label="Close">&times;</button>
+    <button class="lightbox__btn lightbox__prev" aria-label="Previous">&#8249;</button>
+    <img class="lightbox__img" src="" alt="" />
+    <button class="lightbox__btn lightbox__next" aria-label="Next">&#8250;</button>
+    <span class="lightbox__counter"></span>
+  </div>
+  <script src="../../js/proyecto.js"></script>
+</body>
+</html>

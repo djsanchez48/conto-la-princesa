@@ -8,10 +8,13 @@
   var counter = lb.querySelector(".lightbox__counter");
   var fulls = items.map(function (it) { return it.dataset.full; });
   var i = 0;
+  var isEn = document.documentElement.lang === "en";
 
   function pintar() {
     img.src = fulls[i];
-    img.alt = "Foto " + (i + 1) + " de " + fulls.length;
+    img.alt = isEn
+      ? "Photo " + (i + 1) + " of " + fulls.length
+      : "Foto " + (i + 1) + " de " + fulls.length;
     counter.textContent = (i + 1) + " / " + fulls.length;
     var multi = fulls.length > 1;
     counter.style.display = multi ? "block" : "none";

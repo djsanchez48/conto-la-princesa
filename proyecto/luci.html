@@ -2,11 +2,42 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
+  <script>
+  (function () {
+    var path = location.pathname;
+    var onEn = path === "/en" || path.indexOf("/en/") === 0;
+    var currentLang = onEn ? "en" : "es";
+    var stored = null;
+    try { stored = localStorage.getItem("lang"); } catch (e) {}
+    var target;
+    if (stored === "es" || stored === "en") {
+      target = stored;
+    } else {
+      var nav = (navigator.language || navigator.userLanguage || "").toLowerCase();
+      target = nav.indexOf("en") === 0 ? "en" : "es";
+      try { localStorage.setItem("lang", target); } catch (e) {}
+    }
+    if (target !== currentLang) {
+      var newPath;
+      if (target === "en") {
+        newPath = "/en" + path;
+      } else if (path === "/en") {
+        newPath = "/";
+      } else {
+        newPath = path.slice(3); // quita el "/en" inicial
+      }
+      if (newPath !== path) location.replace(newPath + location.search + location.hash);
+    }
+  })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>El lago — Mural infantil niña | Contó la princesa</title>
   <meta name="description" content="Un lago con un cisne, su patito y un bosque alrededor. Un mural que pinté a mano. Contó la princesa." />
   <link rel="canonical" href="https://contolaprincesa.com/proyecto/luci.html" />
   <meta name="robots" content="index, follow" />
+  <link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/luci.html" />
+  <link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/luci.html" />
+  <link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/luci.html" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Contó la princesa" />
@@ -115,6 +146,7 @@
         <a href="../index.html">Inicio</a>
         <a href="../portafolio.html">Portafolio</a>
         <a href="../index.html#contacto">Contacto</a>
+        <a class="lang-switch" href="/en/proyecto/luci.html">EN</a>
       </nav>
     </div>
   </header>

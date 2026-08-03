@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+  (function () {
+    var path = location.pathname;
+    var onEn = path === "/en" || path.indexOf("/en/") === 0;
+    var currentLang = onEn ? "en" : "es";
+    var stored = null;
+    try { stored = localStorage.getItem("lang"); } catch (e) {}
+    var target;
+    if (stored === "es" || stored === "en") {
+      target = stored;
+    } else {
+      var nav = (navigator.language || navigator.userLanguage || "").toLowerCase();
+      target = nav.indexOf("en") === 0 ? "en" : "es";
+      try { localStorage.setItem("lang", target); } catch (e) {}
+    }
+    if (target !== currentLang) {
+      var newPath;
+      if (target === "en") {
+        newPath = "/en" + path;
+      } else if (path === "/en") {
+        newPath = "/";
+      } else {
+        newPath = path.slice(3); // quita el "/en" inicial
+      }
+      if (newPath !== path) location.replace(newPath + location.search + location.hash);
+    }
+  })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hand-Painted Kids&#x27; Mural Portfolio | Contó la princesa</title>
+  <meta name="description" content="Hand-painted children&#x27;s murals by Juliana Betancur in Bogotá, Medellín and Manizales, Colombia. Browse the portfolio by category and order yours." />
+  <link rel="canonical" href="https://contolaprincesa.com/en/portafolio.html" />
+  <meta name="robots" content="index, follow" />
+  <link rel="alternate" hreflang="es" href="https://contolaprincesa.com/portafolio.html" />
+  <link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/portafolio.html" />
+  <link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/portafolio.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Contó la princesa" />
+  <meta property="og:title" content="Hand-Painted Kids&#x27; Mural Portfolio | Contó la princesa" />
+  <meta property="og:description" content="Hand-painted children&#x27;s murals by Juliana Betancur in Bogotá, Medellín and Manizales, Colombia. Browse the portfolio by category and order yours." />
+  <meta property="og:url" content="https://contolaprincesa.com/en/portafolio.html" />
+  <meta property="og:image" content="https://contolaprincesa.com/img/proyectos/mapamundi-benja/3.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hand-Painted Kids&#x27; Mural Portfolio | Contó la princesa" />
+  <meta name="twitter:description" content="Hand-painted children&#x27;s murals by Juliana Betancur in Bogotá, Medellín and Manizales, Colombia. Browse the portfolio by category and order yours." />
+  <meta name="twitter:image" content="https://contolaprincesa.com/img/proyectos/mapamundi-benja/3.jpg" />
+
+  <link rel="icon" type="image/png" href="../assets/logo-corona.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTRJ6C20XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PTRJ6C20XE');
+    gtag('config', 'AW-18335977553');
+  </script>
+  <!-- Medición de intención: clic a WhatsApp como evento de conversion -->
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href*="wa.me"]');
+      if (!a) return;
+      gtag('event', 'contacto_whatsapp', {
+        origen: location.pathname,
+        destino: a.getAttribute('href')
+      });
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18335977553/z-r5COWI7dMcENGgo6dE'
+      });
+    });
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://contolaprincesa.com/en/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Portfolio",
+      "item": "https://contolaprincesa.com/en/portafolio.html"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Contó la princesa — home">
+        <img class="brand__crown" src="../assets/logo-corona.png" alt="" aria-hidden="true" />
+        <img class="brand__text" src="../assets/logo-texto.png" alt="Contó la princesa, por Juliana Betancur" />
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="nav" aria-expanded="false"><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="portafolio.html" aria-current="page">Portfolio</a>
+        <a href="index.html#contacto">Contact</a>
+        <a class="lang-switch" href="/portafolio.html">ES</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="center stack" style="margin-bottom:2.5rem;">
+          <p class="eyebrow">My work</p>
+          <h1>Mural Portfolio</h1>
+          <p class="lead" style="margin-inline:auto;">Every mural is unique and hand-painted. Filter by the type of space.</p>
+        </div>
+        <div class="filters" id="filters" role="group" aria-label="Filter by category">
+          <button class="filter-btn" data-cat="all" aria-pressed="true">All</button><button class="filter-btn" data-cat="INI" aria-pressed="false">Boy&#x27;s Room</button><button class="filter-btn" data-cat="INA" aria-pressed="false">Girl&#x27;s Room</button><button class="filter-btn" data-cat="INF" aria-pressed="false">Kids&#x27; Room</button><button class="filter-btn" data-cat="APL" aria-pressed="false">Wood Appliqués</button>
+        </div>
+        <div class="grid-projects" id="grid">
+        <a class="project-card" data-cat="INI" href="proyecto/astronauta.html" aria-label="View the Astronaut and His Puppy mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/astronauta/1-thumb.jpg" alt="Astronaut and His Puppy mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">6 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Astronaut and His Puppy</h2>
+            <p>An astronaut and his puppy floating among the stars.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/mapamundi-benja.html" aria-label="View the World Map mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/mapamundi-benja/1-thumb.jpg" alt="World Map mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">9 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">World Map</h2>
+            <p>A map of the world with animals from every continent.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/la-finca.html" aria-label="View the The Farm mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/la-finca/1-thumb.jpg" alt="The Farm mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">12 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">The Farm</h2>
+            <p>Pedro&#x27;s farm.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/bosqueana.html" aria-label="View the Ana&#x27;s Forest mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/bosqueana/1-thumb.jpg" alt="Ana&#x27;s Forest mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">15 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Ana&#x27;s Forest</h2>
+            <p>Little foxes, squirrels, and raccoons in the forest.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/safari-caro.html" aria-label="View the African Savanna mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/safari-caro/1-thumb.jpg" alt="African Savanna mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">African Savanna</h2>
+            <p>The savanna with giraffes, zebras, and hippos.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/luci.html" aria-label="View the The Lake mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/luci/3-thumb.jpg" alt="The Lake mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">6 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">The Lake</h2>
+            <p>A lake with a swan, her cygnet, and a forest all around.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/lamar00.html" aria-label="View the Ocean mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/lamar00/3-thumb.jpg" alt="Ocean mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">6 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Ocean</h2>
+            <p>The ocean with whales and dolphins.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/animales-safari.html" aria-label="View the Leopard in the Tree mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/animales-safari/2-thumb.jpg" alt="Leopard in the Tree mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">4 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Leopard in the Tree</h2>
+            <p>A leopard rests high up on its branch.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/astronauta00.html" aria-label="View the Astronaut mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/astronauta00/1-thumb.jpg" alt="Astronaut mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">4 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Astronaut</h2>
+            <p>An astronaut sitting on his favorite planet.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/benja-0.html" aria-label="View the Little Fox in Balloons mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/benja-0/1-thumb.jpg" alt="Little Fox in Balloons mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">7 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Little Fox in Balloons</h2>
+            <p>A little fox rising up with balloons.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/carritos-astro.html" aria-label="View the City of Cars mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/carritos-astro/1-thumb.jpg" alt="City of Cars mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">City of Cars</h2>
+            <p>A city of cars, bridges, and roads.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/color-y-linea.html" aria-label="View the Color and Line mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/color-y-linea/1-thumb.jpg" alt="Color and Line mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">13 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Color and Line</h2>
+            <p>Musician animals in a burst of color.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/cuarto-superheroes.html" aria-label="View the Superhero Room mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/cuarto-superheroes/1-thumb.jpg" alt="Superhero Room mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">14 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Superhero Room</h2>
+            <p>Flash, Batman, Superman, and the rest of the team fly across the walls of the room.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/dinos.html" aria-label="View the Dinos mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/dinos/1-thumb.jpg" alt="Dinos mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">5 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Dinos</h2>
+            <p>Friendly dinosaurs among volcanoes and cacti.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/espacio-exterior.html" aria-label="View the Outer Space mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/espacio-exterior/1-thumb.jpg" alt="Outer Space mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">2 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Outer Space</h2>
+            <p>A bedroom that turns into a galaxy.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/futbol.html" aria-label="View the Soccer mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/futbol/1-thumb.jpg" alt="Soccer mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">4 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Soccer</h2>
+            <p>A ball painted in every color.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/mar-tiburon.html" aria-label="View the Ocean Floor mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/mar-tiburon/2-thumb.jpg" alt="Ocean Floor mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">11 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Ocean Floor</h2>
+            <p>Whales and coral on the ocean floor.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/mediooso.html" aria-label="View the Balloon Adventure mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/mediooso/1-thumb.jpg" alt="Balloon Adventure mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">9 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Balloon Adventure</h2>
+            <p>A little rabbit traveling by balloon through the clouds.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/orca.html" aria-label="View the Marine World mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/orca/3-thumb.jpg" alt="Marine World mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Marine World</h2>
+            <p>Fish and coral in a calm sea.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/pop.html" aria-label="View the Pop Space mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/pop/1-thumb.jpg" alt="Pop Space mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">6 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Pop Space</h2>
+            <p>A space journey of lines and color.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INI" href="proyecto/safari-04.html" aria-label="View the Savanna Safari mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/safari-04/1-thumb.jpg" alt="Savanna Safari mural — Boy&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INI">Boy&#x27;s Room</span>
+            <h2 class="project-card__title">Savanna Safari</h2>
+            <p>A zebra and friends by the river.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/amaga.html" aria-label="View the Amagá mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/amaga/3-thumb.jpg" alt="Amagá mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">3 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Amagá</h2>
+            <p>A flying whale and a cozy reading nook.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/arcoiris.html" aria-label="View the Rainbow mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/arcoiris/3-thumb.jpg" alt="Rainbow mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">3 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Rainbow</h2>
+            <p>Smiling clouds and a pastel rainbow.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/arcoiris-2.html" aria-label="View the Unicorn mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/arcoiris-2/1-thumb.jpg" alt="Unicorn mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Unicorn</h2>
+            <p>A pastel unicorn and her fairy princess.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/bosque03.html" aria-label="View the Forest of Little Animals mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/bosque03/4-thumb.jpg" alt="Forest of Little Animals mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">7 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Forest of Little Animals</h2>
+            <p>A forest with a bear cub, a sleeping fox, and a hedgehog.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/bosquelucia.html" aria-label="View the Lucía&#x27;s Forest mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/bosquelucia/1-thumb.jpg" alt="Lucía&#x27;s Forest mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">6 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Lucía&#x27;s Forest</h2>
+            <p>Squirrels and a little bird on the branch.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/flores-1.html" aria-label="View the Flowers mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/flores-1/2-thumb.jpg" alt="Flowers mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">3 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Flowers</h2>
+            <p>Wildflowers climbing up the wall.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/flores-pop.html" aria-label="View the Pop Heart mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/flores-pop/2-thumb.jpg" alt="Pop Heart mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">3 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Pop Heart</h2>
+            <p>A crowned heart among flowers.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/globos02.html" aria-label="View the Balloon of Little Animals mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/globos02/1-thumb.jpg" alt="Balloon of Little Animals mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Balloon of Little Animals</h2>
+            <p>Little animals taking a balloon ride.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/la-mar-sirena.html" aria-label="View the The Sea mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/la-mar-sirena/1-thumb.jpg" alt="The Sea mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">4 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">The Sea</h2>
+            <p>A gentle sea with fish and a seal.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/montana-conejos.html" aria-label="View the Mountain of Rabbits mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/montana-conejos/3-thumb.jpg" alt="Mountain of Rabbits mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Mountain of Rabbits</h2>
+            <p>Little rabbits flying by balloon over the mountains.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/ososaplique.html" aria-label="View the Enchanted Forest mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/ososaplique/3-thumb.jpg" alt="Enchanted Forest mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">19 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Enchanted Forest</h2>
+            <p>A forest with a rabbit, a turtle, a bear cub, and even a fairy.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INA" href="proyecto/safari06.html" aria-label="View the Jungle mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/safari06/2-thumb.jpg" alt="Jungle mural — Girl&#x27;s Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">7 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INA">Girl&#x27;s Room</span>
+            <h2 class="project-card__title">Jungle</h2>
+            <p>A jungle with elephants, a giraffe, and a playful little monkey.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/alessandro.html" aria-label="View the Alessandro mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/alessandro/1-thumb.jpg" alt="Alessandro mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">11 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Alessandro</h2>
+            <p>A raccoon and a bear cub travel by balloon.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/amazonas.html" aria-label="View the Amazon mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/amazonas/1-thumb.jpg" alt="Amazon mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">6 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Amazon</h2>
+            <p>A colorful boa among jungle leaves.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/bosque00.html" aria-label="View the Forest mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/bosque00/1-thumb.jpg" alt="Forest mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">7 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Forest</h2>
+            <p>Two opossums hanging from the branch.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/cuantoteamo.html" aria-label="View the How Much I Love You mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/cuantoteamo/1-thumb.jpg" alt="How Much I Love You mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">3 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">How Much I Love You</h2>
+            <p>A big hare and a little one under the clouds.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/globitos02.html" aria-label="View the Little Balloons mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/globitos02/1-thumb.jpg" alt="Little Balloons mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">10 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Little Balloons</h2>
+            <p>A fairground balloon among soft clouds.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/leon-en-linea.html" aria-label="View the Line-Art Lion mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/leon-en-linea/1-thumb.jpg" alt="Line-Art Lion mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">2 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Line-Art Lion</h2>
+            <p>A sweet lion watching over the room.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/pop-dino-y-princesa.html" aria-label="View the Dino and Princess mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/pop-dino-y-princesa/1-thumb.jpg" alt="Dino and Princess mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">5 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Dino and Princess</h2>
+            <p>A superhero and a princess in their own story.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/pop-dos-almitas.html" aria-label="View the Two Little Souls mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/pop-dos-almitas/1-thumb.jpg" alt="Two Little Souls mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">11 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Two Little Souls</h2>
+            <p>A pop-art world of dinos, unicorns, and books.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/safari-gael.html" aria-label="View the Gael&#x27;s Safari mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/safari-gael/8-thumb.jpg" alt="Gael&#x27;s Safari mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">11 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Gael&#x27;s Safari</h2>
+            <p>An elephant, a giraffe, and their savanna friends, in watercolor.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/safari-01.html" aria-label="View the Tropical Safari mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/safari-01/4-thumb.jpg" alt="Tropical Safari mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">5 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Tropical Safari</h2>
+            <p>A giraffe peeking through tropical leaves.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/safari01.html" aria-label="View the Jungle Safari mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/safari01/1-thumb.jpg" alt="Jungle Safari mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">4 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Jungle Safari</h2>
+            <p>An elephant, a sloth, and giraffes.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="INF" href="proyecto/safari05.html" aria-label="View the Giraffe mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/safari05/1-thumb.jpg" alt="Giraffe mural — Kids&#x27; Room" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">6 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="INF">Kids&#x27; Room</span>
+            <h2 class="project-card__title">Giraffe</h2>
+            <p>A giraffe and a growth chart to measure how you grow.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="APL" href="proyecto/carros.html" aria-label="View the Wooden Cars mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/carros/2-thumb.jpg" alt="Wooden Cars mural — Wood Appliqués" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">4 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="APL">Wood Appliqués</span>
+            <h2 class="project-card__title">Wooden Cars</h2>
+            <p>Wooden cars on the road.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="APL" href="proyecto/granja.html" aria-label="View the Farm mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/granja/1-thumb.jpg" alt="Farm mural — Wood Appliqués" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="APL">Wood Appliqués</span>
+            <h2 class="project-card__title">Farm</h2>
+            <p>Farm animals and tractors, in appliqué.</p>
+          </div>
+        </a>
+        <a class="project-card" data-cat="APL" href="proyecto/superheroes-aplique.html" aria-label="View the Superheroes in Appliqué mural">
+          <div class="project-card__media">
+            <img src="../img/proyectos/superheroes-aplique/8-thumb.jpg" alt="Superheroes in Appliqué mural — Wood Appliqués" loading="lazy" width="800" height="800" />
+            <span class="project-card__count">8 photos</span>
+          </div>
+          <div class="project-card__body">
+            <span class="tag" data-cat="APL">Wood Appliqués</span>
+            <h2 class="project-card__title">Superheroes in Appliqué</h2>
+            <p>Flash, Thor, Iron Man, Superman, Batman, Captain America, Spider-Man, and Hulk, cut from wood and ready for action.</p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <img src="../assets/logo-texto.png" alt="Contó la princesa, por Juliana Betancur" />
+      <small>© <span id="year"></span> Contó la princesa · Hand-painted murals</small>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="../js/main.js"></script>
+  <script src="../js/portafolio.js"></script>
+</body>
+</html>

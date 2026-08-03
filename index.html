@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTRJ6C20XE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-PTRJ6C20XE');
-    gtag('config', 'AW-18335977553');
-  </script>
-  <!-- Medición de intención: clic a WhatsApp como evento de conversión -->
-  <script>
-    document.addEventListener('click', function (e) {
-      var a = e.target.closest('a[href*="wa.me"]');
-      if (!a) return;
-      gtag('event', 'contacto_whatsapp', {
-        origen: location.pathname,
-        destino: a.getAttribute('href')
-      });
-      gtag('event', 'conversion', {
-        'send_to': 'AW-18335977553/z-r5COWI7dMcENGgo6dE'
-      });
-    });
-  </script>
-
   <meta charset="UTF-8" />
+  <script>
+  (function () {
+    var path = location.pathname;
+    var onEn = path === "/en" || path.indexOf("/en/") === 0;
+    var currentLang = onEn ? "en" : "es";
+    var stored = null;
+    try { stored = localStorage.getItem("lang"); } catch (e) {}
+    var target;
+    if (stored === "es" || stored === "en") {
+      target = stored;
+    } else {
+      var nav = (navigator.language || navigator.userLanguage || "").toLowerCase();
+      target = nav.indexOf("en") === 0 ? "en" : "es";
+      try { localStorage.setItem("lang", target); } catch (e) {}
+    }
+    if (target !== currentLang) {
+      var newPath;
+      if (target === "en") {
+        newPath = "/en" + path;
+      } else if (path === "/en") {
+        newPath = "/";
+      } else {
+        newPath = path.slice(3); // quita el "/en" inicial
+      }
+      if (newPath !== path) location.replace(newPath + location.search + location.hash);
+    }
+  })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contó la princesa — Murales infantiles pintados a mano | Bogotá, Medellín y Manizales</title>
   <meta name="description" content="Murales infantiles pintados a mano por Juliana Betancur para habitaciones de niños y niñas en Bogotá, Medellín, Manizales y toda Colombia. Mira el portafolio y encarga el tuyo." />
   <link rel="canonical" href="https://contolaprincesa.com/" />
   <meta name="robots" content="index, follow" />
+  <link rel="alternate" hreflang="es" href="https://contolaprincesa.com/" />
+  <link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/index.html" />
+  <link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/" />
 
   <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website" />
@@ -54,6 +61,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTRJ6C20XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PTRJ6C20XE');
+    gtag('config', 'AW-18335977553');
+  </script>
+  <!-- Medición de intención: clic a WhatsApp como evento de conversión -->
+  <script>
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href*="wa.me"]');
+      if (!a) return;
+      gtag('event', 'contacto_whatsapp', {
+        origen: location.pathname,
+        destino: a.getAttribute('href')
+      });
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18335977553/z-r5COWI7dMcENGgo6dE'
+      });
+    });
+  </script>
 
   <!-- Datos estructurados: negocio local -->
   <script type="application/ld+json">
@@ -95,6 +126,7 @@
         <a href="index.html" aria-current="page">Inicio</a>
         <a href="portafolio.html">Portafolio</a>
         <a href="#contacto">Contacto</a>
+        <a class="lang-switch" href="/en/index.html">EN</a>
       </nav>
     </div>
   </header>
