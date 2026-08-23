@@ -412,6 +412,48 @@ a.tag:hover { border-color: var(--ink); color: var(--ink); transform: translateY
 }
 .empty-note { text-align: center; color: var(--ink-soft); padding: 2rem 0; }
 
+/* ---------- Categorías (home): grid 2x2 con foto + etiqueta ---------- */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(0.8rem, 2vw, 1.2rem);
+  max-width: 640px;
+  margin: 0 auto;
+}
+.category-tile {
+  position: relative;
+  display: block;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+.category-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 300ms ease;
+}
+.category-tile:hover img { transform: scale(1.05); }
+.category-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(31, 27, 22, 0.75) 0%, rgba(31, 27, 22, 0) 55%);
+}
+.category-tile__label {
+  position: absolute;
+  left: 0.9rem;
+  right: 0.9rem;
+  bottom: 0.8rem;
+  z-index: 1;
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+  line-height: 1.15;
+}
+
 /* ---------- Página de mural ---------- */
 .proyecto-head {
   text-align: center;

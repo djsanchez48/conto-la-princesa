@@ -163,7 +163,24 @@
         <p class="lead" style="margin-inline:auto;">
           Explore my murals by the type of space.
         </p>
-        <div id="chips-categorias" style="display:flex; flex-wrap:wrap; gap:0.6rem; justify-content:center; margin-top:1rem;"></div>
+        <div class="category-grid" style="margin-top:1.6rem;">
+          <a class="category-tile" href="portafolio.html?cat=INI" aria-label="View Boy's Room murals">
+            <img src="../img/proyectos/astronauta/1-thumb.jpg" alt="Boy's Room mural" loading="lazy" width="800" height="800" />
+            <span class="category-tile__label">Boy's Room</span>
+          </a>
+          <a class="category-tile" href="portafolio.html?cat=INA" aria-label="View Girl's Room murals">
+            <img src="../img/proyectos/arcoiris-2/1-thumb.jpg" alt="Girl's Room mural" loading="lazy" width="800" height="800" />
+            <span class="category-tile__label">Girl's Room</span>
+          </a>
+          <a class="category-tile" href="portafolio.html?cat=INF" aria-label="View Kids' Room murals">
+            <img src="../img/proyectos/bosqueana/1-thumb.jpg" alt="Kids' Room mural" loading="lazy" width="800" height="800" />
+            <span class="category-tile__label">Kids' Room</span>
+          </a>
+          <a class="category-tile" href="portafolio.html?cat=APL" aria-label="View Wood Appliqués murals">
+            <img src="../img/proyectos/superheroes-aplique/8-thumb.jpg" alt="Wood Appliqués mural" loading="lazy" width="800" height="800" />
+            <span class="category-tile__label">Wood Appliqués</span>
+          </a>
+        </div>
         <div style="margin-top:1.6rem;">
           <a class="btn btn--ghost" href="portafolio.html">View the full portfolio</a>
         </div>
@@ -241,24 +258,5 @@
 
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
   <script src="../js/main.js"></script>
-  <script src="../data/proyectos.js"></script>
-  <script>
-    (function () {
-      var cont = document.getElementById("chips-categorias");
-      var data = window.PROYECTOS;
-      if (!cont || !data) return;
-      var conProyectos = {};
-      data.proyectos.forEach(function (p) { conProyectos[p.categoria] = true; });
-      Object.keys(data.categorias_en).forEach(function (cat) {
-        if (!conProyectos[cat]) return;
-        var a = document.createElement("a");
-        a.className = "tag";
-        a.dataset.cat = cat;
-        a.href = "portafolio.html?cat=" + cat;
-        a.textContent = data.categorias_en[cat];
-        cont.appendChild(a);
-      });
-    })();
-  </script>
 </body>
 </html>
