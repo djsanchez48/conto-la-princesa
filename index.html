@@ -177,6 +177,23 @@
           <behold-widget feed-id="2m2G0uw8AebRtR9znDNQ"></behold-widget>
           <script>
             (() => {
+              // Oculta toda la sección si Behold devuelve error (p.ej. 402 al superar
+              // el límite de vistas del plan) — evita dejar la sección vacía con
+              // su tarjeta de "Upgrade Required".
+              const origFetch = window.fetch;
+              window.fetch = function (input, init) {
+                const url = typeof input === "string" ? input : (input && input.url) || "";
+                const p = origFetch.apply(this, arguments);
+                if (url.indexOf("feeds.behold.so") !== -1) {
+                  p.then((res) => {
+                    if (!res.ok) {
+                      const section = document.getElementById("instagram");
+                      if (section) section.style.display = "none";
+                    }
+                  }).catch(() => {});
+                }
+                return p;
+              };
               const d=document,s=d.createElement("script");s.type="module";
               s.src="https://w.behold.so/widget.js";d.head.append(s);
             })();
