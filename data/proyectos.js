@@ -2721,7 +2721,7 @@ window.PROYECTOS = {
       "titulo": "Baño de Sha",
       "categoria": "HOG",
       "descripcion": "Un baño que se transforma en jardín, con enredaderas y flores silvestres.",
-      "portada": "img/proyectos/bano-sha/2-thumb.jpg",
+      "portada": "img/proyectos/bano-sha/5-thumb.jpg",
       "imagenes": [
         {
           "thumb": "img/proyectos/bano-sha/1-thumb.jpg",
