@@ -1917,6 +1917,49 @@ window.PROYECTOS = {
       }
     },
     {
+      "id": "virgen",
+      "titulo": "Virgencita de las flores",
+      "categoria": "INA",
+      "descripcion": "Una virgencita rodeada de flores, mariposas y golondrinas.",
+      "portada": "img/proyectos/virgen/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/virgen/1-thumb.jpg",
+          "full": "img/proyectos/virgen/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/virgen/2-thumb.jpg",
+          "full": "img/proyectos/virgen/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/virgen/3-thumb.jpg",
+          "full": "img/proyectos/virgen/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/virgen/4-thumb.jpg",
+          "full": "img/proyectos/virgen/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/virgen/5-thumb.jpg",
+          "full": "img/proyectos/virgen/5.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Little Virgin of the Flowers",
+        "descripcion": "A little Virgin Mary surrounded by flowers, butterflies, and swallows."
+      }
+    },
+    {
       "id": "alessandro",
       "titulo": "Alessandro",
       "categoria": "INF",
@@ -2556,6 +2599,176 @@ window.PROYECTOS = {
       "en": {
         "titulo": "Giraffe",
         "descripcion": "A giraffe and a growth chart to measure how you grow."
+      }
+    },
+    {
+      "id": "pajaros-acuarela",
+      "titulo": "Pájaros en acuarela",
+      "categoria": "CUA",
+      "descripcion": "Cuatro aves colombianas pintadas a mano en acuarela y tinta.",
+      "portada": "img/proyectos/pajaros-acuarela/8-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/1-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/1.jpg",
+          "w": 787,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/2-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/3-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/4-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/5-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/6-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/7-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/8-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/8.jpg",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/9-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/9.jpg",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/10-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/10.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/11-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/11.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/12-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/12.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/13-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/13.jpg",
+          "w": 787,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/14-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/14.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/15-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/15.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/16-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/16.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pajaros-acuarela/17-thumb.jpg",
+          "full": "img/proyectos/pajaros-acuarela/17.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Watercolor Birds",
+        "descripcion": "Four Colombian birds, hand-painted in watercolor and ink."
+      }
+    },
+    {
+      "id": "bano-sha",
+      "titulo": "Baño de Sha",
+      "categoria": "HOG",
+      "descripcion": "Un baño que se transforma en jardín, con enredaderas y flores silvestres.",
+      "portada": "img/proyectos/bano-sha/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/bano-sha/1-thumb.jpg",
+          "full": "img/proyectos/bano-sha/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bano-sha/2-thumb.jpg",
+          "full": "img/proyectos/bano-sha/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bano-sha/3-thumb.jpg",
+          "full": "img/proyectos/bano-sha/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bano-sha/4-thumb.jpg",
+          "full": "img/proyectos/bano-sha/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bano-sha/5-thumb.jpg",
+          "full": "img/proyectos/bano-sha/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bano-sha/6-thumb.jpg",
+          "full": "img/proyectos/bano-sha/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bano-sha/7-thumb.jpg",
+          "full": "img/proyectos/bano-sha/7.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Sha's Bathroom",
+        "descripcion": "A bathroom that turns into a garden, with vines and wildflowers."
       }
     },
     {

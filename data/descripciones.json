@@ -400,5 +400,32 @@
       "titulo": "Gael's Safari",
       "descripcion": "An elephant, a giraffe, and their savanna friends, in watercolor."
     }
+  },
+  "virgen": {
+    "titulo": "Virgencita de las flores",
+    "descripcion": "Una virgencita rodeada de flores, mariposas y golondrinas.",
+    "portada": 1,
+    "en": {
+      "titulo": "Little Virgin of the Flowers",
+      "descripcion": "A little Virgin Mary surrounded by flowers, butterflies, and swallows."
+    }
+  },
+  "pajaros-acuarela": {
+    "titulo": "Pájaros en acuarela",
+    "descripcion": "Cuatro aves colombianas pintadas a mano en acuarela y tinta.",
+    "portada": 8,
+    "en": {
+      "titulo": "Watercolor Birds",
+      "descripcion": "Four Colombian birds, hand-painted in watercolor and ink."
+    }
+  },
+  "bano-sha": {
+    "titulo": "Baño de Sha",
+    "descripcion": "Un baño que se transforma en jardín, con enredaderas y flores silvestres.",
+    "portada": 2,
+    "en": {
+      "titulo": "Sha's Bathroom",
+      "descripcion": "A bathroom that turns into a garden, with vines and wildflowers."
+    }
   }
 }
