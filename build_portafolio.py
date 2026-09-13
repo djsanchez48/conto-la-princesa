@@ -195,6 +195,8 @@ ANALYTICS = """  <!-- Google tag (gtag.js) -->
       });
     });
   </script>
+  <!-- Vercel Web Analytics (sitio estático, sin bundler: script directo, sin npm) -->
+  <script defer src="/_vercel/insights/script.js"></script>
 """
 
 # ---------- Selección de idioma (auto-detección + preferencia guardada) ----------
