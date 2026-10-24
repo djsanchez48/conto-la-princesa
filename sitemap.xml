@@ -673,6 +673,34 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://contolaprincesa.com/proyecto/las-nieves.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/las-nieves.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/las-nieves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/las-nieves.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/las-nieves.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/las-nieves.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/las-nieves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/las-nieves.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/proyecto/puente.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/puente.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/puente.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/puente.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://contolaprincesa.com/en/proyecto/puente.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/puente.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/puente.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://contolaprincesa.com/proyecto/puente.html" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://contolaprincesa.com/proyecto/pajaros-acuarela.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://contolaprincesa.com/proyecto/pajaros-acuarela.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://contolaprincesa.com/en/proyecto/pajaros-acuarela.html" />

@@ -2601,6 +2601,86 @@
       }
     },
     {
+      "id": "las-nieves",
+      "titulo": "Las Nieves",
+      "categoria": "COM",
+      "descripcion": "Una cordillera nevada al atardecer que recorre la pared de un espacio comercial.",
+      "portada": "img/proyectos/las-nieves/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/las-nieves/1-thumb.jpg",
+          "full": "img/proyectos/las-nieves/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/las-nieves/2-thumb.jpg",
+          "full": "img/proyectos/las-nieves/2.jpg",
+          "w": 1400,
+          "h": 747
+        },
+        {
+          "thumb": "img/proyectos/las-nieves/3-thumb.jpg",
+          "full": "img/proyectos/las-nieves/3.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Las Nieves",
+        "descripcion": "A snow-capped mountain range at sunset running along the wall of a commercial space."
+      }
+    },
+    {
+      "id": "puente",
+      "titulo": "Puente de Brooklyn",
+      "categoria": "COM",
+      "descripcion": "El puente de Brooklyn y el skyline de Nueva York, dibujados a línea sobre la pared.",
+      "portada": "img/proyectos/puente/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/puente/1-thumb.jpg",
+          "full": "img/proyectos/puente/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/puente/2-thumb.jpg",
+          "full": "img/proyectos/puente/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/puente/3-thumb.jpg",
+          "full": "img/proyectos/puente/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/puente/4-thumb.jpg",
+          "full": "img/proyectos/puente/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/puente/5-thumb.jpg",
+          "full": "img/proyectos/puente/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/puente/6-thumb.jpg",
+          "full": "img/proyectos/puente/6.jpg",
+          "w": 647,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Brooklyn Bridge",
+        "descripcion": "The Brooklyn Bridge and the New York skyline, drawn in line art across the walls."
+      }
+    },
+    {
       "id": "pajaros-acuarela",
       "titulo": "Pájaros en acuarela",
       "categoria": "CUA",

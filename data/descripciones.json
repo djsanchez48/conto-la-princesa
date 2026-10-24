@@ -427,5 +427,23 @@
       "titulo": "Sha's Bathroom",
       "descripcion": "A bathroom that turns into a garden, with vines and wildflowers."
     }
+  },
+  "las-nieves": {
+    "titulo": "Las Nieves",
+    "descripcion": "Una cordillera nevada al atardecer que recorre la pared de un espacio comercial.",
+    "portada": 2,
+    "en": {
+      "titulo": "Las Nieves",
+      "descripcion": "A snow-capped mountain range at sunset running along the wall of a commercial space."
+    }
+  },
+  "puente": {
+    "titulo": "Puente de Brooklyn",
+    "descripcion": "El puente de Brooklyn y el skyline de Nueva York, dibujados a línea sobre la pared.",
+    "portada": 1,
+    "en": {
+      "titulo": "Brooklyn Bridge",
+      "descripcion": "The Brooklyn Bridge and the New York skyline, drawn in line art across the walls."
+    }
   }
 }
