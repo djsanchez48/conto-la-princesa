@@ -4274,7 +4274,7 @@ window.PROYECTOS = {
       "titulo": "Safari en aplique",
       "categoria": "APL",
       "descripcion": "Un elefante, una cebra y leones sobre una repisa, recortados en madera.",
-      "portada": "img/proyectos/safari/1-thumb.jpg",
+      "portada": "img/proyectos/safari/3-thumb.jpg",
       "imagenes": [
         {
           "thumb": "img/proyectos/safari/1-thumb.jpg",
@@ -4287,6 +4287,12 @@ window.PROYECTOS = {
           "full": "img/proyectos/safari/2.jpg",
           "w": 1050,
           "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari/3-thumb.jpg",
+          "full": "img/proyectos/safari/3.jpg",
+          "w": 1400,
+          "h": 1050
         }
       ],
       "en": {

@@ -414,13 +414,16 @@ a.tag:hover { border-color: var(--ink); color: var(--ink); transform: translateY
 
 /* ---------- Categorías (home): grid 2x2 con foto + etiqueta ---------- */
 .category-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: clamp(0.8rem, 2vw, 1.2rem);
-  max-width: 640px;
+  --gap: clamp(0.8rem, 2vw, 1.2rem);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap);
+  max-width: 980px;
   margin: 0 auto;
 }
 .category-tile {
+  flex: 0 0 calc((100% - var(--gap)) / 2);
   position: relative;
   display: block;
   aspect-ratio: 1 / 1;
@@ -551,4 +554,7 @@ a.tag:hover { border-color: var(--ink); color: var(--ink); transform: translateY
 
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+@media (min-width: 720px) {
+  .category-tile { flex-basis: calc((100% - 3 * var(--gap)) / 4); }
 }
