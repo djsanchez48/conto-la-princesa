@@ -65,6 +65,13 @@ DESTACADOS = [
     "lamar00",          # Océano
 ]
 
+# Orden manual dentro de una categoría: los slugs listados van primero (en este
+# orden) y el resto de la categoría sigue en su orden normal (alfabético por carpeta).
+ORDEN_EN_CATEGORIA = {
+    "HOG": ["balcon-jaguar", "bano-sha", "sala-rebecca"],
+    "CUA": ["retrato", "pajaros-acuarela", "digital-2"],
+}
+
 # ---------- Textos de interfaz (ES / EN) ----------
 STRINGS = {
     "es": {
@@ -574,6 +581,11 @@ def main():
     dest_set = set(DESTACADOS)
     destacados = [p for slug in DESTACADOS for p in proyectos if p["id"] == slug]
     rest = [p for p in proyectos if p["id"] not in dest_set]
+
+    def pos_manual(p):
+        lista = ORDEN_EN_CATEGORIA.get(p["categoria"], [])
+        return lista.index(p["id"]) if p["id"] in lista else len(lista)
+    rest.sort(key=lambda p: (ORDEN.index(p["categoria"]), pos_manual(p)))  # sort estable
     proyectos = destacados + rest
 
     # La versión en inglés no puede faltar copia: falla fuerte en vez de publicar en blanco/español.

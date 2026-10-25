@@ -3109,183 +3109,28 @@
       }
     },
     {
-      "id": "conejos",
-      "titulo": "Conejitos",
+      "id": "retrato",
+      "titulo": "Retrato",
       "categoria": "CUA",
-      "descripcion": "Dos retratos de un conejo, de frente y de espaldas, en acuarela y lápiz.",
-      "portada": "img/proyectos/conejos/4-thumb.jpg",
+      "descripcion": "Un retrato pintado a espátula de una mujer con suéter a rayas.",
+      "portada": "img/proyectos/retrato/2-thumb.jpg",
       "imagenes": [
         {
-          "thumb": "img/proyectos/conejos/1-thumb.jpg",
-          "full": "img/proyectos/conejos/1.jpg",
+          "thumb": "img/proyectos/retrato/1-thumb.jpg",
+          "full": "img/proyectos/retrato/1.jpg",
           "w": 1050,
           "h": 1400
         },
         {
-          "thumb": "img/proyectos/conejos/2-thumb.jpg",
-          "full": "img/proyectos/conejos/2.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/conejos/3-thumb.jpg",
-          "full": "img/proyectos/conejos/3.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/conejos/4-thumb.jpg",
-          "full": "img/proyectos/conejos/4.jpg",
-          "w": 1120,
+          "thumb": "img/proyectos/retrato/2-thumb.jpg",
+          "full": "img/proyectos/retrato/2.jpg",
+          "w": 787,
           "h": 1400
         }
       ],
       "en": {
-        "titulo": "Little Rabbits",
-        "descripcion": "Two portraits of a rabbit, front and back, in watercolor and pencil."
-      }
-    },
-    {
-      "id": "dig-1",
-      "titulo": "Muelle",
-      "categoria": "CUA",
-      "descripcion": "Una figura frente a un viejo muelle, en una ilustración enmarcada.",
-      "portada": "img/proyectos/dig-1/1-thumb.jpg",
-      "imagenes": [
-        {
-          "thumb": "img/proyectos/dig-1/1-thumb.jpg",
-          "full": "img/proyectos/dig-1/1.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/dig-1/2-thumb.jpg",
-          "full": "img/proyectos/dig-1/2.jpg",
-          "w": 1400,
-          "h": 821
-        }
-      ],
-      "en": {
-        "titulo": "The Pier",
-        "descripcion": "A figure by an old pier, in a framed illustration."
-      }
-    },
-    {
-      "id": "dig-hogar",
-      "titulo": "Ciervo nocturno",
-      "categoria": "CUA",
-      "descripcion": "Una ilustración de un ciervo bajo un cielo de otoño, impresa y enmarcada.",
-      "portada": "img/proyectos/dig-hogar/3-thumb.jpg",
-      "imagenes": [
-        {
-          "thumb": "img/proyectos/dig-hogar/1-thumb.jpg",
-          "full": "img/proyectos/dig-hogar/1.jpg",
-          "w": 1317,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/dig-hogar/2-thumb.jpg",
-          "full": "img/proyectos/dig-hogar/2.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/dig-hogar/3-thumb.jpg",
-          "full": "img/proyectos/dig-hogar/3.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/dig-hogar/4-thumb.jpg",
-          "full": "img/proyectos/dig-hogar/4.jpg",
-          "w": 1124,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/dig-hogar/5-thumb.jpg",
-          "full": "img/proyectos/dig-hogar/5.jpg",
-          "w": 1102,
-          "h": 1400
-        }
-      ],
-      "en": {
-        "titulo": "Night Deer",
-        "descripcion": "An illustration of a deer under an autumn sky, printed and framed."
-      }
-    },
-    {
-      "id": "digital-2",
-      "titulo": "Destellos",
-      "categoria": "CUA",
-      "descripcion": "Una mujer de cabello azul entre luces y una mano que señala, en ilustración enmarcada.",
-      "portada": "img/proyectos/digital-2/1-thumb.jpg",
-      "imagenes": [
-        {
-          "thumb": "img/proyectos/digital-2/1-thumb.jpg",
-          "full": "img/proyectos/digital-2/1.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/digital-2/2-thumb.jpg",
-          "full": "img/proyectos/digital-2/2.jpg",
-          "w": 1400,
-          "h": 1400
-        }
-      ],
-      "en": {
-        "titulo": "Sparkles",
-        "descripcion": "A blue-haired woman among sparkling lights and a pointing hand, in a framed illustration."
-      }
-    },
-    {
-      "id": "jesus",
-      "titulo": "Jesús",
-      "categoria": "CUA",
-      "descripcion": "Un retrato de Jesús pintado a espátula en tonos tierra y blancos.",
-      "portada": "img/proyectos/jesus/2-thumb.jpg",
-      "imagenes": [
-        {
-          "thumb": "img/proyectos/jesus/1-thumb.jpg",
-          "full": "img/proyectos/jesus/1.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/jesus/2-thumb.jpg",
-          "full": "img/proyectos/jesus/2.jpg",
-          "w": 1050,
-          "h": 1400
-        }
-      ],
-      "en": {
-        "titulo": "Jesus",
-        "descripcion": "A portrait of Jesus painted with a palette knife in earthy and white tones."
-      }
-    },
-    {
-      "id": "jocelin",
-      "titulo": "Abstracto en la sala",
-      "categoria": "CUA",
-      "descripcion": "Un cuadro abstracto en blanco, negro y terracota sobre el sofá.",
-      "portada": "img/proyectos/jocelin/2-thumb.jpg",
-      "imagenes": [
-        {
-          "thumb": "img/proyectos/jocelin/1-thumb.jpg",
-          "full": "img/proyectos/jocelin/1.jpg",
-          "w": 1400,
-          "h": 1379
-        },
-        {
-          "thumb": "img/proyectos/jocelin/2-thumb.jpg",
-          "full": "img/proyectos/jocelin/2.jpg",
-          "w": 1400,
-          "h": 1400
-        }
-      ],
-      "en": {
-        "titulo": "Abstract in the Living Room",
-        "descripcion": "An abstract canvas in black, white, and terracotta above the sofa."
+        "titulo": "Portrait",
+        "descripcion": "A palette-knife portrait of a woman in a striped sweater."
       }
     },
     {
@@ -3404,28 +3249,183 @@
       }
     },
     {
-      "id": "retrato",
-      "titulo": "Retrato",
+      "id": "digital-2",
+      "titulo": "Destellos",
       "categoria": "CUA",
-      "descripcion": "Un retrato pintado a espátula de una mujer con suéter a rayas.",
-      "portada": "img/proyectos/retrato/2-thumb.jpg",
+      "descripcion": "Una mujer de cabello azul entre luces y una mano que señala, en ilustración enmarcada.",
+      "portada": "img/proyectos/digital-2/1-thumb.jpg",
       "imagenes": [
         {
-          "thumb": "img/proyectos/retrato/1-thumb.jpg",
-          "full": "img/proyectos/retrato/1.jpg",
+          "thumb": "img/proyectos/digital-2/1-thumb.jpg",
+          "full": "img/proyectos/digital-2/1.jpg",
           "w": 1050,
           "h": 1400
         },
         {
-          "thumb": "img/proyectos/retrato/2-thumb.jpg",
-          "full": "img/proyectos/retrato/2.jpg",
-          "w": 787,
+          "thumb": "img/proyectos/digital-2/2-thumb.jpg",
+          "full": "img/proyectos/digital-2/2.jpg",
+          "w": 1400,
           "h": 1400
         }
       ],
       "en": {
-        "titulo": "Portrait",
-        "descripcion": "A palette-knife portrait of a woman in a striped sweater."
+        "titulo": "Sparkles",
+        "descripcion": "A blue-haired woman among sparkling lights and a pointing hand, in a framed illustration."
+      }
+    },
+    {
+      "id": "conejos",
+      "titulo": "Conejitos",
+      "categoria": "CUA",
+      "descripcion": "Dos retratos de un conejo, de frente y de espaldas, en acuarela y lápiz.",
+      "portada": "img/proyectos/conejos/4-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/conejos/1-thumb.jpg",
+          "full": "img/proyectos/conejos/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/conejos/2-thumb.jpg",
+          "full": "img/proyectos/conejos/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/conejos/3-thumb.jpg",
+          "full": "img/proyectos/conejos/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/conejos/4-thumb.jpg",
+          "full": "img/proyectos/conejos/4.jpg",
+          "w": 1120,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Little Rabbits",
+        "descripcion": "Two portraits of a rabbit, front and back, in watercolor and pencil."
+      }
+    },
+    {
+      "id": "dig-1",
+      "titulo": "Muelle",
+      "categoria": "CUA",
+      "descripcion": "Una figura frente a un viejo muelle, en una ilustración enmarcada.",
+      "portada": "img/proyectos/dig-1/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/dig-1/1-thumb.jpg",
+          "full": "img/proyectos/dig-1/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-1/2-thumb.jpg",
+          "full": "img/proyectos/dig-1/2.jpg",
+          "w": 1400,
+          "h": 821
+        }
+      ],
+      "en": {
+        "titulo": "The Pier",
+        "descripcion": "A figure by an old pier, in a framed illustration."
+      }
+    },
+    {
+      "id": "dig-hogar",
+      "titulo": "Ciervo nocturno",
+      "categoria": "CUA",
+      "descripcion": "Una ilustración de un ciervo bajo un cielo de otoño, impresa y enmarcada.",
+      "portada": "img/proyectos/dig-hogar/3-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/dig-hogar/1-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/1.jpg",
+          "w": 1317,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-hogar/2-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-hogar/3-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-hogar/4-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/4.jpg",
+          "w": 1124,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-hogar/5-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/5.jpg",
+          "w": 1102,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Night Deer",
+        "descripcion": "An illustration of a deer under an autumn sky, printed and framed."
+      }
+    },
+    {
+      "id": "jesus",
+      "titulo": "Jesús",
+      "categoria": "CUA",
+      "descripcion": "Un retrato de Jesús pintado a espátula en tonos tierra y blancos.",
+      "portada": "img/proyectos/jesus/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/jesus/1-thumb.jpg",
+          "full": "img/proyectos/jesus/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/jesus/2-thumb.jpg",
+          "full": "img/proyectos/jesus/2.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Jesus",
+        "descripcion": "A portrait of Jesus painted with a palette knife in earthy and white tones."
+      }
+    },
+    {
+      "id": "jocelin",
+      "titulo": "Abstracto en la sala",
+      "categoria": "CUA",
+      "descripcion": "Un cuadro abstracto en blanco, negro y terracota sobre el sofá.",
+      "portada": "img/proyectos/jocelin/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/jocelin/1-thumb.jpg",
+          "full": "img/proyectos/jocelin/1.jpg",
+          "w": 1400,
+          "h": 1379
+        },
+        {
+          "thumb": "img/proyectos/jocelin/2-thumb.jpg",
+          "full": "img/proyectos/jocelin/2.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Abstract in the Living Room",
+        "descripcion": "An abstract canvas in black, white, and terracotta above the sofa."
       }
     },
     {
@@ -3542,6 +3542,91 @@
       "en": {
         "titulo": "Sha's Bathroom",
         "descripcion": "A bathroom that turns into a garden, with vines and wildflowers."
+      }
+    },
+    {
+      "id": "sala-rebecca",
+      "titulo": "Comedor de Rebecca",
+      "categoria": "HOG",
+      "descripcion": "Un jardín de cerezos, ardillas, patos y pájaros que rodea el comedor.",
+      "portada": "img/proyectos/sala-rebecca/3-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/sala-rebecca/1-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/2-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/3-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/3.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/4-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/5-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/6-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/7-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/8-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/8.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/9-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/9.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/10-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/10.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/11-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/11.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/12-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/12.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Rebecca's Dining Room",
+        "descripcion": "A garden of blossoming trees, squirrels, ducks, and birds surrounding the dining room."
       }
     },
     {
@@ -3776,91 +3861,6 @@
       "en": {
         "titulo": "Colorful Mountains",
         "descripcion": "Mountains in terracotta, teal, and pink behind the sofa, with a green block framing the dining area."
-      }
-    },
-    {
-      "id": "sala-rebecca",
-      "titulo": "Comedor de Rebecca",
-      "categoria": "HOG",
-      "descripcion": "Un jardín de cerezos, ardillas, patos y pájaros que rodea el comedor.",
-      "portada": "img/proyectos/sala-rebecca/3-thumb.jpg",
-      "imagenes": [
-        {
-          "thumb": "img/proyectos/sala-rebecca/1-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/1.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/2-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/2.jpg",
-          "w": 1400,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/3-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/3.jpg",
-          "w": 1400,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/4-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/4.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/5-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/5.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/6-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/6.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/7-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/7.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/8-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/8.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/9-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/9.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/10-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/10.jpg",
-          "w": 1400,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/11-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/11.jpg",
-          "w": 1400,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/sala-rebecca/12-thumb.jpg",
-          "full": "img/proyectos/sala-rebecca/12.jpg",
-          "w": 1400,
-          "h": 1400
-        }
-      ],
-      "en": {
-        "titulo": "Rebecca's Dining Room",
-        "descripcion": "A garden of blossoming trees, squirrels, ducks, and birds surrounding the dining room."
       }
     },
     {
