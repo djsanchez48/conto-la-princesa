@@ -1514,6 +1514,67 @@ window.PROYECTOS = {
       }
     },
     {
+      "id": "dulce-y-tierno",
+      "titulo": "Dulce y tierno",
+      "categoria": "INA",
+      "descripcion": "Un oso, un bulldog, conejitos, un zorro y un unicornio bajo un árbol con columpio, en el cuarto de un bebé.",
+      "portada": "img/proyectos/dulce-y-tierno/3-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/dulce-y-tierno/1-thumb.jpg",
+          "full": "img/proyectos/dulce-y-tierno/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dulce-y-tierno/2-thumb.jpg",
+          "full": "img/proyectos/dulce-y-tierno/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dulce-y-tierno/3-thumb.jpg",
+          "full": "img/proyectos/dulce-y-tierno/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dulce-y-tierno/4-thumb.jpg",
+          "full": "img/proyectos/dulce-y-tierno/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dulce-y-tierno/5-thumb.jpg",
+          "full": "img/proyectos/dulce-y-tierno/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dulce-y-tierno/6-thumb.jpg",
+          "full": "img/proyectos/dulce-y-tierno/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dulce-y-tierno/7-thumb.jpg",
+          "full": "img/proyectos/dulce-y-tierno/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dulce-y-tierno/8-thumb.jpg",
+          "full": "img/proyectos/dulce-y-tierno/8.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Sweet and Tender",
+        "descripcion": "A bear, a bulldog, bunnies, a fox, and a unicorn beneath a tree with a swing, in a baby's nursery."
+      }
+    },
+    {
       "id": "flores-1",
       "titulo": "Flores",
       "categoria": "INA",

@@ -715,5 +715,14 @@
       "titulo": "Mini Sneakers",
       "descripcion": "Kids' sneakers hand-painted with a jaguar, flowers, and a sun."
     }
+  },
+  "dulce-y-tierno": {
+    "titulo": "Dulce y tierno",
+    "descripcion": "Un oso, un bulldog, conejitos, un zorro y un unicornio bajo un árbol con columpio, en el cuarto de un bebé.",
+    "portada": 3,
+    "en": {
+      "titulo": "Sweet and Tender",
+      "descripcion": "A bear, a bulldog, bunnies, a fox, and a unicorn beneath a tree with a swing, in a baby's nursery."
+    }
   }
 }
