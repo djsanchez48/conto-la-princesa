@@ -202,8 +202,11 @@
     </section>
 
     <!-- ================= INSTAGRAM FEED ================= -->
-    <section class="section section--alt" id="instagram">
+    <section class="section" id="instagram">
       <div class="container center stack">
+        <p class="eyebrow">Instagram</p>
+        <h2>Del taller a tu pared</h2>
+        <p class="lead" style="margin-inline:auto;">Así se ve el día a día de cada mural, en <a href="https://www.instagram.com/juliana__betancur" target="_blank" rel="noopener" style="text-decoration:underline;">@juliana__betancur</a>.</p>
         <div style="width:100%;">
           <behold-widget feed-id="2m2G0uw8AebRtR9znDNQ"></behold-widget>
           <script>
@@ -232,6 +235,43 @@
         </div>
         <div style="margin-top:1.6rem;">
           <a class="btn btn--ghost" href="https://www.instagram.com/juliana__betancur" target="_blank" rel="noopener">Ver en Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= RESEÑAS GOOGLE ================= -->
+    <section class="section section--alt" id="resenas">
+      <div class="container center stack">
+        <p class="eyebrow">Reseñas</p>
+        <h2>Lo que dicen las familias</h2>
+        <p class="lead" style="margin-inline:auto;">Opiniones reales de nuestros clientes en Google.</p>
+        <div style="width:100%; margin-top:1.4rem;">
+          <div id="featurable-059e8d39-52ee-495f-8441-5e929c2a4e54" data-featurable-async data-location-code="es"></div>
+          <script>
+            (() => {
+              // Oculta la sección si el widget no carga (script bloqueado o sin contenido).
+              const sec = document.getElementById("resenas");
+              const hide = () => { if (sec) sec.style.display = "none"; };
+              const s = document.createElement("script");
+              s.src = "https://featurable.com/assets/bundle.js"; s.defer = true; s.charset = "UTF-8";
+              s.onerror = hide;
+              document.head.append(s);
+              // Oculta el título interno del widget (la sección ya tiene su propio h2).
+              const trim = setInterval(() => {
+                const sr = document.querySelector("#featurable-059e8d39-52ee-495f-8441-5e929c2a4e54 .shadow-wrapper")?.shadowRoot;
+                if (!sr) return;
+                clearInterval(trim);
+                const st = document.createElement("style");
+                st.textContent = ".widget__title-container{display:none!important}";
+                sr.append(st);
+              }, 300);
+              setTimeout(() => clearInterval(trim), 15000);
+              setTimeout(() => {
+                const box = document.getElementById("featurable-059e8d39-52ee-495f-8441-5e929c2a4e54");
+                if (box && box.offsetHeight < 20) hide();
+              }, 12000);
+            })();
+          </script>
         </div>
       </div>
     </section>
