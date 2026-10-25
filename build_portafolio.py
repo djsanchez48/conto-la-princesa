@@ -104,6 +104,7 @@ STRINGS = {
         "proyecto_title_suffix": "Mural {cat}",
         "proyecto_desc_suffix": f"Un mural que pinté a mano. {BRAND}.",
         "wa_home_msg": "Hola Juliana, vi tu portafolio y quiero un mural para mi espacio.",
+        "wa_float_aria": "Escríbenos por WhatsApp",
         "wa_mural_msg": 'Hola Juliana, me encanta el mural "{titulo}". Quiero uno así.',
     },
     "en": {
@@ -136,6 +137,7 @@ STRINGS = {
         "proyecto_title_suffix": "{cat} Mural",
         "proyecto_desc_suffix": f"A mural I hand-painted. {BRAND}.",
         "wa_home_msg": "Hi Juliana, I saw your portfolio and I'd love a mural for my space.",
+        "wa_float_aria": "Chat with us on WhatsApp",
         "wa_mural_msg": 'Hi Juliana, I love the "{titulo}" mural. I\'d like one like that.',
     },
 }
@@ -305,7 +307,20 @@ def header(asset_base="", nav_base="", active="", lang="es", alt_href=""):
 """
 
 
-def footer(asset_base="", lang="es"):
+WA_ICON = ('<svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">'
+           '<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>')
+
+
+def wa_float(lang="es", mensaje=None):
+    """Botón flotante de WhatsApp (fijo abajo a la derecha, en todas las páginas)."""
+    S = STRINGS[lang]
+    href = esc(wa_link(mensaje or S["wa_home_msg"]))
+    aria = esc(S["wa_float_aria"])
+    return (f'  <a class="wa-float" href="{href}" target="_blank" rel="noopener" aria-label="{aria}" title="{aria}">'
+            + WA_ICON.format(size=30) + '</a>\n')
+
+
+def footer(asset_base="", lang="es", wa_msg=None):
     S = STRINGS[lang]
     wa = esc(wa_link(S["wa_home_msg"]))
     return f"""  <footer class="site-footer">
@@ -327,7 +342,7 @@ def footer(asset_base="", lang="es"):
   </footer>
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
   <script src="{asset_base}js/main.js"></script>
-"""
+""" + wa_float(lang, wa_msg)
 
 
 def jsonld(obj):
@@ -498,7 +513,7 @@ def render_proyecto(p, relacionados, lang="es"):
     </section>
 {rel_html}  </main>
 """
-            + footer(asset_base=asset_base, lang=lang)
+            + footer(asset_base=asset_base, lang=lang, wa_msg=wa_msg)
             + f"""  <div class="lightbox" id="lightbox" data-open="false" role="dialog" aria-modal="true" aria-label="{esc(S['lightbox_aria'])}">
     <button class="lightbox__btn lightbox__close" aria-label="{esc(S['lightbox_close'])}">&times;</button>
     <button class="lightbox__btn lightbox__prev" aria-label="{esc(S['lightbox_prev'])}">&#8249;</button>
