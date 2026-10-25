@@ -1862,6 +1862,49 @@ window.PROYECTOS = {
       }
     },
     {
+      "id": "pradera",
+      "titulo": "Pradera",
+      "categoria": "INA",
+      "descripcion": "Montañas rosadas, colinas verdes y nubes suaves en una habitación.",
+      "portada": "img/proyectos/pradera/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/pradera/1-thumb.jpg",
+          "full": "img/proyectos/pradera/1.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/pradera/2-thumb.jpg",
+          "full": "img/proyectos/pradera/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pradera/3-thumb.jpg",
+          "full": "img/proyectos/pradera/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pradera/4-thumb.jpg",
+          "full": "img/proyectos/pradera/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/pradera/5-thumb.jpg",
+          "full": "img/proyectos/pradera/5.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Meadow",
+        "descripcion": "Pink mountains, green hills, and soft clouds in a bedroom."
+      }
+    },
+    {
       "id": "safari06",
       "titulo": "Selva",
       "categoria": "INA",
@@ -2272,6 +2315,61 @@ window.PROYECTOS = {
       }
     },
     {
+      "id": "mini-tenis",
+      "titulo": "Mini tenis",
+      "categoria": "INF",
+      "descripcion": "Tenis infantiles pintados a mano con un jaguar, flores y un sol.",
+      "portada": "img/proyectos/mini-tenis/6-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/mini-tenis/1-thumb.jpg",
+          "full": "img/proyectos/mini-tenis/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/mini-tenis/2-thumb.jpg",
+          "full": "img/proyectos/mini-tenis/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/mini-tenis/3-thumb.jpg",
+          "full": "img/proyectos/mini-tenis/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/mini-tenis/4-thumb.jpg",
+          "full": "img/proyectos/mini-tenis/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/mini-tenis/5-thumb.jpg",
+          "full": "img/proyectos/mini-tenis/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/mini-tenis/6-thumb.jpg",
+          "full": "img/proyectos/mini-tenis/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/mini-tenis/7-thumb.jpg",
+          "full": "img/proyectos/mini-tenis/7.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Mini Sneakers",
+        "descripcion": "Kids' sneakers hand-painted with a jaguar, flowers, and a sun."
+      }
+    },
+    {
       "id": "pop-dino-y-princesa",
       "titulo": "Dino y princesa",
       "categoria": "INF",
@@ -2602,6 +2700,250 @@ window.PROYECTOS = {
       }
     },
     {
+      "id": "bigotes",
+      "titulo": "Bigotes",
+      "categoria": "COM",
+      "descripcion": "Un hombre de bigote y barba cuya barba se vuelve ciudad: castillos, una ballena con globos y el Big Ben, todo en tinta negra.",
+      "portada": "img/proyectos/bigotes/6-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/bigotes/1-thumb.jpg",
+          "full": "img/proyectos/bigotes/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bigotes/2-thumb.jpg",
+          "full": "img/proyectos/bigotes/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bigotes/3-thumb.jpg",
+          "full": "img/proyectos/bigotes/3.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bigotes/4-thumb.jpg",
+          "full": "img/proyectos/bigotes/4.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bigotes/5-thumb.jpg",
+          "full": "img/proyectos/bigotes/5.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bigotes/6-thumb.jpg",
+          "full": "img/proyectos/bigotes/6.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bigotes/7-thumb.jpg",
+          "full": "img/proyectos/bigotes/7.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "The Mustache",
+        "descripcion": "A mustached man whose beard turns into a city: castles, a whale with balloons, and Big Ben, all in black ink."
+      }
+    },
+    {
+      "id": "figurella",
+      "titulo": "Figurella",
+      "categoria": "COM",
+      "descripcion": "Un mural floral en turquesa, coral y mostaza con una figura en línea, pintado para la recepción de Figurella.",
+      "portada": "img/proyectos/figurella/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/figurella/1-thumb.jpg",
+          "full": "img/proyectos/figurella/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/2-thumb.jpg",
+          "full": "img/proyectos/figurella/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/3-thumb.jpg",
+          "full": "img/proyectos/figurella/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/4-thumb.jpg",
+          "full": "img/proyectos/figurella/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/5-thumb.jpg",
+          "full": "img/proyectos/figurella/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/6-thumb.jpg",
+          "full": "img/proyectos/figurella/6.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/7-thumb.jpg",
+          "full": "img/proyectos/figurella/7.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/8-thumb.jpg",
+          "full": "img/proyectos/figurella/8.jpg",
+          "w": 787,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/9-thumb.jpg",
+          "full": "img/proyectos/figurella/9.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/figurella/10-thumb.jpg",
+          "full": "img/proyectos/figurella/10.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/figurella/11-thumb.jpg",
+          "full": "img/proyectos/figurella/11.jpg",
+          "w": 1048,
+          "h": 786
+        }
+      ],
+      "en": {
+        "titulo": "Figurella",
+        "descripcion": "A floral mural in turquoise, coral, and mustard with a line-art figure, painted for the Figurella reception."
+      }
+    },
+    {
+      "id": "juan-jose-1",
+      "titulo": "Cosmos en tinta",
+      "categoria": "COM",
+      "descripcion": "Un astronauta, una ballena y un submarino flotando entre ríos de tinta negra.",
+      "portada": "img/proyectos/juan-jose-1/4-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/juan-jose-1/1-thumb.jpg",
+          "full": "img/proyectos/juan-jose-1/1.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/juan-jose-1/2-thumb.jpg",
+          "full": "img/proyectos/juan-jose-1/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juan-jose-1/3-thumb.jpg",
+          "full": "img/proyectos/juan-jose-1/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juan-jose-1/4-thumb.jpg",
+          "full": "img/proyectos/juan-jose-1/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juan-jose-1/5-thumb.jpg",
+          "full": "img/proyectos/juan-jose-1/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juan-jose-1/6-thumb.jpg",
+          "full": "img/proyectos/juan-jose-1/6.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Cosmos in Ink",
+        "descripcion": "An astronaut, a whale, and a submarine floating among rivers of black ink."
+      }
+    },
+    {
+      "id": "juanjo-estudio2",
+      "titulo": "Estudio de música",
+      "categoria": "COM",
+      "descripcion": "Formas orgánicas en terracota, mostaza y verde que rodean un estudio con guitarras.",
+      "portada": "img/proyectos/juanjo-estudio2/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/juanjo-estudio2/1-thumb.jpg",
+          "full": "img/proyectos/juanjo-estudio2/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juanjo-estudio2/2-thumb.jpg",
+          "full": "img/proyectos/juanjo-estudio2/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juanjo-estudio2/3-thumb.jpg",
+          "full": "img/proyectos/juanjo-estudio2/3.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juanjo-estudio2/4-thumb.jpg",
+          "full": "img/proyectos/juanjo-estudio2/4.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juanjo-estudio2/5-thumb.jpg",
+          "full": "img/proyectos/juanjo-estudio2/5.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juanjo-estudio2/6-thumb.jpg",
+          "full": "img/proyectos/juanjo-estudio2/6.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juanjo-estudio2/7-thumb.jpg",
+          "full": "img/proyectos/juanjo-estudio2/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/juanjo-estudio2/8-thumb.jpg",
+          "full": "img/proyectos/juanjo-estudio2/8.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Music Studio",
+        "descripcion": "Organic shapes in terracotta, mustard, and green wrapping around a studio with guitars."
+      }
+    },
+    {
       "id": "las-nieves",
       "titulo": "Las Nieves",
       "categoria": "COM",
@@ -2630,6 +2972,61 @@ window.PROYECTOS = {
       "en": {
         "titulo": "Las Nieves",
         "descripcion": "A snow-capped mountain range at sunset running along the wall of a commercial space."
+      }
+    },
+    {
+      "id": "marquitos",
+      "titulo": "Marquitos",
+      "categoria": "COM",
+      "descripcion": "Un busto clásico en tinta negra, con cintas naranjas que atraviesan la sala.",
+      "portada": "img/proyectos/marquitos/3-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/marquitos/1-thumb.jpg",
+          "full": "img/proyectos/marquitos/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/marquitos/2-thumb.jpg",
+          "full": "img/proyectos/marquitos/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/marquitos/3-thumb.jpg",
+          "full": "img/proyectos/marquitos/3.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/marquitos/4-thumb.jpg",
+          "full": "img/proyectos/marquitos/4.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/marquitos/5-thumb.jpg",
+          "full": "img/proyectos/marquitos/5.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/marquitos/6-thumb.jpg",
+          "full": "img/proyectos/marquitos/6.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/marquitos/7-thumb.jpg",
+          "full": "img/proyectos/marquitos/7.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Marquitos",
+        "descripcion": "A classical bust in black ink, with orange ribbons sweeping across the living room."
       }
     },
     {
@@ -2679,6 +3076,217 @@ window.PROYECTOS = {
       "en": {
         "titulo": "Brooklyn Bridge",
         "descripcion": "The Brooklyn Bridge and the New York skyline, drawn in line art across the walls."
+      }
+    },
+    {
+      "id": "sirius",
+      "titulo": "Sirius",
+      "categoria": "COM",
+      "descripcion": "Islas flotantes con plantas, aves y corales sobre un fondo de agua, de punta a punta de la pared.",
+      "portada": "img/proyectos/sirius/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/sirius/1-thumb.jpg",
+          "full": "img/proyectos/sirius/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sirius/2-thumb.jpg",
+          "full": "img/proyectos/sirius/2.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/sirius/3-thumb.jpg",
+          "full": "img/proyectos/sirius/3.jpg",
+          "w": 1400,
+          "h": 940
+        }
+      ],
+      "en": {
+        "titulo": "Sirius",
+        "descripcion": "Floating islands with plants, birds, and coral over a watery backdrop, spanning the whole wall."
+      }
+    },
+    {
+      "id": "conejos",
+      "titulo": "Conejitos",
+      "categoria": "CUA",
+      "descripcion": "Dos retratos de un conejo, de frente y de espaldas, en acuarela y lápiz.",
+      "portada": "img/proyectos/conejos/4-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/conejos/1-thumb.jpg",
+          "full": "img/proyectos/conejos/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/conejos/2-thumb.jpg",
+          "full": "img/proyectos/conejos/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/conejos/3-thumb.jpg",
+          "full": "img/proyectos/conejos/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/conejos/4-thumb.jpg",
+          "full": "img/proyectos/conejos/4.jpg",
+          "w": 1120,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Little Rabbits",
+        "descripcion": "Two portraits of a rabbit, front and back, in watercolor and pencil."
+      }
+    },
+    {
+      "id": "dig-1",
+      "titulo": "Muelle",
+      "categoria": "CUA",
+      "descripcion": "Una figura frente a un viejo muelle, en una ilustración enmarcada.",
+      "portada": "img/proyectos/dig-1/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/dig-1/1-thumb.jpg",
+          "full": "img/proyectos/dig-1/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-1/2-thumb.jpg",
+          "full": "img/proyectos/dig-1/2.jpg",
+          "w": 1400,
+          "h": 821
+        }
+      ],
+      "en": {
+        "titulo": "The Pier",
+        "descripcion": "A figure by an old pier, in a framed illustration."
+      }
+    },
+    {
+      "id": "dig-hogar",
+      "titulo": "Ciervo nocturno",
+      "categoria": "CUA",
+      "descripcion": "Una ilustración de un ciervo bajo un cielo de otoño, impresa y enmarcada.",
+      "portada": "img/proyectos/dig-hogar/3-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/dig-hogar/1-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/1.jpg",
+          "w": 1317,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-hogar/2-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-hogar/3-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-hogar/4-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/4.jpg",
+          "w": 1124,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dig-hogar/5-thumb.jpg",
+          "full": "img/proyectos/dig-hogar/5.jpg",
+          "w": 1102,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Night Deer",
+        "descripcion": "An illustration of a deer under an autumn sky, printed and framed."
+      }
+    },
+    {
+      "id": "digital-2",
+      "titulo": "Destellos",
+      "categoria": "CUA",
+      "descripcion": "Una mujer de cabello azul entre luces y una mano que señala, en ilustración enmarcada.",
+      "portada": "img/proyectos/digital-2/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/digital-2/1-thumb.jpg",
+          "full": "img/proyectos/digital-2/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/digital-2/2-thumb.jpg",
+          "full": "img/proyectos/digital-2/2.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Sparkles",
+        "descripcion": "A blue-haired woman among sparkling lights and a pointing hand, in a framed illustration."
+      }
+    },
+    {
+      "id": "jesus",
+      "titulo": "Jesús",
+      "categoria": "CUA",
+      "descripcion": "Un retrato de Jesús pintado a espátula en tonos tierra y blancos.",
+      "portada": "img/proyectos/jesus/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/jesus/1-thumb.jpg",
+          "full": "img/proyectos/jesus/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/jesus/2-thumb.jpg",
+          "full": "img/proyectos/jesus/2.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Jesus",
+        "descripcion": "A portrait of Jesus painted with a palette knife in earthy and white tones."
+      }
+    },
+    {
+      "id": "jocelin",
+      "titulo": "Abstracto en la sala",
+      "categoria": "CUA",
+      "descripcion": "Un cuadro abstracto en blanco, negro y terracota sobre el sofá.",
+      "portada": "img/proyectos/jocelin/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/jocelin/1-thumb.jpg",
+          "full": "img/proyectos/jocelin/1.jpg",
+          "w": 1400,
+          "h": 1379
+        },
+        {
+          "thumb": "img/proyectos/jocelin/2-thumb.jpg",
+          "full": "img/proyectos/jocelin/2.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Abstract in the Living Room",
+        "descripcion": "An abstract canvas in black, white, and terracotta above the sofa."
       }
     },
     {
@@ -2797,6 +3405,92 @@ window.PROYECTOS = {
       }
     },
     {
+      "id": "retrato",
+      "titulo": "Retrato",
+      "categoria": "CUA",
+      "descripcion": "Un retrato pintado a espátula de una mujer con suéter a rayas.",
+      "portada": "img/proyectos/retrato/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/retrato/1-thumb.jpg",
+          "full": "img/proyectos/retrato/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/retrato/2-thumb.jpg",
+          "full": "img/proyectos/retrato/2.jpg",
+          "w": 787,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Portrait",
+        "descripcion": "A palette-knife portrait of a woman in a striped sweater."
+      }
+    },
+    {
+      "id": "balcon-jaguar",
+      "titulo": "Balcón del jaguar",
+      "categoria": "HOG",
+      "descripcion": "Un felino entre hojas de monstera y palmas, pintado en la pared de un balcón.",
+      "portada": "img/proyectos/balcon-jaguar/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/balcon-jaguar/1-thumb.jpg",
+          "full": "img/proyectos/balcon-jaguar/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/balcon-jaguar/2-thumb.jpg",
+          "full": "img/proyectos/balcon-jaguar/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/balcon-jaguar/3-thumb.jpg",
+          "full": "img/proyectos/balcon-jaguar/3.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/balcon-jaguar/4-thumb.jpg",
+          "full": "img/proyectos/balcon-jaguar/4.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/balcon-jaguar/5-thumb.jpg",
+          "full": "img/proyectos/balcon-jaguar/5.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/balcon-jaguar/6-thumb.jpg",
+          "full": "img/proyectos/balcon-jaguar/6.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/balcon-jaguar/7-thumb.jpg",
+          "full": "img/proyectos/balcon-jaguar/7.jpg",
+          "w": 1170,
+          "h": 1170
+        },
+        {
+          "thumb": "img/proyectos/balcon-jaguar/8-thumb.jpg",
+          "full": "img/proyectos/balcon-jaguar/8.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Jaguar Balcony",
+        "descripcion": "A big cat among monstera leaves and palms, painted on a balcony wall."
+      }
+    },
+    {
       "id": "bano-sha",
       "titulo": "Baño de Sha",
       "categoria": "HOG",
@@ -2849,6 +3543,534 @@ window.PROYECTOS = {
       "en": {
         "titulo": "Sha's Bathroom",
         "descripcion": "A bathroom that turns into a garden, with vines and wildflowers."
+      }
+    },
+    {
+      "id": "cocina-papayas",
+      "titulo": "Cocina de papayas",
+      "categoria": "HOG",
+      "descripcion": "Papayas y hojas pintadas a mano sobre los muebles coral de una cocina.",
+      "portada": "img/proyectos/cocina-papayas/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/cocina-papayas/1-thumb.jpg",
+          "full": "img/proyectos/cocina-papayas/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cocina-papayas/2-thumb.jpg",
+          "full": "img/proyectos/cocina-papayas/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/cocina-papayas/3-thumb.jpg",
+          "full": "img/proyectos/cocina-papayas/3.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Papaya Kitchen",
+        "descripcion": "Papayas and leaves hand-painted across the coral cabinets of a kitchen."
+      }
+    },
+    {
+      "id": "lineas-habitacion",
+      "titulo": "Golondrinas y casa del árbol",
+      "categoria": "HOG",
+      "descripcion": "Golondrinas, grullas de papel y una casa del árbol sobre un libro, dibujadas en línea negra sobre la cama.",
+      "portada": "img/proyectos/lineas-habitacion/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/lineas-habitacion/1-thumb.jpg",
+          "full": "img/proyectos/lineas-habitacion/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/lineas-habitacion/2-thumb.jpg",
+          "full": "img/proyectos/lineas-habitacion/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/lineas-habitacion/3-thumb.jpg",
+          "full": "img/proyectos/lineas-habitacion/3.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/lineas-habitacion/4-thumb.jpg",
+          "full": "img/proyectos/lineas-habitacion/4.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/lineas-habitacion/5-thumb.jpg",
+          "full": "img/proyectos/lineas-habitacion/5.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Swallows and Treehouse",
+        "descripcion": "Swallows, paper cranes, and a treehouse on a book, drawn in black line above the bed."
+      }
+    },
+    {
+      "id": "lineas-comedor",
+      "titulo": "Líneas del comedor",
+      "categoria": "HOG",
+      "descripcion": "Una línea negra que fluye por la pared y se enmarca en un cuadro, sobre un comedor blanco.",
+      "portada": "img/proyectos/lineas-comedor/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/lineas-comedor/1-thumb.jpg",
+          "full": "img/proyectos/lineas-comedor/1.jpg",
+          "w": 1280,
+          "h": 1280
+        },
+        {
+          "thumb": "img/proyectos/lineas-comedor/2-thumb.jpg",
+          "full": "img/proyectos/lineas-comedor/2.jpg",
+          "w": 1280,
+          "h": 1280
+        }
+      ],
+      "en": {
+        "titulo": "Dining Room Lines",
+        "descripcion": "A black line flowing across the wall and into a frame, above a white dining room."
+      }
+    },
+    {
+      "id": "madre",
+      "titulo": "Grullas y cerezos",
+      "categoria": "HOG",
+      "descripcion": "Grullas en vuelo, un cerezo en flor y un lago tranquilo detrás de la cama.",
+      "portada": "img/proyectos/madre/3-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/madre/1-thumb.jpg",
+          "full": "img/proyectos/madre/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/madre/2-thumb.jpg",
+          "full": "img/proyectos/madre/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/madre/3-thumb.jpg",
+          "full": "img/proyectos/madre/3.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/madre/4-thumb.jpg",
+          "full": "img/proyectos/madre/4.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/madre/5-thumb.jpg",
+          "full": "img/proyectos/madre/5.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/madre/6-thumb.jpg",
+          "full": "img/proyectos/madre/6.jpg",
+          "w": 933,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Cranes and Blossoms",
+        "descripcion": "Cranes in flight, a cherry tree in bloom, and a calm lake behind the bed."
+      }
+    },
+    {
+      "id": "paisaje-habitacion",
+      "titulo": "Estanque de patos",
+      "categoria": "HOG",
+      "descripcion": "Un árbol dorado, un estanque con patos y flores silvestres alrededor de la cama.",
+      "portada": "img/proyectos/paisaje-habitacion/3-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/paisaje-habitacion/1-thumb.jpg",
+          "full": "img/proyectos/paisaje-habitacion/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/paisaje-habitacion/2-thumb.jpg",
+          "full": "img/proyectos/paisaje-habitacion/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/paisaje-habitacion/3-thumb.jpg",
+          "full": "img/proyectos/paisaje-habitacion/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/paisaje-habitacion/4-thumb.jpg",
+          "full": "img/proyectos/paisaje-habitacion/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/paisaje-habitacion/5-thumb.jpg",
+          "full": "img/proyectos/paisaje-habitacion/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/paisaje-habitacion/6-thumb.jpg",
+          "full": "img/proyectos/paisaje-habitacion/6.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Duck Pond",
+        "descripcion": "A golden tree, a pond with ducks, and wildflowers around the bed."
+      }
+    },
+    {
+      "id": "sala-casa",
+      "titulo": "Montañas de colores",
+      "categoria": "HOG",
+      "descripcion": "Montañas en terracota, turquesa y rosa detrás del sofá, con un bloque verde que enmarca el comedor.",
+      "portada": "img/proyectos/sala-casa/4-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/sala-casa/1-thumb.jpg",
+          "full": "img/proyectos/sala-casa/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-casa/2-thumb.jpg",
+          "full": "img/proyectos/sala-casa/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-casa/3-thumb.jpg",
+          "full": "img/proyectos/sala-casa/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-casa/4-thumb.jpg",
+          "full": "img/proyectos/sala-casa/4.jpg",
+          "w": 1400,
+          "h": 1050
+        }
+      ],
+      "en": {
+        "titulo": "Colorful Mountains",
+        "descripcion": "Mountains in terracotta, teal, and pink behind the sofa, with a green block framing the dining area."
+      }
+    },
+    {
+      "id": "sala-rebecca",
+      "titulo": "Comedor de Rebecca",
+      "categoria": "HOG",
+      "descripcion": "Un jardín de cerezos, ardillas, patos y pájaros que rodea el comedor.",
+      "portada": "img/proyectos/sala-rebecca/3-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/sala-rebecca/1-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/2-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/3-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/3.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/4-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/5-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/6-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/7-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/8-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/8.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/9-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/9.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/10-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/10.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/11-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/11.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-rebecca/12-thumb.jpg",
+          "full": "img/proyectos/sala-rebecca/12.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Rebecca's Dining Room",
+        "descripcion": "A garden of blossoming trees, squirrels, ducks, and birds surrounding the dining room."
+      }
+    },
+    {
+      "id": "sala-sara",
+      "titulo": "Sala de Sara",
+      "categoria": "HOG",
+      "descripcion": "Un bosque en tonos tierra, suave como un recuerdo, detrás del comedor.",
+      "portada": "img/proyectos/sala-sara/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/sala-sara/1-thumb.jpg",
+          "full": "img/proyectos/sala-sara/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-sara/2-thumb.jpg",
+          "full": "img/proyectos/sala-sara/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/sala-sara/3-thumb.jpg",
+          "full": "img/proyectos/sala-sara/3.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Sara's Living Room",
+        "descripcion": "A forest in earth tones, soft as a memory, behind the dining table."
+      }
+    },
+    {
+      "id": "astronautas",
+      "titulo": "Astronautas en aplique",
+      "categoria": "APL",
+      "descripcion": "Astronautas, cohetes, planetas y estrellas recortados en madera y pintados a mano.",
+      "portada": "img/proyectos/astronautas/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/astronautas/1-thumb.jpg",
+          "full": "img/proyectos/astronautas/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/astronautas/2-thumb.jpg",
+          "full": "img/proyectos/astronautas/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/astronautas/3-thumb.jpg",
+          "full": "img/proyectos/astronautas/3.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Astronauts in Appliqué",
+        "descripcion": "Astronauts, rockets, planets, and stars cut from wood and hand-painted."
+      }
+    },
+    {
+      "id": "aviones-vintage",
+      "titulo": "Aviones vintage",
+      "categoria": "APL",
+      "descripcion": "Avionetas, un dirigible, un helicóptero y un globo en azul y dorado, pintados a mano sobre madera.",
+      "portada": "img/proyectos/aviones-vintage/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/aviones-vintage/1-thumb.jpg",
+          "full": "img/proyectos/aviones-vintage/1.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones-vintage/2-thumb.jpg",
+          "full": "img/proyectos/aviones-vintage/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones-vintage/3-thumb.jpg",
+          "full": "img/proyectos/aviones-vintage/3.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones-vintage/4-thumb.jpg",
+          "full": "img/proyectos/aviones-vintage/4.jpg",
+          "w": 1120,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones-vintage/5-thumb.jpg",
+          "full": "img/proyectos/aviones-vintage/5.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones-vintage/6-thumb.jpg",
+          "full": "img/proyectos/aviones-vintage/6.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Vintage Planes",
+        "descripcion": "Biplanes, a blimp, a helicopter, and a hot-air balloon in blue and gold, hand-painted on wood."
+      }
+    },
+    {
+      "id": "aviones2",
+      "titulo": "Aviones y globos",
+      "categoria": "APL",
+      "descripcion": "Un globo, un dirigible y avionetas en tonos menta y arena, sobre una montaña pintada.",
+      "portada": "img/proyectos/aviones2/5-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/aviones2/1-thumb.jpg",
+          "full": "img/proyectos/aviones2/1.jpg",
+          "w": 933,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones2/2-thumb.jpg",
+          "full": "img/proyectos/aviones2/2.jpg",
+          "w": 1120,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones2/3-thumb.jpg",
+          "full": "img/proyectos/aviones2/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones2/4-thumb.jpg",
+          "full": "img/proyectos/aviones2/4.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/aviones2/5-thumb.jpg",
+          "full": "img/proyectos/aviones2/5.jpg",
+          "w": 1400,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Planes and Balloons",
+        "descripcion": "A hot-air balloon, a blimp, and biplanes in mint and sand tones, over a painted mountain range."
+      }
+    },
+    {
+      "id": "bosque",
+      "titulo": "Animalitos del bosque",
+      "categoria": "APL",
+      "descripcion": "Capibaras, una ardilla, un erizo, un conejo, un búho y pajaritos, recortados en madera.",
+      "portada": "img/proyectos/bosque/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/bosque/1-thumb.jpg",
+          "full": "img/proyectos/bosque/1.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/bosque/2-thumb.jpg",
+          "full": "img/proyectos/bosque/2.jpg",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bosque/3-thumb.jpg",
+          "full": "img/proyectos/bosque/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bosque/4-thumb.jpg",
+          "full": "img/proyectos/bosque/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bosque/5-thumb.jpg",
+          "full": "img/proyectos/bosque/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bosque/6-thumb.jpg",
+          "full": "img/proyectos/bosque/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/bosque/7-thumb.jpg",
+          "full": "img/proyectos/bosque/7.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Forest Critters",
+        "descripcion": "Capybaras, a squirrel, a hedgehog, a rabbit, an owl, and little birds, cut from wood."
       }
     },
     {
@@ -2947,6 +4169,68 @@ window.PROYECTOS = {
       "en": {
         "titulo": "Farm",
         "descripcion": "Farm animals and tractors, in appliqué."
+      }
+    },
+    {
+      "id": "jaguar",
+      "titulo": "Familia de jaguares",
+      "categoria": "APL",
+      "descripcion": "Una jaguar con sus cachorros y un guacamayo entre hojas tropicales y mariposas.",
+      "portada": "img/proyectos/jaguar/4-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/jaguar/1-thumb.jpg",
+          "full": "img/proyectos/jaguar/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/jaguar/2-thumb.jpg",
+          "full": "img/proyectos/jaguar/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/jaguar/3-thumb.jpg",
+          "full": "img/proyectos/jaguar/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/jaguar/4-thumb.jpg",
+          "full": "img/proyectos/jaguar/4.jpg",
+          "w": 1400,
+          "h": 787
+        }
+      ],
+      "en": {
+        "titulo": "Jaguar Family",
+        "descripcion": "A jaguar with her cubs and a macaw among tropical leaves and butterflies."
+      }
+    },
+    {
+      "id": "safari",
+      "titulo": "Safari en aplique",
+      "categoria": "APL",
+      "descripcion": "Un elefante, una cebra y leones sobre una repisa, recortados en madera.",
+      "portada": "img/proyectos/safari/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/safari/1-thumb.jpg",
+          "full": "img/proyectos/safari/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/safari/2-thumb.jpg",
+          "full": "img/proyectos/safari/2.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Safari in Appliqué",
+        "descripcion": "An elephant, a zebra, and lions on a shelf, cut from wood."
       }
     },
     {

@@ -445,5 +445,275 @@
       "titulo": "Brooklyn Bridge",
       "descripcion": "The Brooklyn Bridge and the New York skyline, drawn in line art across the walls."
     }
+  },
+  "astronautas": {
+    "titulo": "Astronautas en aplique",
+    "descripcion": "Astronautas, cohetes, planetas y estrellas recortados en madera y pintados a mano.",
+    "portada": 1,
+    "en": {
+      "titulo": "Astronauts in Appliqué",
+      "descripcion": "Astronauts, rockets, planets, and stars cut from wood and hand-painted."
+    }
+  },
+  "aviones2": {
+    "titulo": "Aviones y globos",
+    "descripcion": "Un globo, un dirigible y avionetas en tonos menta y arena, sobre una montaña pintada.",
+    "portada": 5,
+    "en": {
+      "titulo": "Planes and Balloons",
+      "descripcion": "A hot-air balloon, a blimp, and biplanes in mint and sand tones, over a painted mountain range."
+    }
+  },
+  "aviones-vintage": {
+    "titulo": "Aviones vintage",
+    "descripcion": "Avionetas, un dirigible, un helicóptero y un globo en azul y dorado, pintados a mano sobre madera.",
+    "portada": 1,
+    "en": {
+      "titulo": "Vintage Planes",
+      "descripcion": "Biplanes, a blimp, a helicopter, and a hot-air balloon in blue and gold, hand-painted on wood."
+    }
+  },
+  "bosque": {
+    "titulo": "Animalitos del bosque",
+    "descripcion": "Capibaras, una ardilla, un erizo, un conejo, un búho y pajaritos, recortados en madera.",
+    "portada": 1,
+    "en": {
+      "titulo": "Forest Critters",
+      "descripcion": "Capybaras, a squirrel, a hedgehog, a rabbit, an owl, and little birds, cut from wood."
+    }
+  },
+  "jaguar": {
+    "titulo": "Familia de jaguares",
+    "descripcion": "Una jaguar con sus cachorros y un guacamayo entre hojas tropicales y mariposas.",
+    "portada": 4,
+    "en": {
+      "titulo": "Jaguar Family",
+      "descripcion": "A jaguar with her cubs and a macaw among tropical leaves and butterflies."
+    }
+  },
+  "safari": {
+    "titulo": "Safari en aplique",
+    "descripcion": "Un elefante, una cebra y leones sobre una repisa, recortados en madera.",
+    "portada": 1,
+    "en": {
+      "titulo": "Safari in Appliqué",
+      "descripcion": "An elephant, a zebra, and lions on a shelf, cut from wood."
+    }
+  },
+  "bigotes": {
+    "titulo": "Bigotes",
+    "descripcion": "Un hombre de bigote y barba cuya barba se vuelve ciudad: castillos, una ballena con globos y el Big Ben, todo en tinta negra.",
+    "portada": 6,
+    "en": {
+      "titulo": "The Mustache",
+      "descripcion": "A mustached man whose beard turns into a city: castles, a whale with balloons, and Big Ben, all in black ink."
+    }
+  },
+  "figurella": {
+    "titulo": "Figurella",
+    "descripcion": "Un mural floral en turquesa, coral y mostaza con una figura en línea, pintado para la recepción de Figurella.",
+    "portada": 1,
+    "en": {
+      "titulo": "Figurella",
+      "descripcion": "A floral mural in turquoise, coral, and mustard with a line-art figure, painted for the Figurella reception."
+    }
+  },
+  "juan-jose-1": {
+    "titulo": "Cosmos en tinta",
+    "descripcion": "Un astronauta, una ballena y un submarino flotando entre ríos de tinta negra.",
+    "portada": 4,
+    "en": {
+      "titulo": "Cosmos in Ink",
+      "descripcion": "An astronaut, a whale, and a submarine floating among rivers of black ink."
+    }
+  },
+  "juanjo-estudio2": {
+    "titulo": "Estudio de música",
+    "descripcion": "Formas orgánicas en terracota, mostaza y verde que rodean un estudio con guitarras.",
+    "portada": 1,
+    "en": {
+      "titulo": "Music Studio",
+      "descripcion": "Organic shapes in terracotta, mustard, and green wrapping around a studio with guitars."
+    }
+  },
+  "marquitos": {
+    "titulo": "Marquitos",
+    "descripcion": "Un busto clásico en tinta negra, con cintas naranjas que atraviesan la sala.",
+    "portada": 3,
+    "en": {
+      "titulo": "Marquitos",
+      "descripcion": "A classical bust in black ink, with orange ribbons sweeping across the living room."
+    }
+  },
+  "sirius": {
+    "titulo": "Sirius",
+    "descripcion": "Islas flotantes con plantas, aves y corales sobre un fondo de agua, de punta a punta de la pared.",
+    "portada": 2,
+    "en": {
+      "titulo": "Sirius",
+      "descripcion": "Floating islands with plants, birds, and coral over a watery backdrop, spanning the whole wall."
+    }
+  },
+  "dig-hogar": {
+    "titulo": "Ciervo nocturno",
+    "descripcion": "Una ilustración de un ciervo bajo un cielo de otoño, impresa y enmarcada.",
+    "portada": 3,
+    "en": {
+      "titulo": "Night Deer",
+      "descripcion": "An illustration of a deer under an autumn sky, printed and framed."
+    }
+  },
+  "jesus": {
+    "titulo": "Jesús",
+    "descripcion": "Un retrato de Jesús pintado a espátula en tonos tierra y blancos.",
+    "portada": 2,
+    "en": {
+      "titulo": "Jesus",
+      "descripcion": "A portrait of Jesus painted with a palette knife in earthy and white tones."
+    }
+  },
+  "jocelin": {
+    "titulo": "Abstracto en la sala",
+    "descripcion": "Un cuadro abstracto en blanco, negro y terracota sobre el sofá.",
+    "portada": 2,
+    "en": {
+      "titulo": "Abstract in the Living Room",
+      "descripcion": "An abstract canvas in black, white, and terracotta above the sofa."
+    }
+  },
+  "conejos": {
+    "titulo": "Conejitos",
+    "descripcion": "Dos retratos de un conejo, de frente y de espaldas, en acuarela y lápiz.",
+    "portada": 4,
+    "en": {
+      "titulo": "Little Rabbits",
+      "descripcion": "Two portraits of a rabbit, front and back, in watercolor and pencil."
+    }
+  },
+  "dig-1": {
+    "titulo": "Muelle",
+    "descripcion": "Una figura frente a un viejo muelle, en una ilustración enmarcada.",
+    "portada": 1,
+    "en": {
+      "titulo": "The Pier",
+      "descripcion": "A figure by an old pier, in a framed illustration."
+    }
+  },
+  "digital-2": {
+    "titulo": "Destellos",
+    "descripcion": "Una mujer de cabello azul entre luces y una mano que señala, en ilustración enmarcada.",
+    "portada": 1,
+    "en": {
+      "titulo": "Sparkles",
+      "descripcion": "A blue-haired woman among sparkling lights and a pointing hand, in a framed illustration."
+    }
+  },
+  "retrato": {
+    "titulo": "Retrato",
+    "descripcion": "Un retrato pintado a espátula de una mujer con suéter a rayas.",
+    "portada": 2,
+    "en": {
+      "titulo": "Portrait",
+      "descripcion": "A palette-knife portrait of a woman in a striped sweater."
+    }
+  },
+  "balcon-jaguar": {
+    "titulo": "Balcón del jaguar",
+    "descripcion": "Un felino entre hojas de monstera y palmas, pintado en la pared de un balcón.",
+    "portada": 2,
+    "en": {
+      "titulo": "Jaguar Balcony",
+      "descripcion": "A big cat among monstera leaves and palms, painted on a balcony wall."
+    }
+  },
+  "cocina-papayas": {
+    "titulo": "Cocina de papayas",
+    "descripcion": "Papayas y hojas pintadas a mano sobre los muebles coral de una cocina.",
+    "portada": 2,
+    "en": {
+      "titulo": "Papaya Kitchen",
+      "descripcion": "Papayas and leaves hand-painted across the coral cabinets of a kitchen."
+    }
+  },
+  "lineas-habitacion": {
+    "titulo": "Golondrinas y casa del árbol",
+    "descripcion": "Golondrinas, grullas de papel y una casa del árbol sobre un libro, dibujadas en línea negra sobre la cama.",
+    "portada": 1,
+    "en": {
+      "titulo": "Swallows and Treehouse",
+      "descripcion": "Swallows, paper cranes, and a treehouse on a book, drawn in black line above the bed."
+    }
+  },
+  "lineas-comedor": {
+    "titulo": "Líneas del comedor",
+    "descripcion": "Una línea negra que fluye por la pared y se enmarca en un cuadro, sobre un comedor blanco.",
+    "portada": 1,
+    "en": {
+      "titulo": "Dining Room Lines",
+      "descripcion": "A black line flowing across the wall and into a frame, above a white dining room."
+    }
+  },
+  "madre": {
+    "titulo": "Grullas y cerezos",
+    "descripcion": "Grullas en vuelo, un cerezo en flor y un lago tranquilo detrás de la cama.",
+    "portada": 3,
+    "en": {
+      "titulo": "Cranes and Blossoms",
+      "descripcion": "Cranes in flight, a cherry tree in bloom, and a calm lake behind the bed."
+    }
+  },
+  "paisaje-habitacion": {
+    "titulo": "Estanque de patos",
+    "descripcion": "Un árbol dorado, un estanque con patos y flores silvestres alrededor de la cama.",
+    "portada": 3,
+    "en": {
+      "titulo": "Duck Pond",
+      "descripcion": "A golden tree, a pond with ducks, and wildflowers around the bed."
+    }
+  },
+  "sala-casa": {
+    "titulo": "Montañas de colores",
+    "descripcion": "Montañas en terracota, turquesa y rosa detrás del sofá, con un bloque verde que enmarca el comedor.",
+    "portada": 4,
+    "en": {
+      "titulo": "Colorful Mountains",
+      "descripcion": "Mountains in terracotta, teal, and pink behind the sofa, with a green block framing the dining area."
+    }
+  },
+  "sala-rebecca": {
+    "titulo": "Comedor de Rebecca",
+    "descripcion": "Un jardín de cerezos, ardillas, patos y pájaros que rodea el comedor.",
+    "portada": 3,
+    "en": {
+      "titulo": "Rebecca's Dining Room",
+      "descripcion": "A garden of blossoming trees, squirrels, ducks, and birds surrounding the dining room."
+    }
+  },
+  "sala-sara": {
+    "titulo": "Sala de Sara",
+    "descripcion": "Un bosque en tonos tierra, suave como un recuerdo, detrás del comedor.",
+    "portada": 1,
+    "en": {
+      "titulo": "Sara's Living Room",
+      "descripcion": "A forest in earth tones, soft as a memory, behind the dining table."
+    }
+  },
+  "pradera": {
+    "titulo": "Pradera",
+    "descripcion": "Montañas rosadas, colinas verdes y nubes suaves en una habitación.",
+    "portada": 1,
+    "en": {
+      "titulo": "Meadow",
+      "descripcion": "Pink mountains, green hills, and soft clouds in a bedroom."
+    }
+  },
+  "mini-tenis": {
+    "titulo": "Mini tenis",
+    "descripcion": "Tenis infantiles pintados a mano con un jaguar, flores y un sol.",
+    "portada": 6,
+    "en": {
+      "titulo": "Mini Sneakers",
+      "descripcion": "Kids' sneakers hand-painted with a jaguar, flowers, and a sun."
+    }
   }
 }
