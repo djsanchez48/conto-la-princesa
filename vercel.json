@@ -2,9 +2,19 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "portafolio.contolaprincesa.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "portafolio.contolaprincesa.com"
+        }
+      ],
       "destination": "https://contolaprincesa.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/qr",
+      "destination": "/?utm_source=qr&utm_medium=offline&utm_campaign=activacion",
+      "permanent": false
     }
   ]
 }

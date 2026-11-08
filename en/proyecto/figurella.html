@@ -9,8 +9,11 @@
     var currentLang = onEn ? "en" : "es";
     var stored = null;
     try { stored = localStorage.getItem("lang"); } catch (e) {}
+    var fromQr = /[?&]utm_source=qr(&|$)/.test(location.search);
     var target;
-    if (stored === "es" || stored === "en") {
+    if (fromQr) {
+      target = "es"; // visitas desde el QR: español por defecto, sin guardar preferencia
+    } else if (stored === "es" || stored === "en") {
       target = stored;
     } else {
       var nav = (navigator.language || navigator.userLanguage || "").toLowerCase();

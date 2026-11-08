@@ -581,3 +581,51 @@ a.tag:hover { border-color: var(--ink); color: var(--ink); transform: translateY
 @media (max-width: 480px) {
   .wa-float { right: 0.9rem; bottom: 0.9rem; width: 54px; height: 54px; }
 }
+
+/* ---------- Banner solo para visitas desde el QR ---------- */
+.qr-banner { background: var(--ink); color: var(--paper); position: relative; }
+.qr-banner[hidden] { display: none; }
+.qr-banner__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem 1.4rem;
+  padding-block: 0.9rem;
+  padding-right: 2.6rem;
+}
+.qr-banner__text { margin: 0; max-width: none; text-align: center; }
+.qr-banner__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; }
+.qr-banner .btn { padding: 0.55rem 1.1rem; font-size: 0.95rem; }
+.btn--light { background: transparent; color: var(--paper); border-color: var(--paper); }
+.btn--light:hover { background: var(--paper); color: var(--ink); }
+.qr-banner__close {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.6rem;
+  background: none;
+  border: 0;
+  color: var(--paper);
+  font-size: 1.7rem;
+  line-height: 1;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.qr-banner__close:hover { opacity: 1; }
+
+/* ---------- Hero en celular: foto del trabajo primero, sin la corona repetida ---------- */
+@media (max-width: 720px) {
+  .hero { padding-top: 1.2rem; }
+  .hero .container { display: flex; flex-direction: column; }
+  .hero__featured { order: -1; margin: 0 0 1.6rem; }
+  .hero__featured img { aspect-ratio: 16 / 10; object-fit: cover; object-position: 78% 50%; }
+  .hero__crown { display: none; }
+}
+
+@media (max-width: 720px) {
+  .qr-banner__inner { gap: 0.5rem 0.8rem; padding-block: 0.7rem; }
+  .qr-banner__text { font-size: 0.95rem; line-height: 1.35; }
+  .qr-banner__actions { flex-wrap: nowrap; gap: 0.5rem; }
+  .qr-banner .btn { padding: 0.5rem 0.9rem; font-size: 0.88rem; white-space: nowrap; }
+}
