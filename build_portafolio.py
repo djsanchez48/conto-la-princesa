@@ -532,8 +532,10 @@ def render_proyecto(p, relacionados, lang="es"):
     if p.get("prensa"):
         items = []
         for a in p["prensa"]:
+            icono = (f'<img src="{asset_base}{esc(a["icono"])}" alt="" width="16" height="16" loading="lazy" />'
+                     if a.get("icono") else "")
             items.append(f"""            <li><a class="prensa-item" href="{esc(a['url'])}" target="_blank" rel="noopener">
-              <span class="prensa-item__medio">{esc(a['medio'])}</span>
+              <span class="prensa-item__medio">{icono}{esc(a['medio'])}</span>
               <span class="prensa-item__titulo">{esc(a['titulo'])}</span>
             </a></li>""")
         nota = f"""          <p class="prensa-card__nota">{esc(S['prensa_nota'])}</p>

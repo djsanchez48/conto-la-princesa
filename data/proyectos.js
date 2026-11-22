@@ -3010,27 +3010,32 @@ window.PROYECTOS = {
         {
           "medio": "El Tiempo",
           "titulo": "La ilustradora Juliana Betancur, conocida como 'Contó la princesa', transformará un vehículo a mano con pintura",
-          "url": "https://www.eltiempo.com/cultura/arte-y-teatro/la-ilustradora-juliana-betancur-conocida-como-conto-la-princesa-transformara-un-vehiculo-a-mano-con-pintura-3600930"
+          "url": "https://www.eltiempo.com/cultura/arte-y-teatro/la-ilustradora-juliana-betancur-conocida-como-conto-la-princesa-transformara-un-vehiculo-a-mano-con-pintura-3600930",
+          "icono": "img/prensa/eltiempo.png"
         },
         {
           "medio": "Noticias RCN",
           "titulo": "Ilustradora transformó un vehículo en una obra de arte en el Salón del Automóvil",
-          "url": "https://www.noticiasrcn.com/colombia/ilustradora-transformo-un-vehiculo-en-una-obra-de-arte-en-el-salon-del-automovil-1082934"
+          "url": "https://www.noticiasrcn.com/colombia/ilustradora-transformo-un-vehiculo-en-una-obra-de-arte-en-el-salon-del-automovil-1082934",
+          "icono": "img/prensa/noticiasrcn.png"
         },
         {
           "medio": "Autocosmos",
           "titulo": "SAB 2026: Peugeot rinde homenaje a emprendedores con una Partner intervenida",
-          "url": "https://especiales.autocosmos.com.co/salon-del-automovil/noticias/2026/11/14/sab-2026-peugeot-rinde-homenaje-a-emprendedores-con-una-partner-intervenida"
+          "url": "https://especiales.autocosmos.com.co/salon-del-automovil/noticias/2026/11/14/sab-2026-peugeot-rinde-homenaje-a-emprendedores-con-una-partner-intervenida",
+          "icono": "img/prensa/autocosmos.png"
         },
         {
           "medio": "HSB Noticias",
           "titulo": "El arte toma las ruedas para contar las historias de quienes mueven a Colombia",
-          "url": "http://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia"
+          "url": "http://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia",
+          "icono": "img/prensa/hsbnoticias.png"
         },
         {
           "medio": "Minuto60",
           "titulo": "Salón del Automóvil de Bogotá 2026: JMC, Leapmotor y Peugeot marcan el ritmo del evento",
-          "url": "https://www.minuto60.com/vida-moderna/salon-automovil-bogota-2026-jmc-leapmotor-peugeot-destacan/19184"
+          "url": "https://www.minuto60.com/vida-moderna/salon-automovil-bogota-2026-jmc-leapmotor-peugeot-destacan/19184",
+          "icono": "img/prensa/minuto60.png"
         }
       ]
     },

@@ -672,7 +672,16 @@ a.tag:hover { border-color: var(--ink); color: var(--ink); transform: translateY
 }
 .prensa-item:hover,
 .prensa-item:focus-visible { background: var(--paper-2); }
+.prensa-item__medio img {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  flex: none;
+}
 .prensa-item__medio {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
