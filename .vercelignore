@@ -1,0 +1,6 @@
+# Archivos internos: están en el repo pero no se publican en contolaprincesa.com
+analytics/
+data/
+CLAUDE.md
+build_portafolio.py
+__pycache__/

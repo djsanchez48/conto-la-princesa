@@ -40,3 +40,12 @@ Portafolio estático de murales de Juliana Betancur (contolaprincesa.com). Sin n
 - En el despliegue del 2026-11-08, el push a `main` generó un despliegue automático (Ready) y
   el de `vercel --prod` quedó "Blocked": el autor del commit no es miembro del equipo. Revisa
   `vercel ls` después de publicar y confirma en producción (curl) que el cambio está.
+
+## Analítica
+
+- `python3 analytics/snapshot.py` guarda la analítica de Vercel en `analytics/diario.csv`,
+  `analytics/desglose.csv` y `analytics/resumen.md`. Vercel Hobby solo conserva 1 mes: hay
+  que correrlo al menos cada semana. El token va en `analytics/.env` (en .gitignore).
+- `analytics/`, `data/`, `CLAUDE.md` y `build_portafolio.py` no se publican (`.vercelignore`,
+  y redirecciones en `vercel.json` como respaldo). `data/descripciones.json` usa claves con
+  nombres de personas, por eso no debe quedar público.

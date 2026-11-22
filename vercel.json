@@ -240,6 +240,26 @@
       "source": "/img/proyectos/marquitos/:file*",
       "destination": "/img/proyectos/busto-en-tinta/:file*",
       "permanent": true
+    },
+    {
+      "source": "/analytics/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/CLAUDE.md",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/build_portafolio.py",
+      "destination": "/",
+      "permanent": false
     }
   ]
 }
