@@ -31,6 +31,8 @@
       } else {
         newPath = path.slice(3); // quita el "/en" inicial
       }
+      // Solo rutas del propio sitio: "//dominio" sería una redirección a otro sitio.
+      if (newPath.charAt(0) !== "/" || newPath.charAt(1) === "/") return;
       if (newPath !== path) location.replace(newPath + location.search + location.hash);
     }
   })();
@@ -154,7 +156,7 @@
     {
       "@type": "NewsArticle",
       "headline": "El arte toma las ruedas para contar las historias de quienes mueven a Colombia",
-      "url": "http://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia",
+      "url": "https://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia",
       "inLanguage": "es",
       "publisher": {
         "@type": "Organization",
@@ -290,7 +292,7 @@
               <span class="prensa-item__medio"><img src="../../img/prensa/autocosmos.png" alt="" width="16" height="16" loading="lazy" />Autocosmos</span>
               <span class="prensa-item__titulo">SAB 2026: Peugeot rinde homenaje a emprendedores con una Partner intervenida</span>
             </a></li>
-            <li><a class="prensa-item" href="http://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia" target="_blank" rel="noopener">
+            <li><a class="prensa-item" href="https://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia" target="_blank" rel="noopener">
               <span class="prensa-item__medio"><img src="../../img/prensa/hsbnoticias.png" alt="" width="16" height="16" loading="lazy" />HSB Noticias</span>
               <span class="prensa-item__titulo">El arte toma las ruedas para contar las historias de quienes mueven a Colombia</span>
             </a></li>

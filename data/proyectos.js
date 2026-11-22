@@ -3028,7 +3028,7 @@ window.PROYECTOS = {
         {
           "medio": "HSB Noticias",
           "titulo": "El arte toma las ruedas para contar las historias de quienes mueven a Colombia",
-          "url": "http://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia",
+          "url": "https://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia",
           "icono": "img/prensa/hsbnoticias.png"
         },
         {

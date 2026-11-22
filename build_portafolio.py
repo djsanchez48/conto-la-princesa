@@ -253,6 +253,8 @@ LANG_DETECT = """  <script>
       } else {
         newPath = path.slice(3); // quita el "/en" inicial
       }
+      // Solo rutas del propio sitio: "//dominio" sería una redirección a otro sitio.
+      if (newPath.charAt(0) !== "/" || newPath.charAt(1) === "/") return;
       if (newPath !== path) location.replace(newPath + location.search + location.hash);
     }
   })();
