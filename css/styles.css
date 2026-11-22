@@ -629,3 +629,65 @@ a.tag:hover { border-color: var(--ink); color: var(--ink); transform: translateY
   .qr-banner__actions { flex-wrap: nowrap; gap: 0.5rem; }
   .qr-banner .btn { padding: 0.5rem 0.9rem; font-size: 0.88rem; white-space: nowrap; }
 }
+
+/* ---------- Cuento personalizado (enlace desde la página del mural) ---------- */
+.cuento-card {
+  max-width: 640px;
+  margin: clamp(2rem, 4vw, 2.8rem) auto 0;
+  padding: 1.3rem 1.5rem 1.5rem;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.cuento-card .eyebrow { margin-bottom: 0.4rem; }
+.cuento-card p { margin-inline: auto; }
+@media (max-width: 480px) {
+  .cuento-card { padding: 1.1rem 1.1rem 1.3rem; }
+}
+
+/* ---------- Artículos de medios sobre el mural ---------- */
+.prensa-card {
+  max-width: 720px;
+  margin: clamp(2rem, 4vw, 2.8rem) auto 0;
+}
+.prensa-card .eyebrow,
+.prensa-card h2 { text-align: center; }
+.prensa-card h2 { margin: 0.2rem 0 1.2rem; }
+.prensa-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+.prensa-list li { border-bottom: 1px solid var(--line); }
+.prensa-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.95rem 0.4rem;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background var(--transition);
+}
+.prensa-item:hover,
+.prensa-item:focus-visible { background: var(--paper-2); }
+.prensa-item__medio {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+}
+.prensa-item__titulo {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+.prensa-item:hover .prensa-item__titulo { text-decoration: underline; }
+.prensa-card__nota {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  text-align: center;
+}

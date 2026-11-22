@@ -1,0 +1,30 @@
+{
+  "_comentario": "Artículos de medios por mural. La clave es el slug público del mural. Orden: como se muestran en la página.",
+  "peugeot-partner-en-vivo": [
+    {
+      "medio": "El Tiempo",
+      "titulo": "La ilustradora Juliana Betancur, conocida como 'Contó la princesa', transformará un vehículo a mano con pintura",
+      "url": "https://www.eltiempo.com/cultura/arte-y-teatro/la-ilustradora-juliana-betancur-conocida-como-conto-la-princesa-transformara-un-vehiculo-a-mano-con-pintura-3600930"
+    },
+    {
+      "medio": "Noticias RCN",
+      "titulo": "Ilustradora transformó un vehículo en una obra de arte en el Salón del Automóvil",
+      "url": "https://www.noticiasrcn.com/colombia/ilustradora-transformo-un-vehiculo-en-una-obra-de-arte-en-el-salon-del-automovil-1082934"
+    },
+    {
+      "medio": "Autocosmos",
+      "titulo": "SAB 2026: Peugeot rinde homenaje a emprendedores con una Partner intervenida",
+      "url": "https://especiales.autocosmos.com.co/salon-del-automovil/noticias/2026/11/14/sab-2026-peugeot-rinde-homenaje-a-emprendedores-con-una-partner-intervenida"
+    },
+    {
+      "medio": "HSB Noticias",
+      "titulo": "El arte toma las ruedas para contar las historias de quienes mueven a Colombia",
+      "url": "http://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia"
+    },
+    {
+      "medio": "Minuto60",
+      "titulo": "Salón del Automóvil de Bogotá 2026: JMC, Leapmotor y Peugeot marcan el ritmo del evento",
+      "url": "https://www.minuto60.com/vida-moderna/salon-automovil-bogota-2026-jmc-leapmotor-peugeot-destacan/19184"
+    }
+  ]
+}

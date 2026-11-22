@@ -88,6 +88,12 @@ STRINGS = {
         "mural_alt": "Mural {titulo} — {cat}",
         "ver_mural_aria": "Ver el mural {titulo}",
         "cta_mural_asi": "Quiero un mural así",
+        "cuento_eyebrow": "Cuento personalizado",
+        "cuento_texto": "Este mural viene con su propio cuento para leer antes de dormir, con los personajes de la pared como protagonistas.",
+        "cuento_cta": "Leer el cuento",
+        "prensa_eyebrow": "En medios",
+        "prensa_titulo": "Así lo contaron",
+        "prensa_nota": "",
         "back_portafolio": "← Portafolio",
         "otros_murales": "Otros murales {cat}",
         "gallery_zoom": "Ampliar foto {n}",
@@ -121,6 +127,12 @@ STRINGS = {
         "mural_alt": "{titulo} mural — {cat}",
         "ver_mural_aria": "View the {titulo} mural",
         "cta_mural_asi": "I want a mural like this",
+        "cuento_eyebrow": "Personalized story",
+        "cuento_texto": "This mural comes with its own bedtime story, starring the characters on the wall (in Spanish).",
+        "cuento_cta": "Read the story",
+        "prensa_eyebrow": "In the press",
+        "prensa_titulo": "Press coverage",
+        "prensa_nota": "Articles in Spanish.",
         "back_portafolio": "← Portfolio",
         "otros_murales": "Other {cat} murals",
         "gallery_zoom": "Enlarge photo {n}",
@@ -474,7 +486,7 @@ def render_proyecto(p, relacionados, lang="es"):
     </section>
 """
 
-    artwork = jsonld({
+    artwork_obj = {
         "@context": "https://schema.org", "@type": "VisualArtwork",
         "name": titulo, "description": descripcion,
         "image": [f"{SITE_URL}/{im['full']}" for im in p["imagenes"]],
@@ -482,7 +494,14 @@ def render_proyecto(p, relacionados, lang="es"):
         "creator": {"@type": "Person", "name": AUTHOR},
         "brand": {"@type": "Brand", "name": BRAND},
         "url": canonical,
-    })
+    }
+    if p.get("prensa"):
+        artwork_obj["subjectOf"] = [
+            {"@type": "NewsArticle", "headline": a["titulo"], "url": a["url"],
+             "inLanguage": "es", "publisher": {"@type": "Organization", "name": a["medio"]}}
+            for a in p["prensa"]
+        ]
+    artwork = jsonld(artwork_obj)
     breadcrumb = jsonld({
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         "itemListElement": [
@@ -496,6 +515,36 @@ def render_proyecto(p, relacionados, lang="es"):
 
     wa_msg = S["wa_mural_msg"].format(titulo=titulo)
     wa = esc(wa_link(wa_msg))
+
+    # Cuento personalizado del mural (sitio aparte); el texto no nombra al niño.
+    cuento_html = ""
+    if p.get("cuento"):
+        cuento_html = f"""        <aside class="cuento-card">
+          <p class="eyebrow">{esc(S['cuento_eyebrow'])}</p>
+          <p>{esc(S['cuento_texto'])}</p>
+          <a class="btn btn--ghost" href="{esc(p['cuento'])}" target="_blank" rel="noopener">{esc(S['cuento_cta'])}</a>
+        </aside>
+"""
+
+    # Artículos de medios sobre el mural (data/prensa.json)
+    prensa_html = ""
+    if p.get("prensa"):
+        items = []
+        for a in p["prensa"]:
+            items.append(f"""            <li><a class="prensa-item" href="{esc(a['url'])}" target="_blank" rel="noopener">
+              <span class="prensa-item__medio">{esc(a['medio'])}</span>
+              <span class="prensa-item__titulo">{esc(a['titulo'])}</span>
+            </a></li>""")
+        nota = f"""          <p class="prensa-card__nota">{esc(S['prensa_nota'])}</p>
+""" if S["prensa_nota"] else ""
+        prensa_html = f"""        <aside class="prensa-card" aria-labelledby="prensa-titulo">
+          <p class="eyebrow">{esc(S['prensa_eyebrow'])}</p>
+          <h2 id="prensa-titulo">{esc(S['prensa_titulo'])}</h2>
+          <ul class="prensa-list">
+{chr(10).join(items)}
+          </ul>
+{nota}        </aside>
+"""
 
     return (head(title, desc, canonical, cover_full, asset_base=asset_base, extra=artwork + breadcrumb, lang=lang, alt_href=alt_href)
             + header(asset_base=asset_base, nav_base=nav_base, lang=lang, alt_href=alt_href)
@@ -511,7 +560,7 @@ def render_proyecto(p, relacionados, lang="es"):
         <div class="gallery">
 {chr(10).join(figs)}
         </div>
-        <div class="center" style="margin-top:2.5rem;">
+{cuento_html}{prensa_html}        <div class="center" style="margin-top:2.5rem;">
           <a class="btn btn--primary" href="{wa}" target="_blank" rel="noopener">{esc(S['cta_mural_asi'])}</a>
         </div>
       </div>
@@ -570,6 +619,11 @@ def main():
     if os.path.exists(desc_path):
         with open(desc_path, encoding="utf-8") as fh:
             descripciones = json.load(fh)
+    prensa_path = os.path.join(SITE, "data", "prensa.json")
+    prensa = {}
+    if os.path.exists(prensa_path):
+        with open(prensa_path, encoding="utf-8") as fh:
+            prensa = {k: v for k, v in json.load(fh).items() if not k.startswith("_")}
 
     carpetas = sorted(
         [d for d in os.listdir(BASE) if os.path.isdir(os.path.join(BASE, d)) and "_" in d
@@ -602,6 +656,8 @@ def main():
             "categoria": cat, "descripcion": meta.get("descripcion", ""),
             "portada": imgs[pidx - 1]["thumb"], "imagenes": imgs,
             "en": meta.get("en", {}),
+            "cuento": meta.get("cuento"),
+            "prensa": prensa.get(slug, []),
         })
 
     if sin_slug:

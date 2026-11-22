@@ -89,7 +89,8 @@
     "en": {
       "titulo": "World Map",
       "descripcion": "A map of the world with animals from every continent."
-    }
+    },
+    "cuento": "https://benjamin.contolaprincesa.com/"
   },
   "mar-tiburon": {
     "slug": "mar-tiburon",
@@ -817,7 +818,8 @@
     "en": {
       "titulo": "Dinosaurs Among the Cacti",
       "descripcion": "A T-rex, a brachiosaurus and a pterodactyl among cacti and line-drawn clouds, with a stegosaurus appliqué."
-    }
+    },
+    "cuento": "https://marcelo.contolaprincesa.com/"
   },
   "peugeot-col": {
     "slug": "peugeot-partner-en-vivo",
