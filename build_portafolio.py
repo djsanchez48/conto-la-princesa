@@ -68,6 +68,7 @@ DESTACADOS = [
 # Orden manual dentro de una categoría: los slugs listados van primero (en este
 # orden) y el resto de la categoría sigue en su orden normal (alfabético por carpeta).
 ORDEN_EN_CATEGORIA = {
+    "COM": ["peugeot-partner-en-vivo"],
     "HOG": ["balcon-jaguar", "bano-jardin", "comedor-de-cerezos"],
     "CUA": ["retrato", "pajaros-acuarela", "digital-2"],
 }

@@ -2904,6 +2904,137 @@ window.PROYECTOS = {
       "prensa": []
     },
     {
+      "id": "peugeot-partner-en-vivo",
+      "titulo": "Peugeot Partner pintada en vivo",
+      "categoria": "COM",
+      "descripcion": "Una camioneta Peugeot Partner intervenida en vivo frente al público: reposteras, un repartidor y una pintora con la bandera de Colombia, en trazos azules.",
+      "portada": "img/proyectos/peugeot-partner-en-vivo/1-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/1-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/2-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/3-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/4-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/5-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/6-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/6.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/7-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/7.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/8-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/8.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/9-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/9.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/10-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/10.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/11-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/11.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/12-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/12.jpg",
+          "w": 804,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/13-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/13.jpg",
+          "w": 1010,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/14-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/14.jpg",
+          "w": 954,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/15-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/15.jpg",
+          "w": 1050,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Peugeot Partner Painted Live",
+        "descripcion": "A Peugeot Partner van painted live in front of an audience: bakers, a delivery rider and a painter with the Colombian flag, in blue line work."
+      },
+      "cuento": null,
+      "prensa": [
+        {
+          "medio": "El Tiempo",
+          "titulo": "La ilustradora Juliana Betancur, conocida como 'Contó la princesa', transformará un vehículo a mano con pintura",
+          "url": "https://www.eltiempo.com/cultura/arte-y-teatro/la-ilustradora-juliana-betancur-conocida-como-conto-la-princesa-transformara-un-vehiculo-a-mano-con-pintura-3600930"
+        },
+        {
+          "medio": "Noticias RCN",
+          "titulo": "Ilustradora transformó un vehículo en una obra de arte en el Salón del Automóvil",
+          "url": "https://www.noticiasrcn.com/colombia/ilustradora-transformo-un-vehiculo-en-una-obra-de-arte-en-el-salon-del-automovil-1082934"
+        },
+        {
+          "medio": "Autocosmos",
+          "titulo": "SAB 2026: Peugeot rinde homenaje a emprendedores con una Partner intervenida",
+          "url": "https://especiales.autocosmos.com.co/salon-del-automovil/noticias/2026/11/14/sab-2026-peugeot-rinde-homenaje-a-emprendedores-con-una-partner-intervenida"
+        },
+        {
+          "medio": "HSB Noticias",
+          "titulo": "El arte toma las ruedas para contar las historias de quienes mueven a Colombia",
+          "url": "http://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia"
+        },
+        {
+          "medio": "Minuto60",
+          "titulo": "Salón del Automóvil de Bogotá 2026: JMC, Leapmotor y Peugeot marcan el ritmo del evento",
+          "url": "https://www.minuto60.com/vida-moderna/salon-automovil-bogota-2026-jmc-leapmotor-peugeot-destacan/19184"
+        }
+      ]
+    },
+    {
       "id": "bigotes",
       "titulo": "Bigotes",
       "categoria": "COM",
@@ -3244,137 +3375,6 @@ window.PROYECTOS = {
       },
       "cuento": null,
       "prensa": []
-    },
-    {
-      "id": "peugeot-partner-en-vivo",
-      "titulo": "Peugeot Partner pintada en vivo",
-      "categoria": "COM",
-      "descripcion": "Una camioneta Peugeot Partner intervenida en vivo frente al público: reposteras, un repartidor y una pintora con la bandera de Colombia, en trazos azules.",
-      "portada": "img/proyectos/peugeot-partner-en-vivo/2-thumb.jpg",
-      "imagenes": [
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/1-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/1.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/2-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/2.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/3-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/3.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/4-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/4.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/5-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/5.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/6-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/6.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/7-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/7.jpg",
-          "w": 1400,
-          "h": 1050
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/8-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/8.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/9-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/9.jpg",
-          "w": 1400,
-          "h": 1050
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/10-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/10.jpg",
-          "w": 1400,
-          "h": 1050
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/11-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/11.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/12-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/12.jpg",
-          "w": 1050,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/13-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/13.jpg",
-          "w": 804,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/14-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/14.jpg",
-          "w": 1010,
-          "h": 1400
-        },
-        {
-          "thumb": "img/proyectos/peugeot-partner-en-vivo/15-thumb.jpg",
-          "full": "img/proyectos/peugeot-partner-en-vivo/15.jpg",
-          "w": 954,
-          "h": 1400
-        }
-      ],
-      "en": {
-        "titulo": "Peugeot Partner Painted Live",
-        "descripcion": "A Peugeot Partner van painted live in front of an audience: bakers, a delivery rider and a painter with the Colombian flag, in blue line work."
-      },
-      "cuento": null,
-      "prensa": [
-        {
-          "medio": "El Tiempo",
-          "titulo": "La ilustradora Juliana Betancur, conocida como 'Contó la princesa', transformará un vehículo a mano con pintura",
-          "url": "https://www.eltiempo.com/cultura/arte-y-teatro/la-ilustradora-juliana-betancur-conocida-como-conto-la-princesa-transformara-un-vehiculo-a-mano-con-pintura-3600930"
-        },
-        {
-          "medio": "Noticias RCN",
-          "titulo": "Ilustradora transformó un vehículo en una obra de arte en el Salón del Automóvil",
-          "url": "https://www.noticiasrcn.com/colombia/ilustradora-transformo-un-vehiculo-en-una-obra-de-arte-en-el-salon-del-automovil-1082934"
-        },
-        {
-          "medio": "Autocosmos",
-          "titulo": "SAB 2026: Peugeot rinde homenaje a emprendedores con una Partner intervenida",
-          "url": "https://especiales.autocosmos.com.co/salon-del-automovil/noticias/2026/11/14/sab-2026-peugeot-rinde-homenaje-a-emprendedores-con-una-partner-intervenida"
-        },
-        {
-          "medio": "HSB Noticias",
-          "titulo": "El arte toma las ruedas para contar las historias de quienes mueven a Colombia",
-          "url": "http://hsbnoticias.com/noticias/el-arte-toma-las-ruedas-para-contar-las-historias-de-quienes-mueven-a-colombia"
-        },
-        {
-          "medio": "Minuto60",
-          "titulo": "Salón del Automóvil de Bogotá 2026: JMC, Leapmotor y Peugeot marcan el ritmo del evento",
-          "url": "https://www.minuto60.com/vida-moderna/salon-automovil-bogota-2026-jmc-leapmotor-peugeot-destacan/19184"
-        }
-      ]
     },
     {
       "id": "puente",
