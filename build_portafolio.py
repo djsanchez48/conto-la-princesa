@@ -213,6 +213,8 @@ ANALYTICS = """  <!-- Google tag (gtag.js) -->
 # de que se dispare cualquier analítica o se pinte contenido en el idioma equivocado.
 LANG_DETECT = """  <script>
   (function () {
+    // Buscadores y previsualizadores: sin redirección, cada URL se indexa en su idioma real.
+    if (/bot|crawler|spider|slurp|facebookexternalhit|whatsapp|lighthouse|inspectiontool/i.test(navigator.userAgent)) return;
     var path = location.pathname;
     var onEn = path === "/en" || path.indexOf("/en/") === 0;
     var currentLang = onEn ? "en" : "es";

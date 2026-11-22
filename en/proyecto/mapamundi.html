@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <script>
   (function () {
+    // Buscadores y previsualizadores: sin redirección, cada URL se indexa en su idioma real.
+    if (/bot|crawler|spider|slurp|facebookexternalhit|whatsapp|lighthouse|inspectiontool/i.test(navigator.userAgent)) return;
     var path = location.pathname;
     var onEn = path === "/en" || path.indexOf("/en/") === 0;
     var currentLang = onEn ? "en" : "es";

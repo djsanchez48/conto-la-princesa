@@ -26,8 +26,8 @@ Portafolio estático de murales de Juliana Betancur (contolaprincesa.com). Sin n
   `sitemap.xml`, `robots.txt` y optimiza imágenes (solo las que faltan).
 - `index.html` y `en/index.html` son a mano: el build no los toca.
 - Orden: `DESTACADOS` y `ORDEN_EN_CATEGORIA` en `build_portafolio.py` usan el slug público.
-- Idioma: `LANG_DETECT` redirige según el navegador, excepto visitas con `utm_source=qr`
-  (siempre español).
+- Idioma: `LANG_DETECT` redirige según el navegador, excepto bots (para que Google indexe
+  cada URL en su idioma real) y visitas con `utm_source=qr` (siempre español).
 - QR del evento: `/qr` redirige (vercel.json) a `/?utm_source=qr...`, que muestra un banner y
   un mensaje propio de WhatsApp en la home.
 
