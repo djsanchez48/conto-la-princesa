@@ -1,5 +1,6 @@
 {
   "espacio-exterior": {
+    "slug": "espacio-exterior",
     "titulo": "Espacio exterior",
     "descripcion": "Una habitación que se vuelve galaxia.",
     "en": {
@@ -8,6 +9,7 @@
     }
   },
   "animales-safari": {
+    "slug": "animales-safari",
     "titulo": "Leopardo en el árbol",
     "descripcion": "Un leopardo descansa en lo alto de su rama.",
     "portada": 2,
@@ -17,6 +19,7 @@
     }
   },
   "astronauta": {
+    "slug": "astronauta",
     "titulo": "Astronauta y su perrito",
     "descripcion": "Un astronauta y su perrito flotando entre estrellas.",
     "en": {
@@ -25,6 +28,7 @@
     }
   },
   "astronauta00": {
+    "slug": "astronauta00",
     "titulo": "Astronauta",
     "descripcion": "Un astronauta sentado en su planeta favorito.",
     "en": {
@@ -33,6 +37,7 @@
     }
   },
   "benja-0": {
+    "slug": "zorrito-en-globos",
     "titulo": "Zorrito en globos",
     "descripcion": "Un zorrito que se eleva con globos.",
     "en": {
@@ -41,6 +46,7 @@
     }
   },
   "carritos-astro": {
+    "slug": "carritos-astro",
     "titulo": "Ciudad de carros",
     "descripcion": "Una ciudad de carros, puentes y caminos.",
     "en": {
@@ -49,6 +55,7 @@
     }
   },
   "color-y-linea": {
+    "slug": "color-y-linea",
     "titulo": "Color y línea",
     "descripcion": "Animales músicos en una explosión de color.",
     "en": {
@@ -57,6 +64,7 @@
     }
   },
   "dinos": {
+    "slug": "dinos",
     "titulo": "Dinos",
     "descripcion": "Dinosaurios amigables entre volcanes y cactus.",
     "en": {
@@ -65,6 +73,7 @@
     }
   },
   "futbol": {
+    "slug": "futbol",
     "titulo": "Fútbol",
     "descripcion": "Un balón pintado con todos los colores.",
     "en": {
@@ -73,6 +82,7 @@
     }
   },
   "mapamundi-benja": {
+    "slug": "mapamundi",
     "titulo": "Mapamundi",
     "descripcion": "Un mapa del mundo con animales de cada continente.",
     "portada": 1,
@@ -82,6 +92,7 @@
     }
   },
   "mar-tiburon": {
+    "slug": "mar-tiburon",
     "titulo": "Fondo del mar",
     "descripcion": "Ballenas y corales en el fondo del mar.",
     "portada": 2,
@@ -91,6 +102,7 @@
     }
   },
   "mediooso": {
+    "slug": "mediooso",
     "titulo": "Aventura en globo",
     "descripcion": "Un conejito que viaja en globo entre las nubes.",
     "en": {
@@ -99,6 +111,7 @@
     }
   },
   "orca": {
+    "slug": "orca",
     "titulo": "Mundo marino",
     "descripcion": "Peces y corales en un mar tranquilo.",
     "portada": 3,
@@ -108,6 +121,7 @@
     }
   },
   "pop": {
+    "slug": "pop",
     "titulo": "Espacio pop",
     "descripcion": "Un viaje espacial de líneas y colores.",
     "en": {
@@ -116,6 +130,7 @@
     }
   },
   "safari-04": {
+    "slug": "safari-04",
     "titulo": "Safari en la sabana",
     "descripcion": "Una cebra y sus amigos junto al río.",
     "en": {
@@ -124,6 +139,7 @@
     }
   },
   "amaga": {
+    "slug": "amaga",
     "titulo": "Amagá",
     "descripcion": "Una ballena voladora y un rincón para leer.",
     "portada": 3,
@@ -133,6 +149,7 @@
     }
   },
   "arcoiris": {
+    "slug": "arcoiris",
     "titulo": "Arcoíris",
     "descripcion": "Nubes sonrientes y un arcoíris pastel.",
     "portada": 3,
@@ -142,6 +159,7 @@
     }
   },
   "arcoiris-2": {
+    "slug": "arcoiris-2",
     "titulo": "Unicornio",
     "descripcion": "Un unicornio pastel y su hada princesa.",
     "en": {
@@ -150,6 +168,7 @@
     }
   },
   "bosque03": {
+    "slug": "bosque03",
     "titulo": "Bosque de animalitos",
     "descripcion": "Un bosque con un osito, un zorrito dormido y un erizo.",
     "portada": 4,
@@ -159,6 +178,7 @@
     }
   },
   "bosquelucia": {
+    "slug": "ardillas-en-la-rama",
     "titulo": "Bosque de Lucía",
     "descripcion": "Ardillas y un pajarito en la rama.",
     "en": {
@@ -167,6 +187,7 @@
     }
   },
   "flores-1": {
+    "slug": "flores-1",
     "titulo": "Flores",
     "descripcion": "Flores silvestres que trepan por la pared.",
     "portada": 2,
@@ -176,6 +197,7 @@
     }
   },
   "flores-pop": {
+    "slug": "flores-pop",
     "titulo": "Corazón pop",
     "descripcion": "Un corazón coronado entre flores.",
     "portada": 2,
@@ -185,6 +207,7 @@
     }
   },
   "globos02": {
+    "slug": "globos02",
     "titulo": "Globo de animalitos",
     "descripcion": "Animalitos que pasean en globo.",
     "en": {
@@ -193,6 +216,7 @@
     }
   },
   "la-mar-sirena": {
+    "slug": "la-mar-sirena",
     "titulo": "La mar",
     "descripcion": "Un mar suave con peces y una foca.",
     "en": {
@@ -201,6 +225,7 @@
     }
   },
   "lamar00": {
+    "slug": "lamar00",
     "titulo": "Océano",
     "descripcion": "El océano con ballenas y delfines.",
     "portada": 3,
@@ -210,6 +235,7 @@
     }
   },
   "luci": {
+    "slug": "el-lago",
     "titulo": "El lago",
     "descripcion": "Un lago con un cisne, su patito y un bosque alrededor.",
     "portada": 3,
@@ -219,6 +245,7 @@
     }
   },
   "montana-conejos": {
+    "slug": "montana-conejos",
     "titulo": "Montaña de conejos",
     "descripcion": "Conejitos que vuelan en globo sobre las montañas.",
     "portada": 3,
@@ -228,6 +255,7 @@
     }
   },
   "ososaplique": {
+    "slug": "ososaplique",
     "titulo": "Bosque encantado",
     "descripcion": "Un bosque con un conejo, una tortuga, un osito y hasta un hada.",
     "portada": 3,
@@ -237,6 +265,7 @@
     }
   },
   "safari06": {
+    "slug": "safari06",
     "titulo": "Selva",
     "descripcion": "Una selva con elefantes, una jirafa y un monito juguetón.",
     "portada": 2,
@@ -246,6 +275,7 @@
     }
   },
   "alessandro": {
+    "slug": "mapache-y-osito-en-globo",
     "titulo": "Alessandro",
     "descripcion": "Un mapache y un osito viajan en globo.",
     "en": {
@@ -254,6 +284,7 @@
     }
   },
   "amazonas": {
+    "slug": "amazonas",
     "titulo": "Amazonas",
     "descripcion": "Una boa colorida entre hojas de selva.",
     "en": {
@@ -262,6 +293,7 @@
     }
   },
   "bosque00": {
+    "slug": "bosque00",
     "titulo": "Bosque",
     "descripcion": "Dos zarigüeyas colgadas de la rama.",
     "en": {
@@ -270,6 +302,7 @@
     }
   },
   "bosqueana": {
+    "slug": "bosque-de-zorritos",
     "titulo": "Bosque de Ana",
     "descripcion": "Zorritos, ardillas y mapaches en el bosque.",
     "en": {
@@ -278,6 +311,7 @@
     }
   },
   "cuantoteamo": {
+    "slug": "cuantoteamo",
     "titulo": "Cuánto te amo",
     "descripcion": "Una liebre grande y una chiquita bajo las nubes.",
     "en": {
@@ -286,6 +320,7 @@
     }
   },
   "globitos02": {
+    "slug": "globitos02",
     "titulo": "Globitos",
     "descripcion": "Un globo de feria entre nubes suaves.",
     "en": {
@@ -294,6 +329,7 @@
     }
   },
   "leon-en-linea": {
+    "slug": "leon-en-linea",
     "titulo": "León en línea",
     "descripcion": "Un león dulce que cuida el cuarto.",
     "en": {
@@ -302,6 +338,7 @@
     }
   },
   "pop-dino-y-princesa": {
+    "slug": "pop-dino-y-princesa",
     "titulo": "Dino y princesa",
     "descripcion": "Un superhéroe y una princesa en su cuento.",
     "en": {
@@ -310,6 +347,7 @@
     }
   },
   "pop-dos-almitas": {
+    "slug": "pop-dos-almitas",
     "titulo": "Dos almitas",
     "descripcion": "Un mundo pop de dinos, unicornios y libros.",
     "en": {
@@ -318,6 +356,7 @@
     }
   },
   "safari-caro": {
+    "slug": "sabana-africana",
     "titulo": "Sabana africana",
     "descripcion": "La sabana con jirafas, cebras e hipopótamos.",
     "en": {
@@ -326,6 +365,7 @@
     }
   },
   "safari-01": {
+    "slug": "safari-01",
     "titulo": "Safari tropical",
     "descripcion": "Una jirafa que asoma entre hojas tropicales.",
     "portada": 4,
@@ -335,6 +375,7 @@
     }
   },
   "safari01": {
+    "slug": "safari01",
     "titulo": "Safari en la selva",
     "descripcion": "Un elefante, un perezoso y jirafas.",
     "en": {
@@ -343,6 +384,7 @@
     }
   },
   "safari05": {
+    "slug": "safari05",
     "titulo": "Jirafa",
     "descripcion": "Una jirafa y un metro para medir cómo creces.",
     "en": {
@@ -351,6 +393,7 @@
     }
   },
   "la-finca": {
+    "slug": "la-finca",
     "titulo": "La finca",
     "descripcion": "La finca de Pedro.",
     "en": {
@@ -359,6 +402,7 @@
     }
   },
   "carros": {
+    "slug": "carros",
     "titulo": "Carritos de madera",
     "descripcion": "Carritos de madera sobre la carretera.",
     "portada": 2,
@@ -368,6 +412,7 @@
     }
   },
   "granja": {
+    "slug": "granja",
     "titulo": "Granja",
     "descripcion": "Animales de granja y tractores, en aplique.",
     "en": {
@@ -376,6 +421,7 @@
     }
   },
   "superheroes-aplique": {
+    "slug": "superheroes-aplique",
     "titulo": "Superhéroes en aplique",
     "descripcion": "Flash, Thor, Iron Man, Superman, Batman, Capitán América, Spider-Man y Hulk, recortados en madera y listos para la acción.",
     "portada": 8,
@@ -385,6 +431,7 @@
     }
   },
   "cuarto-superheroes": {
+    "slug": "cuarto-superheroes",
     "titulo": "Cuarto de superhéroes",
     "descripcion": "Flash, Batman, Superman y el resto del equipo vuelan por las paredes del cuarto.",
     "en": {
@@ -393,6 +440,7 @@
     }
   },
   "safari-gael": {
+    "slug": "safari-en-acuarela",
     "titulo": "Safari de Gael",
     "descripcion": "Un elefante, una jirafa y sus amigos de la sabana, en acuarela.",
     "portada": 8,
@@ -402,6 +450,7 @@
     }
   },
   "virgen": {
+    "slug": "virgen",
     "titulo": "Virgencita de las flores",
     "descripcion": "Una virgencita rodeada de flores, mariposas y golondrinas.",
     "portada": 1,
@@ -411,6 +460,7 @@
     }
   },
   "pajaros-acuarela": {
+    "slug": "pajaros-acuarela",
     "titulo": "Pájaros en acuarela",
     "descripcion": "Cuatro aves colombianas pintadas a mano en acuarela y tinta.",
     "portada": 8,
@@ -420,6 +470,7 @@
     }
   },
   "bano-sha": {
+    "slug": "bano-jardin",
     "titulo": "Baño de Sha",
     "descripcion": "Un baño que se transforma en jardín, con enredaderas y flores silvestres.",
     "portada": 5,
@@ -429,6 +480,7 @@
     }
   },
   "las-nieves": {
+    "slug": "las-nieves",
     "titulo": "Las Nieves",
     "descripcion": "Una cordillera nevada al atardecer que recorre la pared de un espacio comercial.",
     "portada": 2,
@@ -438,6 +490,7 @@
     }
   },
   "puente": {
+    "slug": "puente",
     "titulo": "Puente de Brooklyn",
     "descripcion": "El puente de Brooklyn y el skyline de Nueva York, dibujados a línea sobre la pared.",
     "portada": 1,
@@ -447,6 +500,7 @@
     }
   },
   "astronautas": {
+    "slug": "astronautas",
     "titulo": "Astronautas en aplique",
     "descripcion": "Astronautas, cohetes, planetas y estrellas recortados en madera y pintados a mano.",
     "portada": 1,
@@ -456,6 +510,7 @@
     }
   },
   "aviones2": {
+    "slug": "aviones2",
     "titulo": "Aviones y globos",
     "descripcion": "Un globo, un dirigible y avionetas en tonos menta y arena, sobre una montaña pintada.",
     "portada": 5,
@@ -465,6 +520,7 @@
     }
   },
   "aviones-vintage": {
+    "slug": "aviones-vintage",
     "titulo": "Aviones vintage",
     "descripcion": "Avionetas, un dirigible, un helicóptero y un globo en azul y dorado, pintados a mano sobre madera.",
     "portada": 1,
@@ -474,6 +530,7 @@
     }
   },
   "bosque": {
+    "slug": "bosque",
     "titulo": "Animalitos del bosque",
     "descripcion": "Capibaras, una ardilla, un erizo, un conejo, un búho y pajaritos, recortados en madera.",
     "portada": 1,
@@ -483,6 +540,7 @@
     }
   },
   "jaguar": {
+    "slug": "jaguar",
     "titulo": "Familia de jaguares",
     "descripcion": "Una jaguar con sus cachorros y un guacamayo entre hojas tropicales y mariposas.",
     "portada": 4,
@@ -492,6 +550,7 @@
     }
   },
   "safari": {
+    "slug": "safari",
     "titulo": "Safari en aplique",
     "descripcion": "Un elefante, una cebra y leones sobre una repisa, recortados en madera.",
     "portada": 3,
@@ -501,6 +560,7 @@
     }
   },
   "bigotes": {
+    "slug": "bigotes",
     "titulo": "Bigotes",
     "descripcion": "Un hombre de bigote y barba cuya barba se vuelve ciudad: castillos, una ballena con globos y el Big Ben, todo en tinta negra.",
     "portada": 6,
@@ -510,6 +570,7 @@
     }
   },
   "figurella": {
+    "slug": "figurella",
     "titulo": "Figurella",
     "descripcion": "Un mural floral en turquesa, coral y mostaza con una figura en línea, pintado para la recepción de Figurella.",
     "portada": 1,
@@ -519,6 +580,7 @@
     }
   },
   "juan-jose-1": {
+    "slug": "cosmos-en-tinta",
     "titulo": "Cosmos en tinta",
     "descripcion": "Un astronauta, una ballena y un submarino flotando entre ríos de tinta negra.",
     "portada": 4,
@@ -528,6 +590,7 @@
     }
   },
   "juanjo-estudio2": {
+    "slug": "estudio-de-musica",
     "titulo": "Estudio de música",
     "descripcion": "Formas orgánicas en terracota, mostaza y verde que rodean un estudio con guitarras.",
     "portada": 1,
@@ -537,6 +600,7 @@
     }
   },
   "marquitos": {
+    "slug": "busto-en-tinta",
     "titulo": "Marquitos",
     "descripcion": "Un busto clásico en tinta negra, con cintas naranjas que atraviesan la sala.",
     "portada": 3,
@@ -546,6 +610,7 @@
     }
   },
   "sirius": {
+    "slug": "sirius",
     "titulo": "Sirius",
     "descripcion": "Islas flotantes con plantas, aves y corales sobre un fondo de agua, de punta a punta de la pared.",
     "portada": 2,
@@ -555,6 +620,7 @@
     }
   },
   "dig-hogar": {
+    "slug": "dig-hogar",
     "titulo": "Ciervo nocturno",
     "descripcion": "Una ilustración de un ciervo bajo un cielo de otoño, impresa y enmarcada.",
     "portada": 3,
@@ -564,6 +630,7 @@
     }
   },
   "jesus": {
+    "slug": "jesus",
     "titulo": "Jesús",
     "descripcion": "Un retrato de Jesús pintado a espátula en tonos tierra y blancos.",
     "portada": 2,
@@ -573,6 +640,7 @@
     }
   },
   "jocelin": {
+    "slug": "abstracto-en-la-sala",
     "titulo": "Abstracto en la sala",
     "descripcion": "Un cuadro abstracto en blanco, negro y terracota sobre el sofá.",
     "portada": 2,
@@ -582,6 +650,7 @@
     }
   },
   "conejos": {
+    "slug": "conejos",
     "titulo": "Conejitos",
     "descripcion": "Dos retratos de un conejo, de frente y de espaldas, en acuarela y lápiz.",
     "portada": 4,
@@ -591,6 +660,7 @@
     }
   },
   "dig-1": {
+    "slug": "dig-1",
     "titulo": "Muelle",
     "descripcion": "Una figura frente a un viejo muelle, en una ilustración enmarcada.",
     "portada": 1,
@@ -600,6 +670,7 @@
     }
   },
   "digital-2": {
+    "slug": "digital-2",
     "titulo": "Destellos",
     "descripcion": "Una mujer de cabello azul entre luces y una mano que señala, en ilustración enmarcada.",
     "portada": 1,
@@ -609,6 +680,7 @@
     }
   },
   "retrato": {
+    "slug": "retrato",
     "titulo": "Retrato",
     "descripcion": "Un retrato pintado a espátula de una mujer con suéter a rayas.",
     "portada": 2,
@@ -618,6 +690,7 @@
     }
   },
   "balcon-jaguar": {
+    "slug": "balcon-jaguar",
     "titulo": "Balcón del jaguar",
     "descripcion": "Un felino entre hojas de monstera y palmas, pintado en la pared de un balcón.",
     "portada": 2,
@@ -627,6 +700,7 @@
     }
   },
   "cocina-papayas": {
+    "slug": "cocina-papayas",
     "titulo": "Cocina de papayas",
     "descripcion": "Papayas y hojas pintadas a mano sobre los muebles coral de una cocina.",
     "portada": 2,
@@ -636,6 +710,7 @@
     }
   },
   "lineas-habitacion": {
+    "slug": "lineas-habitacion",
     "titulo": "Golondrinas y casa del árbol",
     "descripcion": "Golondrinas, grullas de papel y una casa del árbol sobre un libro, dibujadas en línea negra sobre la cama.",
     "portada": 1,
@@ -645,6 +720,7 @@
     }
   },
   "lineas-comedor": {
+    "slug": "lineas-comedor",
     "titulo": "Líneas del comedor",
     "descripcion": "Una línea negra que fluye por la pared y se enmarca en un cuadro, sobre un comedor blanco.",
     "portada": 1,
@@ -654,6 +730,7 @@
     }
   },
   "madre": {
+    "slug": "madre",
     "titulo": "Grullas y cerezos",
     "descripcion": "Grullas en vuelo, un cerezo en flor y un lago tranquilo detrás de la cama.",
     "portada": 3,
@@ -663,6 +740,7 @@
     }
   },
   "paisaje-habitacion": {
+    "slug": "paisaje-habitacion",
     "titulo": "Estanque de patos",
     "descripcion": "Un árbol dorado, un estanque con patos y flores silvestres alrededor de la cama.",
     "portada": 3,
@@ -672,6 +750,7 @@
     }
   },
   "sala-casa": {
+    "slug": "sala-casa",
     "titulo": "Montañas de colores",
     "descripcion": "Montañas en terracota, turquesa y rosa detrás del sofá, con un bloque verde que enmarca el comedor.",
     "portada": 4,
@@ -681,6 +760,7 @@
     }
   },
   "sala-rebecca": {
+    "slug": "comedor-de-cerezos",
     "titulo": "Comedor de Rebecca",
     "descripcion": "Un jardín de cerezos, ardillas, patos y pájaros que rodea el comedor.",
     "portada": 3,
@@ -690,6 +770,7 @@
     }
   },
   "sala-sara": {
+    "slug": "bosque-en-tonos-tierra",
     "titulo": "Sala de Sara",
     "descripcion": "Un bosque en tonos tierra, suave como un recuerdo, detrás del comedor.",
     "portada": 1,
@@ -699,6 +780,7 @@
     }
   },
   "pradera": {
+    "slug": "pradera",
     "titulo": "Pradera",
     "descripcion": "Montañas rosadas, colinas verdes y nubes suaves en una habitación.",
     "portada": 1,
@@ -708,6 +790,7 @@
     }
   },
   "mini-tenis": {
+    "slug": "mini-tenis",
     "titulo": "Mini tenis",
     "descripcion": "Tenis infantiles pintados a mano con un jaguar, flores y un sol.",
     "portada": 6,
@@ -717,6 +800,7 @@
     }
   },
   "dulce-y-tierno": {
+    "slug": "dulce-y-tierno",
     "titulo": "Dulce y tierno",
     "descripcion": "Un oso, un bulldog, conejitos, un zorro y un unicornio bajo un árbol con columpio, en el cuarto de un bebé.",
     "portada": 3,

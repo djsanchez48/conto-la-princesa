@@ -26,7 +26,7 @@ WHATSAPP = "573194712472"  # WhatsApp de Juliana (sin + ni espacios)
 def wa_link(mensaje):
     return "https://wa.me/" + WHATSAPP + "?text=" + urllib.parse.quote(mensaje)
 CIUDADES = ["Bogotá", "Medellín", "Manizales"]
-OG_DEFAULT = "img/proyectos/mapamundi-benja/3.jpg"  # imagen por defecto al compartir
+OG_DEFAULT = "img/proyectos/mapamundi/3.jpg"  # imagen por defecto al compartir
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # carpeta CLP
 SITE = os.path.join(BASE, "sitio-web")
@@ -57,18 +57,18 @@ def loc_text(proyecto, field, lang):
 # Murales que aparecen primero en el portafolio (en este orden exacto)
 DESTACADOS = [
     "astronauta",       # Astronauta y su perrito
-    "mapamundi-benja",  # Mapamundi
+    "mapamundi",        # Mapamundi
     "la-finca",         # La finca
-    "bosqueana",        # Bosque de Ana
-    "safari-caro",      # Sabana africana
-    "luci",             # El lago
+    "bosque-de-zorritos",  # Bosque de Ana
+    "sabana-africana",  # Sabana africana
+    "el-lago",          # El lago
     "lamar00",          # Océano
 ]
 
 # Orden manual dentro de una categoría: los slugs listados van primero (en este
 # orden) y el resto de la categoría sigue en su orden normal (alfabético por carpeta).
 ORDEN_EN_CATEGORIA = {
-    "HOG": ["balcon-jaguar", "bano-sha", "sala-rebecca"],
+    "HOG": ["balcon-jaguar", "bano-jardin", "comedor-de-cerezos"],
     "CUA": ["retrato", "pajaros-acuarela", "digital-2"],
 }
 
@@ -576,15 +576,22 @@ def main():
     )
 
     proyectos = []
+    sin_slug = []
     for carpeta in carpetas:
         cat, nombre = carpeta.split("_", 1)
-        slug = slugify(nombre)
+        clave = slugify(nombre)  # id interno, sale del nombre de la carpeta
         files = sorted([f for f in glob.glob(os.path.join(BASE, carpeta, "*"))
                         if f.lower().endswith((".jpg", ".jpeg", ".png"))])
         if not files:
             continue
+        meta = descripciones.get(clave, {})
+        # URL pública: siempre explícita en descripciones.json y nunca con nombres
+        # de personas (clientes, niños). Ver CLAUDE.md.
+        slug = meta.get("slug")
+        if not slug:
+            sin_slug.append(clave)
+            continue
         imgs = optimizar(files, os.path.join(OUT_IMG, slug))
-        meta = descripciones.get(slug, {})
         pidx = meta.get("portada", 1)
         if not isinstance(pidx, int) or not (1 <= pidx <= len(imgs)):
             pidx = 1
@@ -594,6 +601,15 @@ def main():
             "portada": imgs[pidx - 1]["thumb"], "imagenes": imgs,
             "en": meta.get("en", {}),
         })
+
+    if sin_slug:
+        raise SystemExit(
+            f"Falta \"slug\" ({len(sin_slug)}) en data/descripciones.json: " + ", ".join(sin_slug)
+            + " — elige una URL que describa el mural, sin nombres de personas."
+        )
+    repetidos = sorted({p["id"] for p in proyectos if [q["id"] for q in proyectos].count(p["id"]) > 1})
+    if repetidos:
+        raise SystemExit("Slugs repetidos en data/descripciones.json: " + ", ".join(repetidos))
 
     # Reordenar: DESTACADOS primero (en el orden definido), luego el resto
     dest_set = set(DESTACADOS)

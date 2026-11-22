@@ -15,6 +15,231 @@
       "source": "/qr",
       "destination": "/?utm_source=qr&utm_medium=offline&utm_campaign=activacion",
       "permanent": false
+    },
+    {
+      "source": "/proyecto/benja-0.html",
+      "destination": "/proyecto/zorrito-en-globos.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/benja-0.html",
+      "destination": "/en/proyecto/zorrito-en-globos.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/benja-0/:file*",
+      "destination": "/img/proyectos/zorrito-en-globos/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/mapamundi-benja.html",
+      "destination": "/proyecto/mapamundi.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/mapamundi-benja.html",
+      "destination": "/en/proyecto/mapamundi.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/mapamundi-benja/:file*",
+      "destination": "/img/proyectos/mapamundi/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/bosquelucia.html",
+      "destination": "/proyecto/ardillas-en-la-rama.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/bosquelucia.html",
+      "destination": "/en/proyecto/ardillas-en-la-rama.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/bosquelucia/:file*",
+      "destination": "/img/proyectos/ardillas-en-la-rama/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/luci.html",
+      "destination": "/proyecto/el-lago.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/luci.html",
+      "destination": "/en/proyecto/el-lago.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/luci/:file*",
+      "destination": "/img/proyectos/el-lago/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/alessandro.html",
+      "destination": "/proyecto/mapache-y-osito-en-globo.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/alessandro.html",
+      "destination": "/en/proyecto/mapache-y-osito-en-globo.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/alessandro/:file*",
+      "destination": "/img/proyectos/mapache-y-osito-en-globo/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/bosqueana.html",
+      "destination": "/proyecto/bosque-de-zorritos.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/bosqueana.html",
+      "destination": "/en/proyecto/bosque-de-zorritos.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/bosqueana/:file*",
+      "destination": "/img/proyectos/bosque-de-zorritos/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/safari-caro.html",
+      "destination": "/proyecto/sabana-africana.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/safari-caro.html",
+      "destination": "/en/proyecto/sabana-africana.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/safari-caro/:file*",
+      "destination": "/img/proyectos/sabana-africana/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/safari-gael.html",
+      "destination": "/proyecto/safari-en-acuarela.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/safari-gael.html",
+      "destination": "/en/proyecto/safari-en-acuarela.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/safari-gael/:file*",
+      "destination": "/img/proyectos/safari-en-acuarela/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/bano-sha.html",
+      "destination": "/proyecto/bano-jardin.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/bano-sha.html",
+      "destination": "/en/proyecto/bano-jardin.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/bano-sha/:file*",
+      "destination": "/img/proyectos/bano-jardin/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/juan-jose-1.html",
+      "destination": "/proyecto/cosmos-en-tinta.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/juan-jose-1.html",
+      "destination": "/en/proyecto/cosmos-en-tinta.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/juan-jose-1/:file*",
+      "destination": "/img/proyectos/cosmos-en-tinta/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/juanjo-estudio2.html",
+      "destination": "/proyecto/estudio-de-musica.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/juanjo-estudio2.html",
+      "destination": "/en/proyecto/estudio-de-musica.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/juanjo-estudio2/:file*",
+      "destination": "/img/proyectos/estudio-de-musica/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/jocelin.html",
+      "destination": "/proyecto/abstracto-en-la-sala.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/jocelin.html",
+      "destination": "/en/proyecto/abstracto-en-la-sala.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/jocelin/:file*",
+      "destination": "/img/proyectos/abstracto-en-la-sala/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/sala-rebecca.html",
+      "destination": "/proyecto/comedor-de-cerezos.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/sala-rebecca.html",
+      "destination": "/en/proyecto/comedor-de-cerezos.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/sala-rebecca/:file*",
+      "destination": "/img/proyectos/comedor-de-cerezos/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/sala-sara.html",
+      "destination": "/proyecto/bosque-en-tonos-tierra.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/sala-sara.html",
+      "destination": "/en/proyecto/bosque-en-tonos-tierra.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/sala-sara/:file*",
+      "destination": "/img/proyectos/bosque-en-tonos-tierra/:file*",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/marquitos.html",
+      "destination": "/proyecto/busto-en-tinta.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/proyecto/marquitos.html",
+      "destination": "/en/proyecto/busto-en-tinta.html",
+      "permanent": true
+    },
+    {
+      "source": "/img/proyectos/marquitos/:file*",
+      "destination": "/img/proyectos/busto-en-tinta/:file*",
+      "permanent": true
     }
   ]
 }
