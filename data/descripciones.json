@@ -808,5 +808,25 @@
       "titulo": "Sweet and Tender",
       "descripcion": "A bear, a bulldog, bunnies, a fox, and a unicorn beneath a tree with a swing, in a baby's nursery."
     }
+  },
+  "dinomarcelo": {
+    "slug": "dinosaurios-entre-cactus",
+    "titulo": "Dinosaurios entre cactus",
+    "descripcion": "Un T-rex, un braquiosaurio y un pterodáctilo entre cactus y nubes de línea, con un estegosaurio en aplique.",
+    "portada": 4,
+    "en": {
+      "titulo": "Dinosaurs Among the Cacti",
+      "descripcion": "A T-rex, a brachiosaurus and a pterodactyl among cacti and line-drawn clouds, with a stegosaurus appliqué."
+    }
+  },
+  "peugeot-col": {
+    "slug": "peugeot-partner-en-vivo",
+    "titulo": "Peugeot Partner pintada en vivo",
+    "descripcion": "Una camioneta Peugeot Partner intervenida en vivo frente al público: reposteras, un repartidor y una pintora con la bandera de Colombia, en trazos azules.",
+    "portada": 2,
+    "en": {
+      "titulo": "Peugeot Partner Painted Live",
+      "descripcion": "A Peugeot Partner van painted live in front of an audience: bakers, a delivery rider and a painter with the Colombian flag, in blue line work."
+    }
   }
 }

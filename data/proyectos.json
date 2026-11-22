@@ -864,6 +864,49 @@
       }
     },
     {
+      "id": "dinosaurios-entre-cactus",
+      "titulo": "Dinosaurios entre cactus",
+      "categoria": "INI",
+      "descripcion": "Un T-rex, un braquiosaurio y un pterodáctilo entre cactus y nubes de línea, con un estegosaurio en aplique.",
+      "portada": "img/proyectos/dinosaurios-entre-cactus/4-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/dinosaurios-entre-cactus/1-thumb.jpg",
+          "full": "img/proyectos/dinosaurios-entre-cactus/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dinosaurios-entre-cactus/2-thumb.jpg",
+          "full": "img/proyectos/dinosaurios-entre-cactus/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dinosaurios-entre-cactus/3-thumb.jpg",
+          "full": "img/proyectos/dinosaurios-entre-cactus/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dinosaurios-entre-cactus/4-thumb.jpg",
+          "full": "img/proyectos/dinosaurios-entre-cactus/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/dinosaurios-entre-cactus/5-thumb.jpg",
+          "full": "img/proyectos/dinosaurios-entre-cactus/5.jpg",
+          "w": 787,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Dinosaurs Among the Cacti",
+        "descripcion": "A T-rex, a brachiosaurus and a pterodactyl among cacti and line-drawn clouds, with a stegosaurus appliqué."
+      }
+    },
+    {
       "id": "dinos",
       "titulo": "Dinos",
       "categoria": "INI",
@@ -3087,6 +3130,109 @@
       "en": {
         "titulo": "Marquitos",
         "descripcion": "A classical bust in black ink, with orange ribbons sweeping across the living room."
+      }
+    },
+    {
+      "id": "peugeot-partner-en-vivo",
+      "titulo": "Peugeot Partner pintada en vivo",
+      "categoria": "COM",
+      "descripcion": "Una camioneta Peugeot Partner intervenida en vivo frente al público: reposteras, un repartidor y una pintora con la bandera de Colombia, en trazos azules.",
+      "portada": "img/proyectos/peugeot-partner-en-vivo/2-thumb.jpg",
+      "imagenes": [
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/1-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/1.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/2-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/2.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/3-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/3.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/4-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/4.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/5-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/5.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/6-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/6.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/7-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/7.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/8-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/8.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/9-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/9.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/10-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/10.jpg",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/11-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/11.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/12-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/12.jpg",
+          "w": 1050,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/13-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/13.jpg",
+          "w": 804,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/14-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/14.jpg",
+          "w": 1010,
+          "h": 1400
+        },
+        {
+          "thumb": "img/proyectos/peugeot-partner-en-vivo/15-thumb.jpg",
+          "full": "img/proyectos/peugeot-partner-en-vivo/15.jpg",
+          "w": 954,
+          "h": 1400
+        }
+      ],
+      "en": {
+        "titulo": "Peugeot Partner Painted Live",
+        "descripcion": "A Peugeot Partner van painted live in front of an audience: bakers, a delivery rider and a painter with the Colombian flag, in blue line work."
       }
     },
     {
