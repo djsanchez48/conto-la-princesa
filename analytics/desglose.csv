@@ -300,9 +300,9 @@ fecha,dimension,valor,visitantes,paginas_vistas
 2026-11-21,pais,US,1,1
 2026-11-21,referido,(directo),5,20
 2026-11-21,referido,l.instagram.com,2,3
-2026-11-22,dispositivo,mobile,15,32
+2026-11-22,dispositivo,mobile,17,34
 2026-11-22,dispositivo,desktop,3,13
-2026-11-22,pagina,/,10,12
+2026-11-22,pagina,/,12,14
 2026-11-22,pagina,/en,8,8
 2026-11-22,pagina,/portafolio.html,7,13
 2026-11-22,pagina,/en/portafolio.html,2,2
@@ -313,8 +313,8 @@ fecha,dimension,valor,visitantes,paginas_vistas
 2026-11-22,pagina,/proyecto/dinosaurios-entre-cactus.html,1,1
 2026-11-22,pagina,/proyecto/lamar00.html,1,1
 2026-11-22,pagina,/proyecto/puente.html,1,1
-2026-11-22,pais,CO,15,40
+2026-11-22,pais,CO,17,42
 2026-11-22,pais,MX,2,3
 2026-11-22,pais,FR,1,2
 2026-11-22,referido,(directo),17,37
-2026-11-22,referido,l.instagram.com,7,8
+2026-11-22,referido,l.instagram.com,9,10
