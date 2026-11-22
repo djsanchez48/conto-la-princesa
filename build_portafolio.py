@@ -447,7 +447,10 @@ def render_proyecto(p, relacionados, lang="es"):
     cat = cat_label(p["categoria"], lang)
     cat_for_title = cat.lower() if lang == "es" else cat
 
-    title = f"{titulo} — {S['proyecto_title_suffix'].format(cat=cat_for_title)} | {BRAND}"
+    # titulo_seo (opcional, por idioma): solo para <title>/buscadores, p. ej. para nombrar un evento.
+    titulo_seo = p.get("titulo_seo") if lang == "es" else p.get("en", {}).get("titulo_seo")
+    title = (f"{titulo_seo} | {BRAND}" if titulo_seo
+             else f"{titulo} — {S['proyecto_title_suffix'].format(cat=cat_for_title)} | {BRAND}")
     desc = f"{descripcion} {S['proyecto_desc_suffix']}"
     canonical = (f"{SITE_URL}/proyecto/{p['id']}.html" if lang == "es"
                  else f"{SITE_URL}/en/proyecto/{p['id']}.html")
@@ -662,6 +665,7 @@ def main():
             "portada": imgs[pidx - 1]["thumb"], "imagenes": imgs,
             "en": meta.get("en", {}),
             "cuento": meta.get("cuento"),
+            "titulo_seo": meta.get("titulo_seo"),
             "prensa": prensa.get(slug, []),
         })
 

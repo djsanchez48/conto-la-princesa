@@ -72,6 +72,7 @@ window.PROYECTOS = {
         "descripcion": "An astronaut and his puppy floating among the stars."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -141,6 +142,7 @@ window.PROYECTOS = {
         "descripcion": "A map of the world with animals from every continent."
       },
       "cuento": "https://benjamin.contolaprincesa.com/",
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -228,6 +230,7 @@ window.PROYECTOS = {
         "descripcion": "Pedro's farm."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -333,6 +336,7 @@ window.PROYECTOS = {
         "descripcion": "Little foxes, squirrels, and raccoons in the forest."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -396,6 +400,7 @@ window.PROYECTOS = {
         "descripcion": "The savanna with giraffes, zebras, and hippos."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -447,6 +452,7 @@ window.PROYECTOS = {
         "descripcion": "A lake with a swan, her cygnet, and a forest all around."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -498,6 +504,7 @@ window.PROYECTOS = {
         "descripcion": "The ocean with whales and dolphins."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -537,6 +544,7 @@ window.PROYECTOS = {
         "descripcion": "A leopard rests high up on its branch."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -576,6 +584,7 @@ window.PROYECTOS = {
         "descripcion": "An astronaut sitting on his favorite planet."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -633,6 +642,7 @@ window.PROYECTOS = {
         "descripcion": "A little fox rising up with balloons."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -696,6 +706,7 @@ window.PROYECTOS = {
         "descripcion": "A city of cars, bridges, and roads."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -789,6 +800,7 @@ window.PROYECTOS = {
         "descripcion": "Musician animals in a burst of color."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -888,6 +900,7 @@ window.PROYECTOS = {
         "descripcion": "Flash, Batman, Superman, and the rest of the team fly across the walls of the room."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -933,6 +946,7 @@ window.PROYECTOS = {
         "descripcion": "A T-rex, a brachiosaurus and a pterodactyl among cacti and line-drawn clouds, with a stegosaurus appliqué."
       },
       "cuento": "https://marcelo.contolaprincesa.com/",
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -978,6 +992,7 @@ window.PROYECTOS = {
         "descripcion": "Friendly dinosaurs among volcanoes and cacti."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1005,6 +1020,7 @@ window.PROYECTOS = {
         "descripcion": "A bedroom that turns into a galaxy."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1044,6 +1060,7 @@ window.PROYECTOS = {
         "descripcion": "A ball painted in every color."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1125,6 +1142,7 @@ window.PROYECTOS = {
         "descripcion": "Whales and coral on the ocean floor."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1194,6 +1212,7 @@ window.PROYECTOS = {
         "descripcion": "A little rabbit traveling by balloon through the clouds."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1257,6 +1276,7 @@ window.PROYECTOS = {
         "descripcion": "Fish and coral in a calm sea."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1308,6 +1328,7 @@ window.PROYECTOS = {
         "descripcion": "A space journey of lines and color."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1371,6 +1392,7 @@ window.PROYECTOS = {
         "descripcion": "A zebra and friends by the river."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1404,6 +1426,7 @@ window.PROYECTOS = {
         "descripcion": "A flying whale and a cozy reading nook."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1437,6 +1460,7 @@ window.PROYECTOS = {
         "descripcion": "Smiling clouds and a pastel rainbow."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1500,6 +1524,7 @@ window.PROYECTOS = {
         "descripcion": "A pastel unicorn and her fairy princess."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1557,6 +1582,7 @@ window.PROYECTOS = {
         "descripcion": "A forest with a bear cub, a sleeping fox, and a hedgehog."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1608,6 +1634,7 @@ window.PROYECTOS = {
         "descripcion": "Squirrels and a little bird on the branch."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1671,6 +1698,7 @@ window.PROYECTOS = {
         "descripcion": "A bear, a bulldog, bunnies, a fox, and a unicorn beneath a tree with a swing, in a baby's nursery."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1704,6 +1732,7 @@ window.PROYECTOS = {
         "descripcion": "Wildflowers climbing up the wall."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1737,6 +1766,7 @@ window.PROYECTOS = {
         "descripcion": "A crowned heart among flowers."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1800,6 +1830,7 @@ window.PROYECTOS = {
         "descripcion": "Little animals taking a balloon ride."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1839,6 +1870,7 @@ window.PROYECTOS = {
         "descripcion": "A gentle sea with fish and a seal."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -1902,6 +1934,7 @@ window.PROYECTOS = {
         "descripcion": "Little rabbits flying by balloon over the mountains."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2031,6 +2064,7 @@ window.PROYECTOS = {
         "descripcion": "A forest with a rabbit, a turtle, a bear cub, and even a fairy."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2076,6 +2110,7 @@ window.PROYECTOS = {
         "descripcion": "Pink mountains, green hills, and soft clouds in a bedroom."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2133,6 +2168,7 @@ window.PROYECTOS = {
         "descripcion": "A jungle with elephants, a giraffe, and a playful little monkey."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2178,6 +2214,7 @@ window.PROYECTOS = {
         "descripcion": "A little Virgin Mary surrounded by flowers, butterflies, and swallows."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2259,6 +2296,7 @@ window.PROYECTOS = {
         "descripcion": "A raccoon and a bear cub travel by balloon."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2310,6 +2348,7 @@ window.PROYECTOS = {
         "descripcion": "A colorful boa among jungle leaves."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2367,6 +2406,7 @@ window.PROYECTOS = {
         "descripcion": "Two opossums hanging from the branch."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2400,6 +2440,7 @@ window.PROYECTOS = {
         "descripcion": "A big hare and a little one under the clouds."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2475,6 +2516,7 @@ window.PROYECTOS = {
         "descripcion": "A fairground balloon among soft clouds."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2502,6 +2544,7 @@ window.PROYECTOS = {
         "descripcion": "A sweet lion watching over the room."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2559,6 +2602,7 @@ window.PROYECTOS = {
         "descripcion": "Kids' sneakers hand-painted with a jaguar, flowers, and a sun."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2604,6 +2648,7 @@ window.PROYECTOS = {
         "descripcion": "A superhero and a princess in their own story."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2685,6 +2730,7 @@ window.PROYECTOS = {
         "descripcion": "A pop-art world of dinos, unicorns, and books."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2766,6 +2812,7 @@ window.PROYECTOS = {
         "descripcion": "An elephant, a giraffe, and their savanna friends, in watercolor."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2811,6 +2858,7 @@ window.PROYECTOS = {
         "descripcion": "A giraffe peeking through tropical leaves."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2850,6 +2898,7 @@ window.PROYECTOS = {
         "descripcion": "An elephant, a sloth, and giraffes."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -2901,13 +2950,14 @@ window.PROYECTOS = {
         "descripcion": "A giraffe and a growth chart to measure how you grow."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
       "id": "peugeot-partner-en-vivo",
       "titulo": "Peugeot Partner pintada en vivo",
       "categoria": "COM",
-      "descripcion": "Una camioneta Peugeot Partner intervenida en vivo frente al público: reposteras, un repartidor y una pintora con la bandera de Colombia, en trazos azules.",
+      "descripcion": "Una camioneta Peugeot Partner intervenida en vivo en el Salón del Automóvil de Bogotá 2026: reposteras, un repartidor y una pintora con la bandera de Colombia, en trazos azules.",
       "portada": "img/proyectos/peugeot-partner-en-vivo/1-thumb.jpg",
       "imagenes": [
         {
@@ -3003,9 +3053,11 @@ window.PROYECTOS = {
       ],
       "en": {
         "titulo": "Peugeot Partner Painted Live",
-        "descripcion": "A Peugeot Partner van painted live in front of an audience: bakers, a delivery rider and a painter with the Colombian flag, in blue line work."
+        "descripcion": "A Peugeot Partner van painted live at the 2026 Bogotá Auto Show: bakers, a delivery rider and a painter with the Colombian flag, in blue line work.",
+        "titulo_seo": "Peugeot Partner Painted Live · Bogotá Auto Show 2026"
       },
       "cuento": null,
+      "titulo_seo": "Peugeot Partner pintada en vivo · Salón del Automóvil de Bogotá 2026",
       "prensa": [
         {
           "medio": "El Tiempo",
@@ -3094,6 +3146,7 @@ window.PROYECTOS = {
         "descripcion": "A mustached man whose beard turns into a city: castles, a whale with balloons, and Big Ben, all in black ink."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3175,6 +3228,7 @@ window.PROYECTOS = {
         "descripcion": "A floral mural in turquoise, coral, and mustard with a line-art figure, painted for the Figurella reception."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3226,6 +3280,7 @@ window.PROYECTOS = {
         "descripcion": "An astronaut, a whale, and a submarine floating among rivers of black ink."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3289,6 +3344,7 @@ window.PROYECTOS = {
         "descripcion": "Organic shapes in terracotta, mustard, and green wrapping around a studio with guitars."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3322,6 +3378,7 @@ window.PROYECTOS = {
         "descripcion": "A snow-capped mountain range at sunset running along the wall of a commercial space."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3379,6 +3436,7 @@ window.PROYECTOS = {
         "descripcion": "A classical bust in black ink, with orange ribbons sweeping across the living room."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3430,6 +3488,7 @@ window.PROYECTOS = {
         "descripcion": "The Brooklyn Bridge and the New York skyline, drawn in line art across the walls."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3463,6 +3522,7 @@ window.PROYECTOS = {
         "descripcion": "Floating islands with plants, birds, and coral over a watery backdrop, spanning the whole wall."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3490,6 +3550,7 @@ window.PROYECTOS = {
         "descripcion": "A palette-knife portrait of a woman in a striped sweater."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3607,6 +3668,7 @@ window.PROYECTOS = {
         "descripcion": "Four Colombian birds, hand-painted in watercolor and ink."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3634,6 +3696,7 @@ window.PROYECTOS = {
         "descripcion": "A blue-haired woman among sparkling lights and a pointing hand, in a framed illustration."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3673,6 +3736,7 @@ window.PROYECTOS = {
         "descripcion": "Two portraits of a rabbit, front and back, in watercolor and pencil."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3700,6 +3764,7 @@ window.PROYECTOS = {
         "descripcion": "A figure by an old pier, in a framed illustration."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3745,6 +3810,7 @@ window.PROYECTOS = {
         "descripcion": "An illustration of a deer under an autumn sky, printed and framed."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3772,6 +3838,7 @@ window.PROYECTOS = {
         "descripcion": "A portrait of Jesus painted with a palette knife in earthy and white tones."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3799,6 +3866,7 @@ window.PROYECTOS = {
         "descripcion": "An abstract canvas in black, white, and terracotta above the sofa."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3862,6 +3930,7 @@ window.PROYECTOS = {
         "descripcion": "A big cat among monstera leaves and palms, painted on a balcony wall."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -3919,6 +3988,7 @@ window.PROYECTOS = {
         "descripcion": "A bathroom that turns into a garden, with vines and wildflowers."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4006,6 +4076,7 @@ window.PROYECTOS = {
         "descripcion": "A garden of blossoming trees, squirrels, ducks, and birds surrounding the dining room."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4039,6 +4110,7 @@ window.PROYECTOS = {
         "descripcion": "Papayas and leaves hand-painted across the coral cabinets of a kitchen."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4084,6 +4156,7 @@ window.PROYECTOS = {
         "descripcion": "Swallows, paper cranes, and a treehouse on a book, drawn in black line above the bed."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4111,6 +4184,7 @@ window.PROYECTOS = {
         "descripcion": "A black line flowing across the wall and into a frame, above a white dining room."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4162,6 +4236,7 @@ window.PROYECTOS = {
         "descripcion": "Cranes in flight, a cherry tree in bloom, and a calm lake behind the bed."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4213,6 +4288,7 @@ window.PROYECTOS = {
         "descripcion": "A golden tree, a pond with ducks, and wildflowers around the bed."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4252,6 +4328,7 @@ window.PROYECTOS = {
         "descripcion": "Mountains in terracotta, teal, and pink behind the sofa, with a green block framing the dining area."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4285,6 +4362,7 @@ window.PROYECTOS = {
         "descripcion": "A forest in earth tones, soft as a memory, behind the dining table."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4318,6 +4396,7 @@ window.PROYECTOS = {
         "descripcion": "Astronauts, rockets, planets, and stars cut from wood and hand-painted."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4369,6 +4448,7 @@ window.PROYECTOS = {
         "descripcion": "Biplanes, a blimp, a helicopter, and a hot-air balloon in blue and gold, hand-painted on wood."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4414,6 +4494,7 @@ window.PROYECTOS = {
         "descripcion": "A hot-air balloon, a blimp, and biplanes in mint and sand tones, over a painted mountain range."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4471,6 +4552,7 @@ window.PROYECTOS = {
         "descripcion": "Capybaras, a squirrel, a hedgehog, a rabbit, an owl, and little birds, cut from wood."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4510,6 +4592,7 @@ window.PROYECTOS = {
         "descripcion": "Wooden cars on the road."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4573,6 +4656,7 @@ window.PROYECTOS = {
         "descripcion": "Farm animals and tractors, in appliqué."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4612,6 +4696,7 @@ window.PROYECTOS = {
         "descripcion": "A jaguar with her cubs and a macaw among tropical leaves and butterflies."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4645,6 +4730,7 @@ window.PROYECTOS = {
         "descripcion": "An elephant, a zebra, and lions on a shelf, cut from wood."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     },
     {
@@ -4708,6 +4794,7 @@ window.PROYECTOS = {
         "descripcion": "Flash, Thor, Iron Man, Superman, Batman, Captain America, Spider-Man, and Hulk, cut from wood and ready for action."
       },
       "cuento": null,
+      "titulo_seo": null,
       "prensa": []
     }
   ]

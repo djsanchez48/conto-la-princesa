@@ -824,11 +824,13 @@
   "peugeot-col": {
     "slug": "peugeot-partner-en-vivo",
     "titulo": "Peugeot Partner pintada en vivo",
-    "descripcion": "Una camioneta Peugeot Partner intervenida en vivo frente al público: reposteras, un repartidor y una pintora con la bandera de Colombia, en trazos azules.",
+    "titulo_seo": "Peugeot Partner pintada en vivo · Salón del Automóvil de Bogotá 2026",
+    "descripcion": "Una camioneta Peugeot Partner intervenida en vivo en el Salón del Automóvil de Bogotá 2026: reposteras, un repartidor y una pintora con la bandera de Colombia, en trazos azules.",
     "portada": 1,
     "en": {
       "titulo": "Peugeot Partner Painted Live",
-      "descripcion": "A Peugeot Partner van painted live in front of an audience: bakers, a delivery rider and a painter with the Colombian flag, in blue line work."
+      "descripcion": "A Peugeot Partner van painted live at the 2026 Bogotá Auto Show: bakers, a delivery rider and a painter with the Colombian flag, in blue line work.",
+      "titulo_seo": "Peugeot Partner Painted Live · Bogotá Auto Show 2026"
     }
   }
 }
