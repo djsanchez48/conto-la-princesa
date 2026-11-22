@@ -1,0 +1,706 @@
+{
+ "https://contolaprincesa.com/": {
+  "fecha": "2026-11-22",
+  "huella": "eea9d45d374ed0429e50b3e7a40d7f17ea4b7385fb394d6c5d6cf18910ff1eb8"
+ },
+ "https://contolaprincesa.com/en/index.html": {
+  "fecha": "2026-11-22",
+  "huella": "6212a3ee6b1f7837cbdb893742087a25a6a5455b76a6d485ce09674850e3d068"
+ },
+ "https://contolaprincesa.com/en/portafolio.html": {
+  "fecha": "2026-11-22",
+  "huella": "307caa35d4144efb6272f6a4f5ab949df6319e1866c0c2c9a17b2c80732760b0"
+ },
+ "https://contolaprincesa.com/en/proyecto/abstracto-en-la-sala.html": {
+  "fecha": "2026-11-22",
+  "huella": "766a839a6a78dcf21c45c4a623fa6806c38da1cc20cd32575e2ce23ab2d11bfc"
+ },
+ "https://contolaprincesa.com/en/proyecto/amaga.html": {
+  "fecha": "2026-11-22",
+  "huella": "4ca15a47c825c517e2847ed2c59d797cf9252309c0cb87cac7abd8eca6a258c7"
+ },
+ "https://contolaprincesa.com/en/proyecto/amazonas.html": {
+  "fecha": "2026-11-22",
+  "huella": "dbca06506a07a54ee0f51a3038e89de521769807af2f187fb593290cce2355f6"
+ },
+ "https://contolaprincesa.com/en/proyecto/animales-safari.html": {
+  "fecha": "2026-11-22",
+  "huella": "a9aa148421a30ce8512a37e4a5b0741ee128e7eddf2d218b1fd049183e066f5a"
+ },
+ "https://contolaprincesa.com/en/proyecto/arcoiris-2.html": {
+  "fecha": "2026-11-22",
+  "huella": "4e84be12398e4532cade9dcd7b9a35e730024d0624790f85467588f377e86a3f"
+ },
+ "https://contolaprincesa.com/en/proyecto/arcoiris.html": {
+  "fecha": "2026-11-22",
+  "huella": "8ab7980e14f9cdc7e033783390ecef2f43b3303ff9b50d64e2114801cc50c21e"
+ },
+ "https://contolaprincesa.com/en/proyecto/ardillas-en-la-rama.html": {
+  "fecha": "2026-11-22",
+  "huella": "40bb32d8a6ee3f8d6344e0c05596a2e5a5e132b838b3b2c10a9057cfb17ddc03"
+ },
+ "https://contolaprincesa.com/en/proyecto/astronauta.html": {
+  "fecha": "2026-11-22",
+  "huella": "a078befef2cd99ab5e44a7092ac8c9b697746bad53e3d669a3f88281292951b8"
+ },
+ "https://contolaprincesa.com/en/proyecto/astronauta00.html": {
+  "fecha": "2026-11-22",
+  "huella": "edb466e816a91a754e358ab3293a560ec2e02bdded3eb7441295e063bef0f346"
+ },
+ "https://contolaprincesa.com/en/proyecto/astronautas.html": {
+  "fecha": "2026-11-22",
+  "huella": "00239221b9e605fa61130738c72ba6a1cfe4f80d9ac42ae8487fd8ac88f86126"
+ },
+ "https://contolaprincesa.com/en/proyecto/aviones-vintage.html": {
+  "fecha": "2026-11-22",
+  "huella": "8fd7cfa5700417589e0ee33529d8ee92c492f4acdde63cf959ce578c9d8ef245"
+ },
+ "https://contolaprincesa.com/en/proyecto/aviones2.html": {
+  "fecha": "2026-11-22",
+  "huella": "4392a9c98581314923a43b9f9e8ff17ddca1e7570e11ce65bd4e82e29500ef03"
+ },
+ "https://contolaprincesa.com/en/proyecto/balcon-jaguar.html": {
+  "fecha": "2026-11-22",
+  "huella": "4e20be0f66a7163fffd77ad83dbbfa854d89fe8edcc64768343b0a7c2600d23b"
+ },
+ "https://contolaprincesa.com/en/proyecto/bano-jardin.html": {
+  "fecha": "2026-11-22",
+  "huella": "51b9e3d3902d8cd160256fd02cac1d11077901f073d8b509fc9cfbd59ccbfef6"
+ },
+ "https://contolaprincesa.com/en/proyecto/bigotes.html": {
+  "fecha": "2026-11-22",
+  "huella": "55e2c6b4fa1a539b2dc31d92ad6d4a74129228f3f14dee7ae179e9e5d2771f28"
+ },
+ "https://contolaprincesa.com/en/proyecto/bosque-de-zorritos.html": {
+  "fecha": "2026-11-22",
+  "huella": "69861ab8c9edf5c17f868c7f7c7e5eb48457ea52ba5209b52d0823dc58984483"
+ },
+ "https://contolaprincesa.com/en/proyecto/bosque-en-tonos-tierra.html": {
+  "fecha": "2026-11-22",
+  "huella": "ebd0c7d1f96f5487af46fbc3a9f676a0ce30b5c45ede746c6e97f4cfb6897e77"
+ },
+ "https://contolaprincesa.com/en/proyecto/bosque.html": {
+  "fecha": "2026-11-22",
+  "huella": "946901882c4c306eb0e4d9594e2209ad5542e30f2f1941988f1a54ecefab29b2"
+ },
+ "https://contolaprincesa.com/en/proyecto/bosque00.html": {
+  "fecha": "2026-11-22",
+  "huella": "45bfb595557a72eb4eefd440310a112259cf720fef29dae32ba26970bf20a2ba"
+ },
+ "https://contolaprincesa.com/en/proyecto/bosque03.html": {
+  "fecha": "2026-11-22",
+  "huella": "4a37c8f18d22268c807adff1ffc1047382961436077399a97102027ca6c6bfb7"
+ },
+ "https://contolaprincesa.com/en/proyecto/busto-en-tinta.html": {
+  "fecha": "2026-11-22",
+  "huella": "0b004cb4df520fcd3e6436f752b9537bd875fea50c91cc6645787437b689e59d"
+ },
+ "https://contolaprincesa.com/en/proyecto/carritos-astro.html": {
+  "fecha": "2026-11-22",
+  "huella": "516b72fbde71bcb4e72910d1a8551d90d64190d3528d571e9329ce4ec633a93c"
+ },
+ "https://contolaprincesa.com/en/proyecto/carros.html": {
+  "fecha": "2026-11-22",
+  "huella": "7b94e9de1999b3c33dd4b489289154a490163ea63a0da902a4bd1f846bd7e96a"
+ },
+ "https://contolaprincesa.com/en/proyecto/cocina-papayas.html": {
+  "fecha": "2026-11-22",
+  "huella": "3873620721eb1a71e3ade61e2bdc8b6374f6acec24de176954388e7e23c8214b"
+ },
+ "https://contolaprincesa.com/en/proyecto/color-y-linea.html": {
+  "fecha": "2026-11-22",
+  "huella": "dc9cb73579044fe73a9d6087e8736c3eccc3d473d139322e8b66168d521a75d4"
+ },
+ "https://contolaprincesa.com/en/proyecto/comedor-de-cerezos.html": {
+  "fecha": "2026-11-22",
+  "huella": "9c313ae43381883e35ce13096258feb792f7051030c6beb5f4a46dd839fcc92d"
+ },
+ "https://contolaprincesa.com/en/proyecto/conejos.html": {
+  "fecha": "2026-11-22",
+  "huella": "35eb7f21e1ab208a218c4661dd58f861a280713579f726146da68779334e95b0"
+ },
+ "https://contolaprincesa.com/en/proyecto/cosmos-en-tinta.html": {
+  "fecha": "2026-11-22",
+  "huella": "5edb7f46f577bd179151dc043168aa5de36331d87e5e6f7ec3b3d6a50517ca94"
+ },
+ "https://contolaprincesa.com/en/proyecto/cuantoteamo.html": {
+  "fecha": "2026-11-22",
+  "huella": "64990b1b55af67a5604701b075550a0fa3e35ec647ebdaffb7d2c0157eda3ba2"
+ },
+ "https://contolaprincesa.com/en/proyecto/cuarto-superheroes.html": {
+  "fecha": "2026-11-22",
+  "huella": "f7187b43c2ca800c0c40344a0749d40ceee4db8f10cee5cdc1bbb4ca63e1c065"
+ },
+ "https://contolaprincesa.com/en/proyecto/dig-1.html": {
+  "fecha": "2026-11-22",
+  "huella": "0b4b9b86af346c59714eeb7d98a27efa6493ee7fd72f443aa7eb1598f6100812"
+ },
+ "https://contolaprincesa.com/en/proyecto/dig-hogar.html": {
+  "fecha": "2026-11-22",
+  "huella": "bc16b8caeb01334b8573d3e8b5ca934c2b7cbb0d1f432f3f408877bafc0c965f"
+ },
+ "https://contolaprincesa.com/en/proyecto/digital-2.html": {
+  "fecha": "2026-11-22",
+  "huella": "a961c76629b2bbb19cfed8dcae3e3fa3946dd80eee840664df3ce68d67f0c5ac"
+ },
+ "https://contolaprincesa.com/en/proyecto/dinos.html": {
+  "fecha": "2026-11-22",
+  "huella": "1d634be083c2acd5c519220f3c5fd1bee1889b309c954a1f3bfcd91e96b97b63"
+ },
+ "https://contolaprincesa.com/en/proyecto/dinosaurios-entre-cactus.html": {
+  "fecha": "2026-11-22",
+  "huella": "87796338a0503d10cef545fe516fd7df4d9bfc776278a8ce43398513fd9c3ace"
+ },
+ "https://contolaprincesa.com/en/proyecto/dulce-y-tierno.html": {
+  "fecha": "2026-11-22",
+  "huella": "6e2cb502edd1f6616912ff415603bc31b2980d8f8656020845b4018441463daf"
+ },
+ "https://contolaprincesa.com/en/proyecto/el-lago.html": {
+  "fecha": "2026-11-22",
+  "huella": "092eb3a9955dcab19d3734e6b176891498923380c9ed68053c9e1a420eaf32aa"
+ },
+ "https://contolaprincesa.com/en/proyecto/espacio-exterior.html": {
+  "fecha": "2026-11-22",
+  "huella": "51c32b1a8ee206402d1525e8cda4dfbc476caa26daa06d8ae30732749f402687"
+ },
+ "https://contolaprincesa.com/en/proyecto/estudio-de-musica.html": {
+  "fecha": "2026-11-22",
+  "huella": "652d5d4180e2b39cffde5b83a736324fbad538cd04f4db605f6b770802054ac5"
+ },
+ "https://contolaprincesa.com/en/proyecto/figurella.html": {
+  "fecha": "2026-11-22",
+  "huella": "e2010ddcee566e0f8c580a64309d7e7fe98a5c19f20451f1aa3997dac6668082"
+ },
+ "https://contolaprincesa.com/en/proyecto/flores-1.html": {
+  "fecha": "2026-11-22",
+  "huella": "b07aec7aa5417fc10b249fd2271304889dfff61c4cae84ade038ea58ed67591c"
+ },
+ "https://contolaprincesa.com/en/proyecto/flores-pop.html": {
+  "fecha": "2026-11-22",
+  "huella": "872267fc58df77ca52a8eb56e6c398aa154de99b23403f49cd7993b21ebff4a2"
+ },
+ "https://contolaprincesa.com/en/proyecto/futbol.html": {
+  "fecha": "2026-11-22",
+  "huella": "879b437c94639824a914a4ff34bc0430e6f53667e378696c81572ab5c11cc83d"
+ },
+ "https://contolaprincesa.com/en/proyecto/globitos02.html": {
+  "fecha": "2026-11-22",
+  "huella": "ccaf33bd57fd7827ceb2db63a736acde21a3dc2e86673ce7e1ecbfb7be445350"
+ },
+ "https://contolaprincesa.com/en/proyecto/globos02.html": {
+  "fecha": "2026-11-22",
+  "huella": "3a5ba9f3b588db4d65eb2e8aec25b1960855d3be3bae1a1964a93ead9253160f"
+ },
+ "https://contolaprincesa.com/en/proyecto/granja.html": {
+  "fecha": "2026-11-22",
+  "huella": "7c695cb611584f2b4d15b8704377ffa580abba16bc999117017bb31a528f0c45"
+ },
+ "https://contolaprincesa.com/en/proyecto/jaguar.html": {
+  "fecha": "2026-11-22",
+  "huella": "3b8511fb63d4880a3fb46443b6d832828553538dddb0f80c458f146aed52af9b"
+ },
+ "https://contolaprincesa.com/en/proyecto/jesus.html": {
+  "fecha": "2026-11-22",
+  "huella": "ae9197a79882230fd111d9b2faaca56b78c34a186229354b49eafec4d30372b9"
+ },
+ "https://contolaprincesa.com/en/proyecto/la-finca.html": {
+  "fecha": "2026-11-22",
+  "huella": "6fe051d0b437881940830b7e09db5abdbbf221a600eb76ba210cb8f0bbdc35c6"
+ },
+ "https://contolaprincesa.com/en/proyecto/la-mar-sirena.html": {
+  "fecha": "2026-11-22",
+  "huella": "72a1850998828e1e9100d7c8a53d20b78963faf64089227b580261cffc659fdd"
+ },
+ "https://contolaprincesa.com/en/proyecto/lamar00.html": {
+  "fecha": "2026-11-22",
+  "huella": "2e64f637931eacecf967b46141a679ebec99760f3aea20f843ba8c93947c492c"
+ },
+ "https://contolaprincesa.com/en/proyecto/las-nieves.html": {
+  "fecha": "2026-11-22",
+  "huella": "04fd154fe89d58ac4ff1d2e3e285708a605ee081fb2761800bf737298633ec81"
+ },
+ "https://contolaprincesa.com/en/proyecto/leon-en-linea.html": {
+  "fecha": "2026-11-22",
+  "huella": "1fde20aadcfb5c4c4983a50f5ed3d6be00d86fc963a0354f4632ce5634f0e810"
+ },
+ "https://contolaprincesa.com/en/proyecto/lineas-comedor.html": {
+  "fecha": "2026-11-22",
+  "huella": "cea8631412df7b78f619e601af7015ff73d819137093b36a42f5b7c2bbba95dc"
+ },
+ "https://contolaprincesa.com/en/proyecto/lineas-habitacion.html": {
+  "fecha": "2026-11-22",
+  "huella": "ff9863835f78334cf50276522ba84784dff65167a245b018a167a3d92dcfdd56"
+ },
+ "https://contolaprincesa.com/en/proyecto/madre.html": {
+  "fecha": "2026-11-22",
+  "huella": "c5f693f2f046174c16497fbd6005d254a868261c1865ffde4d5d0eabad1ba5b4"
+ },
+ "https://contolaprincesa.com/en/proyecto/mapache-y-osito-en-globo.html": {
+  "fecha": "2026-11-22",
+  "huella": "b2618852b678cb6436f6f664eaffd07a60b64aee3166d4ecdf61a45288bbec06"
+ },
+ "https://contolaprincesa.com/en/proyecto/mapamundi.html": {
+  "fecha": "2026-11-22",
+  "huella": "db1aacdcb4e84b6074017f4c37f4c5ea17216e23fa163ca79f70f6b31c587a5c"
+ },
+ "https://contolaprincesa.com/en/proyecto/mar-tiburon.html": {
+  "fecha": "2026-11-22",
+  "huella": "d1c90a02adf68f6e547f30b1e65f11db30f25ffc0cc276f130a70b4d96207690"
+ },
+ "https://contolaprincesa.com/en/proyecto/mediooso.html": {
+  "fecha": "2026-11-22",
+  "huella": "3ccd78fef0a990bb0478a979e4e176ce6193532bc5862d8492297a2dc9db842a"
+ },
+ "https://contolaprincesa.com/en/proyecto/mini-tenis.html": {
+  "fecha": "2026-11-22",
+  "huella": "42e6f9049b892976318cdcaf5fe5e7609d269140a3699e7381eed0a8e1d02a5d"
+ },
+ "https://contolaprincesa.com/en/proyecto/montana-conejos.html": {
+  "fecha": "2026-11-22",
+  "huella": "567d71669edee4a1461782c0332bd4b8d93e4d2a984e7840cac50c4c4cb9c074"
+ },
+ "https://contolaprincesa.com/en/proyecto/orca.html": {
+  "fecha": "2026-11-22",
+  "huella": "7dd09893d12e5561896a11caa3219ed9bbdc3f652340f4f4684be66563276a18"
+ },
+ "https://contolaprincesa.com/en/proyecto/ososaplique.html": {
+  "fecha": "2026-11-22",
+  "huella": "285bcfd7c5228bd6a86d0bc0d70d5f7aab528be1ec7ee882f3f416f838924579"
+ },
+ "https://contolaprincesa.com/en/proyecto/paisaje-habitacion.html": {
+  "fecha": "2026-11-22",
+  "huella": "55d1d61e2bb5f19372be1794bd8eac1cb1c96a775efc6822af6ee3a6c1a12966"
+ },
+ "https://contolaprincesa.com/en/proyecto/pajaros-acuarela.html": {
+  "fecha": "2026-11-22",
+  "huella": "eb3bb7b3ca5cb08c4808eb0f5b1d1c0cf29df89730a758054d1b46f975a8d1de"
+ },
+ "https://contolaprincesa.com/en/proyecto/peugeot-partner-en-vivo.html": {
+  "fecha": "2026-11-22",
+  "huella": "a1fa472ff7e61cfb8961e6097444d9ee9167ffeae6443a03691e64377a24f476"
+ },
+ "https://contolaprincesa.com/en/proyecto/pop-dino-y-princesa.html": {
+  "fecha": "2026-11-22",
+  "huella": "b9bcdda0e4d68ecc98fb63f19e2ff74963741c280d26d7ec19f90d3e430c929d"
+ },
+ "https://contolaprincesa.com/en/proyecto/pop-dos-almitas.html": {
+  "fecha": "2026-11-22",
+  "huella": "863add4537ee93a9eef62da3c21b5fbf943426f5e3b1ed84e48beb660d3cc9cc"
+ },
+ "https://contolaprincesa.com/en/proyecto/pop.html": {
+  "fecha": "2026-11-22",
+  "huella": "f63a62ed6e5c3cec8169d29e6dc29edc1b27e4c2fea4370a86cd4f6a7450b680"
+ },
+ "https://contolaprincesa.com/en/proyecto/pradera.html": {
+  "fecha": "2026-11-22",
+  "huella": "f1a3dc5799121a937db2de26c6ceebb4d3a12c696a8f1c967ad2a4804eb2c3ca"
+ },
+ "https://contolaprincesa.com/en/proyecto/puente.html": {
+  "fecha": "2026-11-22",
+  "huella": "4cf2d147ecdd0d7b4c5ef024e4254f9bcdd426701cd761fa815df1a86d9e2c6b"
+ },
+ "https://contolaprincesa.com/en/proyecto/retrato.html": {
+  "fecha": "2026-11-22",
+  "huella": "c36620709db631c2150fb08dc1a85c2ecc65ebdb6b796c5992c2e4af175fa21b"
+ },
+ "https://contolaprincesa.com/en/proyecto/sabana-africana.html": {
+  "fecha": "2026-11-22",
+  "huella": "2e583822241e7d7a4eb704271fd6790c6e59406d0b0286fc774d56ed75a27e19"
+ },
+ "https://contolaprincesa.com/en/proyecto/safari-01.html": {
+  "fecha": "2026-11-22",
+  "huella": "2098bd1d6dbef7c726b29555304b8fd916e8afed64c928e3014ea5ccc8ad2aa4"
+ },
+ "https://contolaprincesa.com/en/proyecto/safari-04.html": {
+  "fecha": "2026-11-22",
+  "huella": "12ecd928cc740f68670f785e07aef7a34b11fbaa46cc02e16915b6d90b07965f"
+ },
+ "https://contolaprincesa.com/en/proyecto/safari-en-acuarela.html": {
+  "fecha": "2026-11-22",
+  "huella": "b725b42e2fa9b1824ed8f8e9e526a250f276c57bf5fdbad28c3fa24c5a1f2ef0"
+ },
+ "https://contolaprincesa.com/en/proyecto/safari.html": {
+  "fecha": "2026-11-22",
+  "huella": "8b0e75728a4936ade1c3d9851e6046ba1638c1c437df71676e156ee64efe2f24"
+ },
+ "https://contolaprincesa.com/en/proyecto/safari01.html": {
+  "fecha": "2026-11-22",
+  "huella": "db56c41d895451e7b7f90e7afc2fe7da450972f9db9652a063217730b0f1e6bf"
+ },
+ "https://contolaprincesa.com/en/proyecto/safari05.html": {
+  "fecha": "2026-11-22",
+  "huella": "4a73e0196c9f8cd0229153162d652f72fca14695d5442dbf0af589dc86d3c96b"
+ },
+ "https://contolaprincesa.com/en/proyecto/safari06.html": {
+  "fecha": "2026-11-22",
+  "huella": "cabdd815e06f41242f0545027d14b94d8d5be9e42c9513ae728fc5ca45cc4144"
+ },
+ "https://contolaprincesa.com/en/proyecto/sala-casa.html": {
+  "fecha": "2026-11-22",
+  "huella": "3add11292ddf7422f1df051b1c18a8f02ca3c383d784659561bf4376c3071b31"
+ },
+ "https://contolaprincesa.com/en/proyecto/sirius.html": {
+  "fecha": "2026-11-22",
+  "huella": "3d47e3eb006a708655a9c1ee0741ea6da93446e883a3e454e8ce162c41fb5c2b"
+ },
+ "https://contolaprincesa.com/en/proyecto/superheroes-aplique.html": {
+  "fecha": "2026-11-22",
+  "huella": "db9a70929eaa23ee17fcdbabd1d800f8c195c8dddd97242b395db00e3ee82c6c"
+ },
+ "https://contolaprincesa.com/en/proyecto/virgen.html": {
+  "fecha": "2026-11-22",
+  "huella": "8dfefa8e8836082ee533768fa5c318a9f1b616d763676bac190e3b86284e9cb0"
+ },
+ "https://contolaprincesa.com/en/proyecto/zorrito-en-globos.html": {
+  "fecha": "2026-11-22",
+  "huella": "8d75eca5a015f4570e7808414205582b8e8f24adf776904ef7ca33f2dc0642c2"
+ },
+ "https://contolaprincesa.com/portafolio.html": {
+  "fecha": "2026-11-22",
+  "huella": "4918e5abdb04e20e6262843094ed260ef34bc9655a7df927ac17b121e9116714"
+ },
+ "https://contolaprincesa.com/proyecto/abstracto-en-la-sala.html": {
+  "fecha": "2026-11-22",
+  "huella": "7b706dba1e35551d81dfb00e5c88af3126b9808f4b9f030581e33050ba37979d"
+ },
+ "https://contolaprincesa.com/proyecto/amaga.html": {
+  "fecha": "2026-11-22",
+  "huella": "499323bfae515f035bd7fee6bab113e522cebe50a4707abbb60cfc7e70588778"
+ },
+ "https://contolaprincesa.com/proyecto/amazonas.html": {
+  "fecha": "2026-11-22",
+  "huella": "b24b14c0d19ca99af115800f814717a1bd55706d5609e8f46d97bd0759d9c588"
+ },
+ "https://contolaprincesa.com/proyecto/animales-safari.html": {
+  "fecha": "2026-11-22",
+  "huella": "c88d5af3287a4181623d6a6159c423666c670a9d1e52be0fcb3c3eb691b0d37a"
+ },
+ "https://contolaprincesa.com/proyecto/arcoiris-2.html": {
+  "fecha": "2026-11-22",
+  "huella": "71f5e9897b64f8caf5317baded55410b2e5db6566bf240e8d30cf7e07cff8b60"
+ },
+ "https://contolaprincesa.com/proyecto/arcoiris.html": {
+  "fecha": "2026-11-22",
+  "huella": "a296c716a1037cb04f09e94ef1262c65164de54f91d7a6ad637c60c82d341ed6"
+ },
+ "https://contolaprincesa.com/proyecto/ardillas-en-la-rama.html": {
+  "fecha": "2026-11-22",
+  "huella": "a6cac6c7025aae4da7080d184b26b7753cd10e0a93a67f2ac0bafa23fcde9052"
+ },
+ "https://contolaprincesa.com/proyecto/astronauta.html": {
+  "fecha": "2026-11-22",
+  "huella": "72263c35b0dcb9bc94390e351cc1e38a33e0855052b20fa84464e6da1c0b2190"
+ },
+ "https://contolaprincesa.com/proyecto/astronauta00.html": {
+  "fecha": "2026-11-22",
+  "huella": "9a163ea68e98caff8ffc950fd25a617967aa354f4480e2f70fa4de000f5e7cff"
+ },
+ "https://contolaprincesa.com/proyecto/astronautas.html": {
+  "fecha": "2026-11-22",
+  "huella": "5cf837df580a6e71fd928e7c96a4093eb2e4b9095e09f32e6cdd98d5ab508723"
+ },
+ "https://contolaprincesa.com/proyecto/aviones-vintage.html": {
+  "fecha": "2026-11-22",
+  "huella": "2f6157d45225ada7876446d3aaf67398c8149c181815acb9ec0cc3bd242b6735"
+ },
+ "https://contolaprincesa.com/proyecto/aviones2.html": {
+  "fecha": "2026-11-22",
+  "huella": "60f0785e63da5af1fd12fe8d24a9b2e775df1e846f56f742a066ce2699bc8a07"
+ },
+ "https://contolaprincesa.com/proyecto/balcon-jaguar.html": {
+  "fecha": "2026-11-22",
+  "huella": "5e77ffc6ad06a6f42f54e6e956382ccbffbc92f707b3b2017fc2d67e3efe900c"
+ },
+ "https://contolaprincesa.com/proyecto/bano-jardin.html": {
+  "fecha": "2026-11-22",
+  "huella": "a114466986a11c89d185e702ad55a8076048b5fe06d7176e4a4169243d96c3c5"
+ },
+ "https://contolaprincesa.com/proyecto/bigotes.html": {
+  "fecha": "2026-11-22",
+  "huella": "c3a7dc025cfa9063926588cefcd8d975156eb44aece06b13bb783aa04106077b"
+ },
+ "https://contolaprincesa.com/proyecto/bosque-de-zorritos.html": {
+  "fecha": "2026-11-22",
+  "huella": "2093f45adbeec1e36702219af4f41efc7846f64a5e965c0a27d170fade3ecfd6"
+ },
+ "https://contolaprincesa.com/proyecto/bosque-en-tonos-tierra.html": {
+  "fecha": "2026-11-22",
+  "huella": "7d985e5aa2f34970a5c241171527f104d753673e980845b923233f09189d1a22"
+ },
+ "https://contolaprincesa.com/proyecto/bosque.html": {
+  "fecha": "2026-11-22",
+  "huella": "e224ef0607a37e74981ddf0c8d791cb42029c4490226e03d5c41720500a64690"
+ },
+ "https://contolaprincesa.com/proyecto/bosque00.html": {
+  "fecha": "2026-11-22",
+  "huella": "b3b5a084d79b95be2824524cf8b7c7b3719dd776c8f2cc678171bf85436cd326"
+ },
+ "https://contolaprincesa.com/proyecto/bosque03.html": {
+  "fecha": "2026-11-22",
+  "huella": "9b8a9f2681b84a10249606cb06901e4fa80d4a41f3cd8c120b39379a379013de"
+ },
+ "https://contolaprincesa.com/proyecto/busto-en-tinta.html": {
+  "fecha": "2026-11-22",
+  "huella": "d7f021620ac422ed9b2f51be33c3c423bddb5faaba129d7e3b2da40de3864def"
+ },
+ "https://contolaprincesa.com/proyecto/carritos-astro.html": {
+  "fecha": "2026-11-22",
+  "huella": "77750c8808da58f93a3d961931cd00e5f604f5f83690d9d2e517baa077ceb3a3"
+ },
+ "https://contolaprincesa.com/proyecto/carros.html": {
+  "fecha": "2026-11-22",
+  "huella": "894c714903fc01be6324ce03645ce7b20dc33156473488c886b5d78ce9825fa0"
+ },
+ "https://contolaprincesa.com/proyecto/cocina-papayas.html": {
+  "fecha": "2026-11-22",
+  "huella": "fe39f6b4181703fe6afebcd6a0275790f02b3fe96dbcc43ffc5b42a5ba01b2c4"
+ },
+ "https://contolaprincesa.com/proyecto/color-y-linea.html": {
+  "fecha": "2026-11-22",
+  "huella": "f3e97f3ec75ee41dba45ab6400a932804297035255429fcb18815851f499ee6b"
+ },
+ "https://contolaprincesa.com/proyecto/comedor-de-cerezos.html": {
+  "fecha": "2026-11-22",
+  "huella": "c076302b09f25a0db274d7c5336707efa3d9b200854826e64b56871eaaf5e2af"
+ },
+ "https://contolaprincesa.com/proyecto/conejos.html": {
+  "fecha": "2026-11-22",
+  "huella": "e825f79775e278d0eacc0a66ffc412169eb420bbd4f97bfb3569ac4b2aec9815"
+ },
+ "https://contolaprincesa.com/proyecto/cosmos-en-tinta.html": {
+  "fecha": "2026-11-22",
+  "huella": "918a905ad4e20ed4ca4ef2fdb4d1d267b14e339895a05a1408e49faa005a4540"
+ },
+ "https://contolaprincesa.com/proyecto/cuantoteamo.html": {
+  "fecha": "2026-11-22",
+  "huella": "d373585e928266f35d228a30ec82b38141c1c4e21e542bd2c26989d34384a5a0"
+ },
+ "https://contolaprincesa.com/proyecto/cuarto-superheroes.html": {
+  "fecha": "2026-11-22",
+  "huella": "82d6a63ccadc25383c05be3497b1d1816ec7f6b31e424cbecff1a30b39737c32"
+ },
+ "https://contolaprincesa.com/proyecto/dig-1.html": {
+  "fecha": "2026-11-22",
+  "huella": "1be90ad842df1db2d02053a7df041bc2191fdb3a5396f6914825a2084771e4ef"
+ },
+ "https://contolaprincesa.com/proyecto/dig-hogar.html": {
+  "fecha": "2026-11-22",
+  "huella": "bc1bbf8c8a382dc9b50704612fa98c482d78ca46f302e03b1c41a336a59d4878"
+ },
+ "https://contolaprincesa.com/proyecto/digital-2.html": {
+  "fecha": "2026-11-22",
+  "huella": "a0b97440b21cd69b249a4e362310c5dbd2de8c7ab37af85d8771c8e744f2e87a"
+ },
+ "https://contolaprincesa.com/proyecto/dinos.html": {
+  "fecha": "2026-11-22",
+  "huella": "6794e36f1e4ab0298ca95edb0bd10510f52aa95402d8c47f25fe625abec7446c"
+ },
+ "https://contolaprincesa.com/proyecto/dinosaurios-entre-cactus.html": {
+  "fecha": "2026-11-22",
+  "huella": "f29b6db1c0e731b3e33e9550b4163f14b93161a08fd68cb98d4015261bfd2ae7"
+ },
+ "https://contolaprincesa.com/proyecto/dulce-y-tierno.html": {
+  "fecha": "2026-11-22",
+  "huella": "48d5a63f5c47aefaa80fc7fda327132f96760f4315bafd8118a44875968e5445"
+ },
+ "https://contolaprincesa.com/proyecto/el-lago.html": {
+  "fecha": "2026-11-22",
+  "huella": "c1458a806e743d1ff7a698fe8e7ce5d9b4f478ee5c0906c4ee12a2a739dda35d"
+ },
+ "https://contolaprincesa.com/proyecto/espacio-exterior.html": {
+  "fecha": "2026-11-22",
+  "huella": "940798c382654dc193a91721ca7fc2e30888e75384100e9fa27d9d2df106c89e"
+ },
+ "https://contolaprincesa.com/proyecto/estudio-de-musica.html": {
+  "fecha": "2026-11-22",
+  "huella": "f1347ea6dc5987e7856e5037d1846518d4f7a40d31ae53a62945e42cd41d5c74"
+ },
+ "https://contolaprincesa.com/proyecto/figurella.html": {
+  "fecha": "2026-11-22",
+  "huella": "39f0682e1e2a2425c9f661f06ccd8d1ce7e34a39458c8d7786c404a9bc880fe7"
+ },
+ "https://contolaprincesa.com/proyecto/flores-1.html": {
+  "fecha": "2026-11-22",
+  "huella": "d3e1f328e79ca2387b7f465e72c1fb072b75d9d21b957f0d17ffa680c6fa176f"
+ },
+ "https://contolaprincesa.com/proyecto/flores-pop.html": {
+  "fecha": "2026-11-22",
+  "huella": "59076afb2d6e8a140540ba815547e505527d3d2413f382d70ca2bf945d6eac08"
+ },
+ "https://contolaprincesa.com/proyecto/futbol.html": {
+  "fecha": "2026-11-22",
+  "huella": "73d02923d8443451bb7aa920a4cf83f2e50d5cb71c88e3c052d4955e9f28e76d"
+ },
+ "https://contolaprincesa.com/proyecto/globitos02.html": {
+  "fecha": "2026-11-22",
+  "huella": "5d2ebd8fa7ec2d71ac52d8a8e9931cc8dc4b5455acf9988f9ca4cf8b2f76f51f"
+ },
+ "https://contolaprincesa.com/proyecto/globos02.html": {
+  "fecha": "2026-11-22",
+  "huella": "f004ce2c544ca40f4997ecaaa749c6ea2c8d11812c4e7550cf3a4cac166f7e08"
+ },
+ "https://contolaprincesa.com/proyecto/granja.html": {
+  "fecha": "2026-11-22",
+  "huella": "bf593c7801fd2813ac99dbe6fe9cc1b972f365a7abcefd34b08614bab5c1d98a"
+ },
+ "https://contolaprincesa.com/proyecto/jaguar.html": {
+  "fecha": "2026-11-22",
+  "huella": "78b6d425bdeb28a0046b78b0be76b681ef3acdc6f1aa1c7a657c0b660bda64e6"
+ },
+ "https://contolaprincesa.com/proyecto/jesus.html": {
+  "fecha": "2026-11-22",
+  "huella": "9fe2ffb0a454208287a3b65568d9488eaaae2e85692f621151ec99dedf4d612b"
+ },
+ "https://contolaprincesa.com/proyecto/la-finca.html": {
+  "fecha": "2026-11-22",
+  "huella": "dbf492b6a058a0b9ccded6950fd03b74768d086f0ab44b5f53a6e75f62d5c30b"
+ },
+ "https://contolaprincesa.com/proyecto/la-mar-sirena.html": {
+  "fecha": "2026-11-22",
+  "huella": "801b32df34546bb96728f4e56ed8d404680ab11b04dc6f20df565cf497474092"
+ },
+ "https://contolaprincesa.com/proyecto/lamar00.html": {
+  "fecha": "2026-11-22",
+  "huella": "b6504151076b9bc97ce3025d9dec8150308504b8bdc60fab0da519086c06e554"
+ },
+ "https://contolaprincesa.com/proyecto/las-nieves.html": {
+  "fecha": "2026-11-22",
+  "huella": "2d42ee3636965c4d289c52fbd18d68f594224a5630aad9a4a12058066106ed01"
+ },
+ "https://contolaprincesa.com/proyecto/leon-en-linea.html": {
+  "fecha": "2026-11-22",
+  "huella": "d92ce66bf34210ea3159fd11cf42544d350e1f663cd4a3775ddce70735fa4b02"
+ },
+ "https://contolaprincesa.com/proyecto/lineas-comedor.html": {
+  "fecha": "2026-11-22",
+  "huella": "6b4b00ede74e856c904b76f42c6b8c8eacb31e5f8dae17c883122e3dbc4ccac3"
+ },
+ "https://contolaprincesa.com/proyecto/lineas-habitacion.html": {
+  "fecha": "2026-11-22",
+  "huella": "9ebfc7fbda9b521c965559385379150f441f2e81ef49f3840a3e45973831d669"
+ },
+ "https://contolaprincesa.com/proyecto/madre.html": {
+  "fecha": "2026-11-22",
+  "huella": "8d8c2a47f3dbee6041b422729892f344a4e1a66c7ebae8eabbeb9d13d6820568"
+ },
+ "https://contolaprincesa.com/proyecto/mapache-y-osito-en-globo.html": {
+  "fecha": "2026-11-22",
+  "huella": "41981b46cdd65b684b38f7fb8b5c95d8bfb9b5f289c55e60d79a4996e5316f5a"
+ },
+ "https://contolaprincesa.com/proyecto/mapamundi.html": {
+  "fecha": "2026-11-22",
+  "huella": "0e1ac87d49ec42e58fa50f1e64d4096d90477b6a73a6bc219d74ba2db9650b5d"
+ },
+ "https://contolaprincesa.com/proyecto/mar-tiburon.html": {
+  "fecha": "2026-11-22",
+  "huella": "e26fe5ec2f43e6d13c4886a23d07eddc8f4e1060e9ff8f627f2b0f2f3ab79630"
+ },
+ "https://contolaprincesa.com/proyecto/mediooso.html": {
+  "fecha": "2026-11-22",
+  "huella": "94857422c9c01ff422fb763e9744d32f66233e03a2ff528246221c88f70e30fa"
+ },
+ "https://contolaprincesa.com/proyecto/mini-tenis.html": {
+  "fecha": "2026-11-22",
+  "huella": "2a16c92eb0690a6d83c1f22b5cae3fab6a881d616b63ce93153e772b6f34058d"
+ },
+ "https://contolaprincesa.com/proyecto/montana-conejos.html": {
+  "fecha": "2026-11-22",
+  "huella": "496beb12d0e42e625a4b43eb9ae573d33208c6566048973d20db1b3bef006c1d"
+ },
+ "https://contolaprincesa.com/proyecto/orca.html": {
+  "fecha": "2026-11-22",
+  "huella": "e231d99e8536344ebcd7a73d28cc01c317a7d52a4a867b3a911c9994745fb084"
+ },
+ "https://contolaprincesa.com/proyecto/ososaplique.html": {
+  "fecha": "2026-11-22",
+  "huella": "f908056c1ee204f1220efb77a0f4e6344dd44baae44d2fc50a4aa8e3af82250c"
+ },
+ "https://contolaprincesa.com/proyecto/paisaje-habitacion.html": {
+  "fecha": "2026-11-22",
+  "huella": "93588af45ac0c0fd95891a10c836bfe906b95c7a7d88506fdde37a5cfd97d4a2"
+ },
+ "https://contolaprincesa.com/proyecto/pajaros-acuarela.html": {
+  "fecha": "2026-11-22",
+  "huella": "e4f25c5a093b512b114e5301aefe6894b5fc135eb67d25fae9e6d1df210755e1"
+ },
+ "https://contolaprincesa.com/proyecto/peugeot-partner-en-vivo.html": {
+  "fecha": "2026-11-22",
+  "huella": "60cc70402861456751d9ef546f349a820517c5a3e18e8ca5d2efa917d5f4749b"
+ },
+ "https://contolaprincesa.com/proyecto/pop-dino-y-princesa.html": {
+  "fecha": "2026-11-22",
+  "huella": "20c90b647114bd5c72af74f4ebdaf23518d04a7ed23da289468e9bf1837c0cc9"
+ },
+ "https://contolaprincesa.com/proyecto/pop-dos-almitas.html": {
+  "fecha": "2026-11-22",
+  "huella": "e1a842593465a18dd5defc8e50afd07474ec5ac57622efdae2edb357067c8a29"
+ },
+ "https://contolaprincesa.com/proyecto/pop.html": {
+  "fecha": "2026-11-22",
+  "huella": "fd3a80d5fa1576dd5de41a2a647a4040e7a37561158e33758c0372de7971e644"
+ },
+ "https://contolaprincesa.com/proyecto/pradera.html": {
+  "fecha": "2026-11-22",
+  "huella": "470187fb6e9e9c2b14f968887ed6ead6dcb3844fdf3a9cb64d9817c0e017e41d"
+ },
+ "https://contolaprincesa.com/proyecto/puente.html": {
+  "fecha": "2026-11-22",
+  "huella": "cdc356987bbaba399c3e7c5a84ba7937c54cab27677f91ebcc3cf0045672a923"
+ },
+ "https://contolaprincesa.com/proyecto/retrato.html": {
+  "fecha": "2026-11-22",
+  "huella": "e8b9fc5aee11ed35b8cf57a179e9c9e9248eb78c9c5597954cac83063dadb727"
+ },
+ "https://contolaprincesa.com/proyecto/sabana-africana.html": {
+  "fecha": "2026-11-22",
+  "huella": "1a1cfec9f4b9967c16a93eb38631a850e480cbe299e6fc78e004efdd038efdb2"
+ },
+ "https://contolaprincesa.com/proyecto/safari-01.html": {
+  "fecha": "2026-11-22",
+  "huella": "71ddb199515109f247d36d411518fdc8a3eb3fd94ab4929e3453cb752915239f"
+ },
+ "https://contolaprincesa.com/proyecto/safari-04.html": {
+  "fecha": "2026-11-22",
+  "huella": "c02ffa8017bb19fbe50c4e53eea209690685b4b4ce77017f237eb4c32e8121ff"
+ },
+ "https://contolaprincesa.com/proyecto/safari-en-acuarela.html": {
+  "fecha": "2026-11-22",
+  "huella": "ae96e1a89bd09fb310529e20340022172003ec03a4624156579df038147eb5b9"
+ },
+ "https://contolaprincesa.com/proyecto/safari.html": {
+  "fecha": "2026-11-22",
+  "huella": "97d98c33aa7b5e25f06d0d7643fbc920a4611f3b176a4b724ec79d61bd8aaf38"
+ },
+ "https://contolaprincesa.com/proyecto/safari01.html": {
+  "fecha": "2026-11-22",
+  "huella": "31421db9605a183f7352a90c3e43d96a96a36a7161ff14e6cdb42d3347ba1489"
+ },
+ "https://contolaprincesa.com/proyecto/safari05.html": {
+  "fecha": "2026-11-22",
+  "huella": "d0be9f1bb8ac0edb0585d55b7952d7cc77aa0fd067286fbe0ece5b05e5664fcb"
+ },
+ "https://contolaprincesa.com/proyecto/safari06.html": {
+  "fecha": "2026-11-22",
+  "huella": "eb8363ce6592eef9cd44c242f3e9b7fa8ff1de130f7bb774dfc7da797946c8f2"
+ },
+ "https://contolaprincesa.com/proyecto/sala-casa.html": {
+  "fecha": "2026-11-22",
+  "huella": "a38a4ccd0fbe070bdb28ddda6af476873c4aca4d52ff07bee067bd040bfbb8bd"
+ },
+ "https://contolaprincesa.com/proyecto/sirius.html": {
+  "fecha": "2026-11-22",
+  "huella": "a76d67c62402dad0b6cd9f0ba6d8d9d6569d336a43bc60b733d096ba2330da5f"
+ },
+ "https://contolaprincesa.com/proyecto/superheroes-aplique.html": {
+  "fecha": "2026-11-22",
+  "huella": "f922ac78cd1aee903a03a444c40daf70e7c332335c7e8c423ffb49745714d70f"
+ },
+ "https://contolaprincesa.com/proyecto/virgen.html": {
+  "fecha": "2026-11-22",
+  "huella": "898915f10598cd2c3a5326708a5635940e8e25142f52c6ddefd52ce37b943626"
+ },
+ "https://contolaprincesa.com/proyecto/zorrito-en-globos.html": {
+  "fecha": "2026-11-22",
+  "huella": "57077f96c6791c3b71b08e3d58e8a48786a853614034a53abd7695fb56d5f162"
+ }
+}

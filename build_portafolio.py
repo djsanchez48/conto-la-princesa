@@ -13,7 +13,7 @@ por mural para la copia en inglés). Textos de interfaz (nav, botones, etc.) viv
 en STRINGS, abajo.
 Uso:  python3 build_portafolio.py   (reprocesa solo imágenes que falten)
 """
-import os, re, json, glob, html, unicodedata, urllib.parse
+import os, re, json, glob, html, unicodedata, urllib.parse, hashlib, datetime
 from PIL import Image, ImageOps
 
 # ---------- Configuración ----------
@@ -590,15 +590,41 @@ def render_proyecto(p, relacionados, lang="es"):
             )
 
 
+def fechas_lastmod(urls):
+    """Fecha real de último cambio de cada página, para <lastmod> del sitemap.
+
+    Guarda una huella (sha256) del HTML de cada URL en data/lastmod.json: si la huella cambia,
+    la fecha pasa a hoy (hora de Colombia); si no, conserva la anterior. Así Google sabe qué
+    páginas cambiaron sin que haya que reenviarle el sitemap."""
+    ruta = os.path.join(SITE, "data", "lastmod.json")
+    previo = json.load(open(ruta, encoding="utf-8")) if os.path.exists(ruta) else {}
+    hoy = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-5))).date().isoformat()
+    nuevo = {}
+    for url in urls:
+        rel = url[len(SITE_URL):].lstrip("/") or "index.html"
+        with open(os.path.join(SITE, rel), "rb") as fh:
+            huella = hashlib.sha256(fh.read()).hexdigest()
+        antes = previo.get(url, {})
+        nuevo[url] = {"huella": huella,
+                      "fecha": antes["fecha"] if antes.get("huella") == huella else hoy}
+    with open(ruta, "w", encoding="utf-8") as fh:
+        json.dump(nuevo, fh, ensure_ascii=False, indent=1, sort_keys=True)
+        fh.write("\n")
+    return {u: v["fecha"] for u, v in nuevo.items()}
+
+
 def write_sitemap(proyectos):
     pairs = [(f"{SITE_URL}/", f"{SITE_URL}/en/index.html"),
              (f"{SITE_URL}/portafolio.html", f"{SITE_URL}/en/portafolio.html")]
     pairs += [(f"{SITE_URL}/proyecto/{p['id']}.html", f"{SITE_URL}/en/proyecto/{p['id']}.html")
               for p in proyectos]
 
+    fechas = fechas_lastmod([u for par in pairs for u in par])
+
     def entry(loc, es_url, en_url):
         return (f'  <url>\n'
                 f'    <loc>{loc}</loc>\n'
+                f'    <lastmod>{fechas[loc]}</lastmod>\n'
                 f'    <xhtml:link rel="alternate" hreflang="es" href="{es_url}" />\n'
                 f'    <xhtml:link rel="alternate" hreflang="en" href="{en_url}" />\n'
                 f'    <xhtml:link rel="alternate" hreflang="x-default" href="{es_url}" />\n'

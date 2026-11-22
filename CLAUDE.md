@@ -25,6 +25,8 @@ Portafolio estático de murales de Juliana Betancur (contolaprincesa.com). Sin n
 - `python3 build_portafolio.py` regenera `portafolio.html`, `proyecto/*.html`, `en/...`,
   `sitemap.xml`, `robots.txt` y optimiza imágenes (solo las que faltan).
 - `index.html` y `en/index.html` son a mano: el build no los toca.
+- `sitemap.xml` lleva `<lastmod>` con la fecha real de cambio de cada página (huellas en
+  `data/lastmod.json`): corre el build también después de editar las home, para que se actualice.
 - Orden: `DESTACADOS` y `ORDEN_EN_CATEGORIA` en `build_portafolio.py` usan el slug público.
 - Idioma: `LANG_DETECT` redirige según el navegador, excepto bots (para que Google indexe
   cada URL en su idioma real) y visitas con `utm_source=qr` (siempre español).
