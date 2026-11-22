@@ -46,11 +46,16 @@ Portafolio estático de murales de Juliana Betancur (contolaprincesa.com). Sin n
 - `python3 analytics/snapshot.py` guarda la analítica de Vercel en `analytics/diario.csv`,
   `analytics/desglose.csv` y `analytics/resumen.md`. Vercel Hobby solo conserva 1 mes: hay
   que correrlo al menos cada semana. El token va en `analytics/.env` (en .gitignore).
+- `python3 analytics/ga4_snapshot.py` guarda Google Analytics 4 (propiedad 546205053) en
+  `analytics/ga4_*.csv`: clics a WhatsApp (`contacto_whatsapp`), fuentes/campañas (QR) y
+  sesiones; GA4 guarda 14 meses. Cuenta de servicio con rol Lector; la llave va en
+  `analytics/ga4-key.json` (en .gitignore). Córrelo antes de `snapshot.py`, que arma el
+  `resumen.md` con las dos fuentes.
 - Tarea automática: launchd `com.contolaprincesa.analitica`
   (`~/Library/LaunchAgents/com.contolaprincesa.analitica.plist`) corre cada lunes 8 a. m.
   `~/Library/Application Support/contolaprincesa-analitica/semanal.sh` (copia de
   `analytics/semanal.sh`; si cambias el script, vuelve a copiarlo ahí). Usa su propio clon del
-  repo y su propia copia del token (`.env`) en esa carpeta, hace commit solo de los archivos de
+  repo y sus propias copias del token de Vercel (`.env`) y de la llave de GA4 (`ga4-key.json`) en esa carpeta, hace commit solo de los archivos de
   analítica y sube como `djsanchez48`. Registro: `~/Library/Logs/contolaprincesa-analitica.log`.
   Probar ya: `launchctl kickstart gui/$(id -u)/com.contolaprincesa.analitica`.
   Quitarla: `launchctl bootout gui/$(id -u)/com.contolaprincesa.analitica` y borrar el plist.

@@ -17,6 +17,8 @@ echo "== $(date '+%Y-%m-%d %H:%M') =="
 # Token de Vercel (solo lectura de analítica). No está en git.
 VERCEL_TOKEN="$(sed -n 's/^VERCEL_TOKEN=//p' "$BASE/.env")"
 export VERCEL_TOKEN
+# Llave de la cuenta de servicio de Google Analytics (rol Lector). No está en git.
+export GA4_KEY_FILE="$BASE/ga4-key.json"
 
 # Subir siempre como djsanchez48, sin depender de qué cuenta de gh esté activa.
 GITHUB_TOKEN="$("$GH" auth token --user djsanchez48)"
@@ -31,8 +33,9 @@ cd "$CLON"
 for intento in 1 2 3; do
   "$GIT" fetch -q origin main
   "$GIT" reset -q --hard origin/main
-  "$PY" analytics/snapshot.py
-  "$GIT" add analytics/diario.csv analytics/desglose.csv analytics/resumen.md
+  "$PY" analytics/ga4_snapshot.py
+  "$PY" analytics/snapshot.py   # va de último: arma resumen.md con las dos fuentes
+  "$GIT" add analytics/diario.csv analytics/desglose.csv analytics/resumen.md analytics/ga4_*.csv
   if "$GIT" diff --cached --quiet; then
     echo "Sin cambios en la analítica."
     exit 0

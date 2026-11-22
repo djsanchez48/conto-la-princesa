@@ -23,7 +23,8 @@ Archivos:
 Los días son días UTC (Vercel agrupa así: el día cierra a las 7 p. m. de Colombia).
 El desglose por UTM (p. ej. el QR del evento) no está en el plan Hobby: Vercel lo cobra
 aparte (Web Analytics Plus). Las visitas del QR se ven en Google Analytics.
-    resumen.md    totales por semana y lo más visto de los últimos 30 días
+    resumen.md    totales por semana y lo más visto de los últimos 30 días, junto con
+                  Google Analytics si existen los ga4_*.csv (ver ga4_snapshot.py)
 """
 import csv
 import datetime as dt
@@ -175,58 +176,95 @@ def actualizar():
 
 
 def resumen():
+    """Junta Vercel (diario.csv, desglose.csv) y Google Analytics (ga4_*.csv) en resumen.md."""
     diario = leer(DIARIO)
     if not diario:
         sys.exit("Aún no hay datos: corre primero sin --resumen.")
     desglose = leer(DESGLOSE)
-    hoy = max(dt.date.fromisoformat(f["fecha"]) for f in diario)
+    ga_diario = leer(os.path.join(AQUI, "ga4_diario.csv"))
+    ga_fuentes = leer(os.path.join(AQUI, "ga4_fuentes.csv"))
+    ga_whatsapp = leer(os.path.join(AQUI, "ga4_whatsapp.csv"))
+    hoy = max(dt.date.fromisoformat(f["fecha"]) for f in diario + ga_diario)
     desde30 = (hoy - dt.timedelta(days=29)).isoformat()
 
-    semanas = {}
-    for f in diario:
-        d = dt.date.fromisoformat(f["fecha"])
-        lunes = d - dt.timedelta(days=d.weekday())
-        s = semanas.setdefault(lunes, [0, 0])
-        s[0] += int(f["visitantes"]); s[1] += int(f["paginas_vistas"])
+    def lunes(fecha):
+        d = dt.date.fromisoformat(fecha)
+        return d - dt.timedelta(days=d.weekday())
+
+    def sumar(filas_, clave, campos):
+        tot = {}
+        for f in filas_:
+            t = tot.setdefault(clave(f), [0] * len(campos))
+            for i, c in enumerate(campos):
+                t[i] += int(f[c])
+        return tot
+
+    def tasa(clics, sesiones):
+        return f"{100 * clics / sesiones:.1f}" if sesiones else "—"
+
+    vercel_sem = sumar(diario, lambda f: lunes(f["fecha"]), ["visitantes", "paginas_vistas"])
+    ga_sem = sumar(ga_diario, lambda f: lunes(f["fecha"]), ["sesiones", "clics_whatsapp"])
+    ga_mes = sumar(ga_diario, lambda f: f["fecha"][:7],
+                   ["sesiones", "sesiones_con_interaccion", "paginas_vistas", "clics_whatsapp"])
+
+    o = ["# Analítica de contolaprincesa.com", "",
+         f"Generado {dt.datetime.now(dt.timezone(dt.timedelta(hours=-5))):%Y-%m-%d %H:%M} (hora de Colombia). "
+         f"Vercel desde {diario[0]['fecha']}"
+         + (f", Google Analytics desde {ga_diario[0]['fecha']}." if ga_diario else "."), "",
+         "- **Vercel** cuenta visitas sin cookies (la bloquean menos). Sus días van de 7 p. m. a 7 p. m. "
+         "hora de Colombia (agrupa en UTC).",
+         "- **Google Analytics** aporta los clics a WhatsApp (`contacto_whatsapp`) y las campañas "
+         "(anuncios, QR). Suele contar algo menos que Vercel por bloqueadores. Días en hora de Colombia.",
+         "- Visitantes y sesiones de varios días se suman tal cual (quien vuelve cuenta otra vez).", "",
+         "## Por semana (lunes a domingo)", "",
+         "| Semana del | Visitantes (Vercel) | Páginas vistas (Vercel) | Sesiones (GA) | Clics a WhatsApp | Clics por 100 sesiones |",
+         "|---|---:|---:|---:|---:|---:|"]
+    for sem in sorted(set(vercel_sem) | set(ga_sem), reverse=True)[:16]:
+        v, p = vercel_sem.get(sem, ["—", "—"])
+        se, wa = ga_sem.get(sem, [0, 0])
+        o.append(f"| {sem} | {v} | {p} | {se if sem in ga_sem else '—'} | "
+                 f"{wa if sem in ga_sem else '—'} | {tasa(wa, se)} |")
+
+    if ga_mes:
+        o += ["", "## Mes a mes (Google Analytics)", "",
+              "| Mes | Sesiones | Con interacción | Páginas vistas | Clics a WhatsApp | Clics por 100 sesiones |",
+              "|---|---:|---:|---:|---:|---:|"]
+        for mes in sorted(ga_mes, reverse=True):
+            se, ci, pv, wa = ga_mes[mes]
+            o.append(f"| {mes} | {se} | {ci} | {pv} | {wa} | {tasa(wa, se)} |")
+
+    recientes = [f for f in ga_fuentes if f["fecha"] >= desde30]
+    if recientes:
+        fu = sumar(recientes, lambda f: (f["fuente"], f["medio"], f["campana"]), ["sesiones", "clics_whatsapp"])
+        o += ["", "## Cómo llegan — últimos 30 días (Google Analytics)", "",
+              "| Fuente | Medio | Campaña | Sesiones | Clics a WhatsApp |", "|---|---|---|---:|---:|"]
+        for (fuente, medio, camp), (se, wa) in sorted(fu.items(), key=lambda kv: -kv[1][0])[:12]:
+            o.append(f"| {fuente} | {medio} | {camp} | {se} | {wa} |")
+
+    wa30 = [f for f in ga_whatsapp if f["fecha"] >= desde30]
+    if wa30:
+        pg = sumar(wa30, lambda f: f["pagina"], ["clics_whatsapp"])
+        o += ["", "## Desde qué página escriben por WhatsApp — últimos 30 días", "",
+              "| Página | Clics a WhatsApp |", "|---|---:|"]
+        o += [f"| {pag} | {c} |" for pag, (c,) in sorted(pg.items(), key=lambda kv: -kv[1][0])[:10]]
 
     def top(dimension, n=10):
-        tot = {}
-        for f in desglose:
-            if f["dimension"] == dimension and f["fecha"] >= desde30:
-                t = tot.setdefault(f["valor"], [0, 0])
-                t[0] += int(f["visitantes"]); t[1] += int(f["paginas_vistas"])
-        return sorted(tot.items(), key=lambda kv: -kv[1][0])[:n]
+        filas_ = [f for f in desglose if f["dimension"] == dimension and f["fecha"] >= desde30]
+        return sorted(sumar(filas_, lambda f: f["valor"], ["visitantes", "paginas_vistas"]).items(),
+                      key=lambda kv: -kv[1][0])[:n]
 
-    o = [f"# Analítica de contolaprincesa.com",
-         "",
-         f"Generado {dt.datetime.now(dt.timezone(dt.timedelta(hours=-5))):%Y-%m-%d %H:%M} "
-         f"(hora de Colombia) · historial desde {diario[0]['fecha']} · "
-         "fuente: Vercel Web Analytics, solo producción.",
-         "",
-         "Cada día va de 7 p. m. a 7 p. m. hora de Colombia (Vercel agrupa en UTC).",
-         "",
-         "Los visitantes de varios días se suman tal cual: una misma persona que vuelve otro día "
-         "cuenta dos veces, así que los totales semanales son aproximados.",
-         "",
-         "## Por semana (lunes a domingo)",
-         "",
-         "| Semana del | Visitantes | Páginas vistas |",
-         "|---|---:|---:|"]
-    for lunes in sorted(semanas, reverse=True)[:16]:
-        v, p = semanas[lunes]
-        o.append(f"| {lunes} | {v} | {p} |")
-    titulos = {"pagina": "Páginas", "referido": "De dónde llegan", "pais": "País",
-               "dispositivo": "Dispositivo"}
+    titulos = {"pagina": "Páginas más vistas", "referido": "De dónde llegan (sitio de origen)",
+               "pais": "País", "dispositivo": "Dispositivo"}
     for dim, titulo in titulos.items():
         filas_ = top(dim)
         if not filas_:
             continue
-        o += ["", f"## {titulo} — últimos 30 días", "",
+        o += ["", f"## {titulo} — últimos 30 días (Vercel)", "",
               "| | Visitantes | Páginas vistas |", "|---|---:|---:|"]
         o += [f"| {valor} | {v} | {p} |" for valor, (v, p) in filas_]
     with open(RESUMEN, "w", encoding="utf-8") as fh:
         fh.write("\n".join(o) + "\n")
-    print(f"resumen.md actualizado ({len(diario)} días de historial).")
+    print(f"resumen.md actualizado ({len(diario)} días de Vercel, {len(ga_diario)} de Google Analytics).")
 
 
 if __name__ == "__main__":
