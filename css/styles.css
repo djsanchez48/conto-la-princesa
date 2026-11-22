@@ -700,3 +700,10 @@ a.tag:hover { border-color: var(--ink); color: var(--ink); transform: translateY
   color: var(--ink-soft);
   text-align: center;
 }
+
+/* Línea "Juliana Betancur · Ilustradora y muralista" del hero: en celular, nombre y oficio en dos líneas */
+.hero .eyebrow { margin-inline: auto; }
+@media (max-width: 480px) {
+  .eyebrow__sep { display: none; }
+  .eyebrow__oficio { display: block; margin-top: 0.25rem; }
+}
