@@ -686,7 +686,7 @@ a.tag:hover { border-color: var(--ink); color: var(--ink); transform: translateY
 }
 .prensa-item:hover .prensa-item__titulo { text-decoration: underline; }
 .prensa-card__nota {
-  margin-top: 0.8rem;
+  margin: 0.8rem auto 0;
   font-size: 0.85rem;
   color: var(--ink-soft);
   text-align: center;
