@@ -261,5 +261,8 @@ fecha,fuente,medio,campana,sesiones,usuarios,clics_whatsapp
 2026-11-21,google,organic,(organic),1,1,0
 2026-11-21,ig,social,(referral),2,2,2
 2026-11-21,l.instagram.com,referral,(referral),5,5,0
-2026-11-22,(direct),(none),(direct),2,2,0
-2026-11-22,l.instagram.com,referral,(referral),1,1,0
+2026-11-22,(direct),(none),(direct),10,10,0
+2026-11-22,google,organic,(organic),1,1,0
+2026-11-22,ig,social,(referral),3,3,1
+2026-11-22,l.instagram.com,referral,(referral),7,4,0
+2026-11-22,qr,,,1,1,0
